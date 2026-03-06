@@ -1,0 +1,191 @@
+INFO  23:24:34,683 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:24:34,813 - #45 Test
+INFO  23:24:34,815 - #45 Boja
+INFO  23:24:34,816 - #45 CRVENA
+INFO  23:24:34,818 - #45 PLAVA
+INFO  23:24:34,818 - #44 5
+INFO  23:24:34,821 - #45 Dan
+INFO  23:24:34,821 - #45 PON
+INFO  23:24:34,821 - #44 3
+INFO  23:24:34,822 - #45 UTO
+INFO  23:24:34,822 - #45 Boja
+INFO  23:24:34,822 - #45 lista
+INFO  23:24:34,832 - #45 lll
+INFO  23:24:34,833 - #48 ;
+INFO  23:24:34,835 - #45 int
+INFO  23:24:34,838 - #45 a
+INFO  23:24:34,838 - #48 ;
+INFO  23:24:34,838 - #45 Boja
+INFO  23:24:34,839 - #45 bb
+INFO  23:24:34,844 - #45 lll
+INFO  23:24:34,844 - #48 ;
+INFO  23:24:34,848 - #45 main
+INFO  23:24:34,850 - #45 a
+INFO  23:24:34,850 - #45 Boja
+INFO  23:24:34,850 - #45 CRVENA
+INFO  23:24:34,850 - #48 ;
+INFO  23:24:34,856 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Boja
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 CRVENA
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumItem]
+               PLAVA
+                IsInit(
+                 5
+                ) [IsInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Dan
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               PON
+                IsInit(
+                 3
+                ) [IsInit]
+              ) [EnumItem]
+             UTO
+              NoInit(
+              ) [NoInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarListItems(
+            VarItem(
+             lista
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           lll
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         Boja
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       bb
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     lll
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              AssignOperation(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorDotIdent(
+                         Boja
+                         CRVENA
+                        ) [DesignatorDotIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+      ) [MethodDecl]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:24:34,857 - --------------------------------------------------
+INFO  23:24:34,870 - --------------------------------------------------
+ERROR 23:24:34,880 - Greska( Povratni tip return naredbe mora da bude kompatibilan sa tipom definisanim u potpisu fje [na liniji 9])
+ERROR 23:24:34,881 - Parsiranje NIJE uspesno zavrseno!

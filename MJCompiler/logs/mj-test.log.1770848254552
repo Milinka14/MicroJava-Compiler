@@ -1,0 +1,62 @@
+INFO  23:17:18,958 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:17:19,082 - #45 test302
+INFO  23:17:19,085 - #45 int
+INFO  23:17:19,085 - #45 jedan
+INFO  23:17:19,086 - #44 1
+INFO  23:17:19,087 - #48 ;
+INFO  23:17:19,087 - #45 int
+INFO  23:17:19,088 - #45 i
+INFO  23:17:19,088 - #48 ;
+INFO  23:17:19,091 - #45 bool
+INFO  23:17:19,092 - #45 ibool
+INFO  23:17:19,092 - #48 ;
+INFO  23:17:19,093 - #45 int
+INFO  23:17:19,093 - #45 niz
+INFO  23:17:19,093 - #48 ;
+INFO  23:17:19,094 - #45 int
+INFO  23:17:19,094 - #45 sum
+INFO  23:17:19,096 - #45 int
+INFO  23:17:19,096 - #45 z
+INFO  23:17:19,096 - #45 int
+INFO  23:17:19,096 - #45 d
+INFO  23:17:19,100 - #45 z
+INFO  23:17:19,102 - #45 d
+INFO  23:17:19,104 - #48 ;
+INFO  23:17:19,106 - #45 int
+INFO  23:17:19,108 - #45 inkrement
+INFO  23:17:19,108 - #45 int
+INFO  23:17:19,108 - #45 a
+INFO  23:17:19,108 - #45 int
+INFO  23:17:19,108 - #45 inc
+INFO  23:17:19,108 - #45 int
+INFO  23:17:19,108 - #45 pom
+INFO  23:17:19,108 - #48 ;
+INFO  23:17:19,109 - #45 inc
+INFO  23:17:19,109 - #45 jedan
+INFO  23:17:19,112 - #45 pom
+INFO  23:17:19,113 - #44 1
+INFO  23:17:19,114 - #48 ;
+INFO  23:17:19,117 - #45 inc
+INFO  23:17:19,117 - #44 2
+INFO  23:17:19,117 - #45 pom
+INFO  23:17:19,117 - #45 a
+INFO  23:17:19,117 - #48 ;
+INFO  23:17:19,119 - #45 sum
+INFO  23:17:19,119 - #45 a
+INFO  23:17:19,119 - #45 pom
+INFO  23:17:19,120 - #48 ;
+INFO  23:17:19,120 - #45 bool
+INFO  23:17:19,120 - #45 verify
+INFO  23:17:19,121 - #46 v
+INFO  23:17:19,123 - #48 ;
+INFO  23:17:19,123 - #47 0
+INFO  23:17:19,123 - #48 ;
+INFO  23:17:19,124 - #45 main
+INFO  23:17:19,125 - #45 int
+INFO  23:17:19,125 - #45 f
+ERROR 23:17:19,125 - 
+Sintaksna greska na liniji 34
+ERROR 23:17:19,126 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 34
+ERROR 23:17:19,131 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.NoStatements cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.NoStatements cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

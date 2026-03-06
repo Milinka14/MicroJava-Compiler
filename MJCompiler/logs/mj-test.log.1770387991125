@@ -1,0 +1,423 @@
+INFO  15:24:48,111 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  15:24:48,225 - #45 TestNestedSwitch
+INFO  15:24:48,225 - #45 int
+INFO  15:24:48,227 - #45 x
+INFO  15:24:48,232 - #45 y
+INFO  15:24:48,233 - #48 ;
+INFO  15:24:48,233 - #45 char
+INFO  15:24:48,237 - #45 z
+INFO  15:24:48,238 - #48 ;
+INFO  15:24:48,238 - #45 int
+INFO  15:24:48,238 - #45 niz
+INFO  15:24:48,239 - #48 ;
+INFO  15:24:48,241 - #45 mili
+INFO  15:24:48,243 - #45 ili
+INFO  15:24:48,245 - #45 nili
+INFO  15:24:48,247 - #45 main
+INFO  15:24:48,255 - #45 x
+INFO  15:24:48,258 - #44 1
+INFO  15:24:48,258 - #48 ;
+INFO  15:24:48,261 - #45 y
+INFO  15:24:48,261 - #44 2
+INFO  15:24:48,261 - #48 ;
+INFO  15:24:48,263 - #45 mili
+INFO  15:24:48,263 - #45 ili
+INFO  15:24:48,267 - #44 1
+INFO  15:24:48,267 - #46 x
+INFO  15:24:48,272 - #48 ;
+INFO  15:24:48,273 - #46 1
+INFO  15:24:48,273 - #48 ;
+INFO  15:24:48,275 - #45 y
+INFO  15:24:48,275 - #44 1
+INFO  15:24:48,276 - #46 y
+INFO  15:24:48,276 - #48 ;
+INFO  15:24:48,276 - #46 1
+INFO  15:24:48,276 - #48 ;
+INFO  15:24:48,276 - #48 ;
+INFO  15:24:48,279 - #44 2
+INFO  15:24:48,279 - #46 y
+INFO  15:24:48,280 - #48 ;
+INFO  15:24:48,280 - #46 2
+INFO  15:24:48,280 - #48 ;
+INFO  15:24:48,282 - #48 ;
+INFO  15:24:48,283 - #48 ;
+INFO  15:24:48,283 - #44 2
+INFO  15:24:48,283 - #46 x
+INFO  15:24:48,283 - #48 ;
+INFO  15:24:48,284 - #46 2
+INFO  15:24:48,284 - #48 ;
+INFO  15:24:48,285 - #48 ;
+INFO  15:24:48,293 - Program(
+  ProgName(
+   TestNestedSwitch
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarListItems(
+                VarItem(
+                 x
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               y
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             ;
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarItem(
+             z
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           niz
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclEnum(
+      EnumDecl(
+        EnumName(
+         mili
+        ) [EnumName]
+        EnumListItems(
+          EnumItem(
+           ili
+            NoInit(
+            ) [NoInit]
+          ) [EnumItem]
+         nili
+          NoInit(
+          ) [NoInit]
+        ) [EnumListItems]
+      ) [EnumDecl]
+    ) [DeclEnum]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           1
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               y
+              ) [DesignatorIdent]
+              AssignOperation(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactConst(
+                        NumConst(
+                         2
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+        StmtSwitch(
+          SwitchStart(
+          ) [SwitchStart]
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorDotIdent(
+                   mili
+                   ili
+                  ) [DesignatorDotIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          SwitchBodyList(
+            SwitchBodyList(
+              NoSwitchBody(
+              ) [NoSwitchBody]
+              CaseItem(
+               1
+                StatementsList(
+                  StatementsList(
+                    StatementsList(
+                      StatementsList(
+                        NoStatements(
+                        ) [NoStatements]
+                        StmtPrint(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactConst(
+                                  CharConst(
+                                   x
+                                  ) [CharConst]
+                                ) [FactConst]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                          NoWidth(
+                          ) [NoWidth]
+                         ;
+                        ) [StmtPrint]
+                      ) [StatementsList]
+                      StmtPrint(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                CharConst(
+                                 1
+                                ) [CharConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                        NoWidth(
+                        ) [NoWidth]
+                       ;
+                      ) [StmtPrint]
+                    ) [StatementsList]
+                    StmtSwitch(
+                      SwitchStart(
+                      ) [SwitchStart]
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactDesignator(
+                              DesignatorIdent(
+                               y
+                              ) [DesignatorIdent]
+                            ) [FactDesignator]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                      SwitchBodyList(
+                        SwitchBodyList(
+                          NoSwitchBody(
+                          ) [NoSwitchBody]
+                          CaseItem(
+                           1
+                            StatementsList(
+                              StatementsList(
+                                StatementsList(
+                                  NoStatements(
+                                  ) [NoStatements]
+                                  StmtPrint(
+                                    ArExp(
+                                      TermExpr(
+                                        TermItem(
+                                          FactConst(
+                                            CharConst(
+                                             y
+                                            ) [CharConst]
+                                          ) [FactConst]
+                                        ) [TermItem]
+                                      ) [TermExpr]
+                                    ) [ArExp]
+                                    NoWidth(
+                                    ) [NoWidth]
+                                   ;
+                                  ) [StmtPrint]
+                                ) [StatementsList]
+                                StmtPrint(
+                                  ArExp(
+                                    TermExpr(
+                                      TermItem(
+                                        FactConst(
+                                          CharConst(
+                                           1
+                                          ) [CharConst]
+                                        ) [FactConst]
+                                      ) [TermItem]
+                                    ) [TermExpr]
+                                  ) [ArExp]
+                                  NoWidth(
+                                  ) [NoWidth]
+                                 ;
+                                ) [StmtPrint]
+                              ) [StatementsList]
+                              StmtBreak(
+                               ;
+                              ) [StmtBreak]
+                            ) [StatementsList]
+                          ) [CaseItem]
+                        ) [SwitchBodyList]
+                        CaseItem(
+                         2
+                          StatementsList(
+                            StatementsList(
+                              StatementsList(
+                                NoStatements(
+                                ) [NoStatements]
+                                StmtPrint(
+                                  ArExp(
+                                    TermExpr(
+                                      TermItem(
+                                        FactConst(
+                                          CharConst(
+                                           y
+                                          ) [CharConst]
+                                        ) [FactConst]
+                                      ) [TermItem]
+                                    ) [TermExpr]
+                                  ) [ArExp]
+                                  NoWidth(
+                                  ) [NoWidth]
+                                 ;
+                                ) [StmtPrint]
+                              ) [StatementsList]
+                              StmtPrint(
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactConst(
+                                        CharConst(
+                                         2
+                                        ) [CharConst]
+                                      ) [FactConst]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                                NoWidth(
+                                ) [NoWidth]
+                               ;
+                              ) [StmtPrint]
+                            ) [StatementsList]
+                            StmtBreak(
+                             ;
+                            ) [StmtBreak]
+                          ) [StatementsList]
+                        ) [CaseItem]
+                      ) [SwitchBodyList]
+                    ) [StmtSwitch]
+                  ) [StatementsList]
+                  StmtBreak(
+                   ;
+                  ) [StmtBreak]
+                ) [StatementsList]
+              ) [CaseItem]
+            ) [SwitchBodyList]
+            CaseItem(
+             2
+              StatementsList(
+                StatementsList(
+                  StatementsList(
+                    NoStatements(
+                    ) [NoStatements]
+                    StmtPrint(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              CharConst(
+                               x
+                              ) [CharConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                      NoWidth(
+                      ) [NoWidth]
+                     ;
+                    ) [StmtPrint]
+                  ) [StatementsList]
+                  StmtPrint(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            CharConst(
+                             2
+                            ) [CharConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                    NoWidth(
+                    ) [NoWidth]
+                   ;
+                  ) [StmtPrint]
+                ) [StatementsList]
+                StmtBreak(
+                 ;
+                ) [StmtBreak]
+              ) [StatementsList]
+            ) [CaseItem]
+          ) [SwitchBodyList]
+        ) [StmtSwitch]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:24:48,294 - --------------------------------------------------
+INFO  15:24:48,306 - --------------------------------------------------
+INFO  15:24:48,312 - Info( evonas [na liniji 14])
+INFO  15:24:48,313 - Parsiranje uspesno zavrseno!

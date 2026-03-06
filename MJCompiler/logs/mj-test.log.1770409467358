@@ -1,0 +1,154 @@
+INFO  21:16:38,395 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:16:38,489 - #45 Test
+INFO  21:16:38,491 - #45 Boja
+INFO  21:16:38,492 - #45 CRVENA
+INFO  21:16:38,493 - #45 PLAVA
+INFO  21:16:38,493 - #44 5
+INFO  21:16:38,495 - #45 Dan
+INFO  21:16:38,495 - #45 PON
+INFO  21:16:38,495 - #44 3
+INFO  21:16:38,495 - #45 UTO
+INFO  21:16:38,495 - #45 Boja
+INFO  21:16:38,495 - #45 lista
+INFO  21:16:38,498 - #45 lll
+INFO  21:16:38,499 - #48 ;
+INFO  21:16:38,501 - #45 main
+INFO  21:16:38,505 - #45 lll
+INFO  21:16:38,507 - #45 Boja
+INFO  21:16:38,507 - #45 CRVENA
+INFO  21:16:38,507 - #48 ;
+INFO  21:16:38,510 - #45 lll
+INFO  21:16:38,515 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Boja
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               CRVENA
+                NoInit(
+                ) [NoInit]
+              ) [EnumItem]
+             PLAVA
+              IsInit(
+               5
+              ) [IsInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           Dan
+          ) [EnumName]
+          EnumListItems(
+            EnumItem(
+             PON
+              IsInit(
+               3
+              ) [IsInit]
+            ) [EnumItem]
+           UTO
+            NoInit(
+            ) [NoInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Boja
+        ) [Type]
+        VarListItems(
+          VarItem(
+           lista
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         lll
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               lll
+              ) [DesignatorIdent]
+              AssignOperation(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorDotIdent(
+                         Boja
+                         CRVENA
+                        ) [DesignatorDotIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+        StmtSwitch(
+          SwitchStart(
+          ) [SwitchStart]
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorIdent(
+                   lll
+                  ) [DesignatorIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoSwitchBody(
+          ) [NoSwitchBody]
+        ) [StmtSwitch]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:16:38,517 - --------------------------------------------------
+INFO  21:16:38,525 - --------------------------------------------------
+INFO  21:16:38,530 - Info( 6 [na liniji 9])
+INFO  21:16:38,530 - Info( 1 [na liniji 9])
+ERROR 21:16:38,530 - Greska( Tipovi su nekompatibilni pri dodeli! [na liniji 9])
+ERROR 21:16:38,530 - Greska( Tip expr u switchu mora biti tipa int [na liniji 2])
+ERROR 21:16:38,530 - Parsiranje NIJE uspesno zavrseno!

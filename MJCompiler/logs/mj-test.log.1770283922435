@@ -1,0 +1,8 @@
+INFO  10:31:45,126 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  10:31:45,233 - #46 TestParametri
+ERROR 10:31:45,233 - 
+Sintaksna greska na liniji 3
+ERROR 10:31:45,233 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+ERROR 10:31:45,237 - Fatalna greska tokom kompajliranja: null
+java.lang.NullPointerException
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

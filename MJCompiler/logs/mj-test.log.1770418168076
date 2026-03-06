@@ -1,0 +1,159 @@
+INFO  23:45:34,340 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:45:34,455 - #45 Test
+INFO  23:45:34,458 - #45 Boja
+INFO  23:45:34,460 - #45 CRVENA
+INFO  23:45:34,461 - #45 PLAVA
+INFO  23:45:34,462 - #44 5
+INFO  23:45:34,464 - #45 Dan
+INFO  23:45:34,464 - #45 PON
+INFO  23:45:34,464 - #44 3
+INFO  23:45:34,464 - #45 UTO
+INFO  23:45:34,464 - #45 Boja
+INFO  23:45:34,465 - #45 lista
+INFO  23:45:34,485 - #45 lll
+INFO  23:45:34,486 - #48 ;
+INFO  23:45:34,488 - #45 Boja
+INFO  23:45:34,490 - #45 a
+INFO  23:45:34,490 - #48 ;
+INFO  23:45:34,490 - #45 main
+INFO  23:45:34,495 - #45 a
+INFO  23:45:34,496 - #45 Boja
+INFO  23:45:34,496 - #45 CRVENA
+INFO  23:45:34,496 - #48 ;
+INFO  23:45:34,504 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Boja
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 CRVENA
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumItem]
+               PLAVA
+                IsInit(
+                 5
+                ) [IsInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Dan
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               PON
+                IsInit(
+                 3
+                ) [IsInit]
+              ) [EnumItem]
+             UTO
+              NoInit(
+              ) [NoInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarListItems(
+            VarItem(
+             lista
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           lll
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Boja
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorIdent(
+             a
+            ) [DesignatorIdent]
+            AssignOperation(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorDotIdent(
+                       Boja
+                       CRVENA
+                      ) [DesignatorDotIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:45:34,504 - --------------------------------------------------
+INFO  23:45:34,515 - --------------------------------------------------
+ERROR 23:45:34,521 - Fatalna greska tokom kompajliranja: null
+java.lang.NullPointerException
+	at rs.ac.bg.etf.pp1.SemAnalyzer.visit(SemAnalyzer.java:475)
+	at rs.ac.bg.etf.pp1.ast.AssignOperation.accept(AssignOperation.java:26)
+	at rs.ac.bg.etf.pp1.ast.AssignOperation.traverseBottomUp(AssignOperation.java:40)
+	at rs.ac.bg.etf.pp1.ast.DesignatorStatement.traverseBottomUp(DesignatorStatement.java:71)
+	at rs.ac.bg.etf.pp1.ast.StmtDesignator.traverseBottomUp(StmtDesignator.java:49)
+	at rs.ac.bg.etf.pp1.ast.StatementsList.traverseBottomUp(StatementsList.java:53)
+	at rs.ac.bg.etf.pp1.ast.MethodDecl.traverseBottomUp(MethodDecl.java:113)
+	at rs.ac.bg.etf.pp1.ast.MethodDeclarations.traverseBottomUp(MethodDeclarations.java:52)
+	at rs.ac.bg.etf.pp1.ast.Program.traverseBottomUp(Program.java:85)
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:63)

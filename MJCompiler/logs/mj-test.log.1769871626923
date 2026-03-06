@@ -1,0 +1,64 @@
+INFO  16:00:04,027 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  16:00:04,103 - #46 mojProgram
+INFO  16:00:04,105 - #46 intkj
+INFO  16:00:04,105 - #46 pi
+INFO  16:00:04,107 - #45 3
+INFO  16:00:04,107 - #46 ssschar
+INFO  16:00:04,109 - #46 ch
+INFO  16:00:04,114 - #46 main
+INFO  16:00:04,121 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclConst(
+        ConstDecl(
+          Type(
+           intkj
+          ) [Type]
+          ConstItem(
+           pi
+            NumConst(
+             3
+            ) [NumConst]
+          ) [ConstItem]
+        ) [ConstDecl]
+      ) [DeclConst]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         ssschar
+        ) [Type]
+        VarItem(
+         ch
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+     main
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:00:04,122 - --------------------------------------------------
+INFO  16:00:04,130 - --------------------------------------------------
+ERROR 16:00:04,135 - Greska( Ne postoji zadati tip podataka: intkj [na liniji 3])
+ERROR 16:00:04,135 - Greska( Ne postoji zadati tip podataka: ssschar [na liniji 5])
+ERROR 16:00:04,135 - Parsiranje NIJE uspesno zavrseno!

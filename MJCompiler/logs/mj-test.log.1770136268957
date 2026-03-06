@@ -1,0 +1,336 @@
+INFO  17:28:40,760 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:28:40,835 - #46 mojProgram
+INFO  17:28:40,836 - #46 int
+INFO  17:28:40,836 - #46 pi
+INFO  17:28:40,838 - #45 3
+INFO  17:28:40,838 - #46 mi
+INFO  17:28:40,838 - #45 4
+INFO  17:28:40,840 - #46 char
+INFO  17:28:40,840 - #46 asd
+INFO  17:28:40,840 - #47 a
+INFO  17:28:40,840 - #46 int
+INFO  17:28:40,840 - #46 a
+INFO  17:28:40,842 - #46 gfdg
+INFO  17:28:40,843 - #46 g3rg
+INFO  17:28:40,843 - #46 char
+INFO  17:28:40,845 - #46 b
+INFO  17:28:40,845 - #46 c
+INFO  17:28:40,845 - #46 d
+INFO  17:28:40,845 - #46 Broj
+INFO  17:28:40,846 - #46 NULA
+INFO  17:28:40,847 - #46 TRI
+INFO  17:28:40,848 - #45 3
+INFO  17:28:40,850 - #46 PET
+INFO  17:28:40,850 - #45 5
+INFO  17:28:40,850 - #46 int
+INFO  17:28:40,852 - #46 NULA
+INFO  17:28:40,852 - #46 main
+INFO  17:28:40,855 - #46 int
+INFO  17:28:40,856 - #46 a
+INFO  17:28:40,856 - #46 b
+INFO  17:28:40,856 - #46 char
+INFO  17:28:40,856 - #46 c
+INFO  17:28:40,859 - #46 m1
+INFO  17:28:40,859 - #46 int
+INFO  17:28:40,859 - #46 s
+INFO  17:28:40,859 - #46 int
+INFO  17:28:40,859 - #46 k
+INFO  17:28:40,859 - #46 char
+INFO  17:28:40,859 - #46 b
+INFO  17:28:40,859 - #46 int
+INFO  17:28:40,859 - #46 a
+INFO  17:28:40,860 - #46 char
+INFO  17:28:40,860 - #46 m2
+INFO  17:28:40,860 - #46 int
+INFO  17:28:40,860 - #46 c
+INFO  17:28:40,861 - #46 int
+INFO  17:28:40,861 - #46 m3
+INFO  17:28:40,861 - #46 char
+INFO  17:28:40,861 - #46 eol
+INFO  17:28:40,864 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            DeclarationsList(
+              NoDeclarations(
+              ) [NoDeclarations]
+              DeclConst(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstListItems(
+                    ConstItem(
+                     pi
+                      NumConst(
+                       3
+                      ) [NumConst]
+                    ) [ConstItem]
+                   mi
+                    NumConst(
+                     4
+                    ) [NumConst]
+                  ) [ConstListItems]
+                ) [ConstDecl]
+              ) [DeclConst]
+            ) [DeclarationsList]
+            DeclConst(
+              ConstDecl(
+                Type(
+                 char
+                ) [Type]
+                ConstItem(
+                 asd
+                  CharConst(
+                   a
+                  ) [CharConst]
+                ) [ConstItem]
+              ) [ConstDecl]
+            ) [DeclConst]
+          ) [DeclarationsList]
+          DeclVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarListItems(
+                VarListItems(
+                  VarItem(
+                   a
+                    IsArray(
+                    ) [IsArray]
+                  ) [VarItem]
+                 gfdg
+                  NoArray(
+                  ) [NoArray]
+                ) [VarListItems]
+               g3rg
+                IsArray(
+                ) [IsArray]
+              ) [VarListItems]
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarListItems(
+              VarListItems(
+                VarItem(
+                 b
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               c
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             d
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           Broj
+          ) [EnumName]
+          EnumListItems(
+            EnumListItems(
+              EnumItem(
+               NULA
+                NoInit(
+                ) [NoInit]
+              ) [EnumItem]
+             TRI
+              IsInit(
+               3
+              ) [IsInit]
+            ) [EnumListItems]
+           PET
+            IsInit(
+             5
+            ) [IsInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         NULA
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarListItems(
+              VarItem(
+               a
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             b
+              IsArray(
+              ) [IsArray]
+            ) [VarListItems]
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarItem(
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+        ) [VarDecl]
+      ) [VarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         m1
+        ) [MethodName]
+        FormalParameters(
+          FormalParamList(
+            FormalParamList(
+              FormalParamItem(
+                Type(
+                 int
+                ) [Type]
+               s
+                NoArray(
+                ) [NoArray]
+              ) [FormalParamItem]
+              Type(
+               int
+              ) [Type]
+             k
+              IsArray(
+              ) [IsArray]
+            ) [FormalParamList]
+            Type(
+             char
+            ) [Type]
+           b
+            NoArray(
+            ) [NoArray]
+          ) [FormalParamList]
+        ) [FormalParameters]
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             a
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+          ) [VarDecl]
+        ) [VarDeclF]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+      MethodDeclarations(
+        MethodDecl(
+          RetType(
+            Type(
+             char
+            ) [Type]
+          ) [RetType]
+          MethodName(
+           m2
+          ) [MethodName]
+          FormalParameters(
+            FormalParamItem(
+              Type(
+               int
+              ) [Type]
+             c
+              IsArray(
+              ) [IsArray]
+            ) [FormalParamItem]
+          ) [FormalParameters]
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          NoStatements(
+          ) [NoStatements]
+        ) [MethodDecl]
+        MethodDeclarations(
+          MethodDecl(
+            RetType(
+              Type(
+               int
+              ) [Type]
+            ) [RetType]
+            MethodName(
+             m3
+            ) [MethodName]
+            NoFormalParameters(
+            ) [NoFormalParameters]
+            VarDeclF(
+              NoVarDeclF(
+              ) [NoVarDeclF]
+              VarDecl(
+                Type(
+                 char
+                ) [Type]
+                VarItem(
+                 eol
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+              ) [VarDecl]
+            ) [VarDeclF]
+            NoStatements(
+            ) [NoStatements]
+          ) [MethodDecl]
+          NoMethodDeclarations(
+          ) [NoMethodDeclarations]
+        ) [MethodDeclarations]
+      ) [MethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:28:40,865 - --------------------------------------------------
+INFO  17:28:40,878 - --------------------------------------------------
+INFO  17:28:40,884 - Parsiranje uspesno zavrseno!

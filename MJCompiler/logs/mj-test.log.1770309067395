@@ -1,0 +1,141 @@
+INFO  17:30:51,475 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:30:51,636 - #45 TestPuca
+INFO  17:30:51,636 - #45 int
+INFO  17:30:51,638 - #45 niz
+INFO  17:30:51,640 - #48 ;
+INFO  17:30:51,643 - #45 char
+INFO  17:30:51,645 - #45 c
+INFO  17:30:51,645 - #48 ;
+INFO  17:30:51,648 - #45 int
+INFO  17:30:51,648 - #45 a
+INFO  17:30:51,648 - #48 ;
+INFO  17:30:51,649 - #45 int
+INFO  17:30:51,649 - #45 f
+INFO  17:30:51,649 - #48 ;
+INFO  17:30:51,649 - #45 main
+INFO  17:30:51,657 - #45 f
+INFO  17:30:51,657 - #44 1
+INFO  17:30:51,681 - Program(
+  ProgName(
+   TestPuca
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarItem(
+               niz
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarItem(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           a
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         f
+          IsArray(
+          ) [IsArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtIf(
+          CondItem(
+            CondTermItem(
+              BooleanArith(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorArray(
+                       f
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 1
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [DesignatorArray]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [BooleanArith]
+            ) [CondTermItem]
+          ) [CondItem]
+          StmtBlock(
+            NoStatements(
+            ) [NoStatements]
+          ) [StmtBlock]
+          NoElse(
+          ) [NoElse]
+        ) [StmtIf]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:30:51,683 - --------------------------------------------------
+INFO  17:30:51,701 - --------------------------------------------------
+ERROR 17:30:51,708 - Greska( Uslov mora biti tipa bool! [na liniji 8])
+ERROR 17:30:51,711 - Parsiranje NIJE uspesno zavrseno!

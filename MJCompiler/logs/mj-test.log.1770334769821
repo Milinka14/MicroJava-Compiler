@@ -1,0 +1,27 @@
+INFO  00:39:20,201 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  00:39:20,328 - #45 TestNestedSwitch
+INFO  00:39:20,328 - #45 int
+INFO  00:39:20,331 - #45 x
+INFO  00:39:20,336 - #45 y
+INFO  00:39:20,337 - #48 ;
+INFO  00:39:20,337 - #45 char
+INFO  00:39:20,338 - #45 z
+INFO  00:39:20,338 - #48 ;
+INFO  00:39:20,338 - #45 int
+INFO  00:39:20,339 - #45 niz
+INFO  00:39:20,339 - #48 ;
+INFO  00:39:20,340 - #45 main
+INFO  00:39:20,345 - #45 x
+INFO  00:39:20,346 - #44 1
+INFO  00:39:20,347 - #48 ;
+INFO  00:39:20,349 - #45 y
+INFO  00:39:20,349 - #44 2
+INFO  00:39:20,349 - #48 ;
+INFO  00:39:20,349 - #45 niz
+INFO  00:39:20,350 - #48 ;
+ERROR 00:39:20,350 - 
+Sintaksna greska na liniji 11
+ERROR 00:39:20,352 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+ERROR 00:39:20,355 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DesignatorLength cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DesignatorLength cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

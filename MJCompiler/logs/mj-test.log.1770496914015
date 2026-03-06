@@ -1,0 +1,42 @@
+INFO  21:41:45,193 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:41:45,289 - #45 TestEnumi
+INFO  21:41:45,292 - #45 Boja
+INFO  21:41:45,293 - #45 CRVENA
+INFO  21:41:45,294 - #45 PLAVA
+INFO  21:41:45,295 - #45 ZELENA
+INFO  21:41:45,297 - #45 Dan
+INFO  21:41:45,297 - #45 PON
+INFO  21:41:45,297 - #45 UTO
+INFO  21:41:45,297 - #45 Boja
+INFO  21:41:45,297 - #45 globalnaBoja
+INFO  21:41:45,299 - #48 ;
+INFO  21:41:45,301 - #45 Dan
+INFO  21:41:45,302 - #45 globalniDan
+INFO  21:41:45,303 - #48 ;
+INFO  21:41:45,303 - #45 Boja
+INFO  21:41:45,303 - #45 nizBoja
+INFO  21:41:45,303 - #48 ;
+INFO  21:41:45,304 - #45 Boja
+INFO  21:41:45,304 - #45 vratiIstuBoju
+INFO  21:41:45,308 - #45 Boja
+INFO  21:41:45,308 - #45 b
+INFO  21:41:45,311 - #45 b
+INFO  21:41:45,311 - #48 ;
+INFO  21:41:45,313 - #45 Boja
+INFO  21:41:45,314 - #45 dajCrvenu
+INFO  21:41:45,315 - #45 Boja
+INFO  21:41:45,315 - #45 CRVENA
+INFO  21:41:45,315 - #48 ;
+INFO  21:41:45,316 - #45 main
+INFO  21:41:45,316 - #45 Boja
+INFO  21:41:45,317 - #45 lokalnaB
+INFO  21:41:45,317 - #48 ;
+INFO  21:41:45,317 - #45 int
+INFO  21:41:45,317 - #45 x
+INFO  21:41:45,317 - #48 ;
+ERROR 21:41:45,317 - 
+Sintaksna greska na liniji 24
+ERROR 21:41:45,317 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 24
+ERROR 21:41:45,322 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.VarItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.VarItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

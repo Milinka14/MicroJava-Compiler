@@ -1,0 +1,207 @@
+INFO  20:40:20,106 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  20:40:20,230 - #45 TestEnumi
+INFO  20:40:20,234 - #45 t
+INFO  20:40:20,235 - #45 j
+INFO  20:40:20,235 - #44 7
+INFO  20:40:20,235 - #45 d
+INFO  20:40:20,237 - #45 t
+INFO  20:40:20,238 - #45 f
+INFO  20:40:20,240 - #48 ;
+INFO  20:40:20,242 - #45 int
+INFO  20:40:20,244 - #45 br
+INFO  20:40:20,245 - #45 br2
+INFO  20:40:20,245 - #48 ;
+INFO  20:40:20,245 - #45 int
+INFO  20:40:20,246 - #45 niz
+INFO  20:40:20,246 - #48 ;
+INFO  20:40:20,246 - #45 t
+INFO  20:40:20,246 - #45 ttt
+INFO  20:40:20,246 - #48 ;
+INFO  20:40:20,246 - #45 char
+INFO  20:40:20,246 - #45 co
+INFO  20:40:20,246 - #46 f
+INFO  20:40:20,248 - #48 ;
+INFO  20:40:20,250 - #45 main
+INFO  20:40:20,254 - #45 char
+INFO  20:40:20,256 - #45 cc
+INFO  20:40:20,256 - #45 c
+INFO  20:40:20,256 - #48 ;
+INFO  20:40:20,258 - #45 cg
+INFO  20:40:20,258 - #48 ;
+INFO  20:40:20,258 - #45 c
+INFO  20:40:20,260 - #48 ;
+INFO  20:40:20,265 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            DeclarationsList(
+              NoDeclarations(
+              ) [NoDeclarations]
+              DeclEnum(
+                EnumDecl(
+                  EnumName(
+                   t
+                  ) [EnumName]
+                  EnumListItems(
+                    EnumItem(
+                     j
+                      IsInit(
+                       7
+                      ) [IsInit]
+                    ) [EnumItem]
+                   d
+                    NoInit(
+                    ) [NoInit]
+                  ) [EnumListItems]
+                ) [EnumDecl]
+              ) [DeclEnum]
+            ) [DeclarationsList]
+            DeclVar(
+              VarDecl(
+                Type(
+                 t
+                ) [Type]
+                VarItem(
+                 f
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               ;
+              ) [VarDecl]
+            ) [DeclVar]
+          ) [DeclarationsList]
+          DeclVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarListItems(
+                VarItem(
+                 br
+                  IsArray(
+                  ) [IsArray]
+                ) [VarItem]
+               br2
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             ;
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             niz
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           t
+          ) [Type]
+          VarItem(
+           ttt
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclConst(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstItem(
+         co
+          CharConst(
+           f
+          ) [CharConst]
+        ) [ConstItem]
+       ;
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtRead(
+            DesignatorIdent(
+             cg
+            ) [DesignatorIdent]
+           ;
+          ) [StmtRead]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorIdent(
+                   c
+                  ) [DesignatorIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:40:20,266 - --------------------------------------------------
+INFO  20:40:20,278 - --------------------------------------------------
+INFO  20:40:20,283 - Info( brojjj0 [na liniji 1])
+ERROR 20:40:20,284 - Greska( Ime cg nije deklarisano! [na liniji 14])
+ERROR 20:40:20,284 - Greska( Read podrzava samo int, char i bool! [na liniji 14])
+ERROR 20:40:20,284 - Parsiranje NIJE uspesno zavrseno!

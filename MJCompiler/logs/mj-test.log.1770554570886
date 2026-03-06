@@ -1,0 +1,121 @@
+INFO  13:38:35,068 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  13:38:35,161 - #45 TestEnumi
+INFO  13:38:35,164 - #45 main
+INFO  13:38:35,166 - #45 int
+INFO  13:38:35,167 - #45 x
+INFO  13:38:35,169 - #48 ;
+INFO  13:38:35,171 - #45 char
+INFO  13:38:35,172 - #45 cc
+INFO  13:38:35,173 - #45 c
+INFO  13:38:35,174 - #48 ;
+INFO  13:38:35,174 - #44 1
+INFO  13:38:35,175 - #44 2
+INFO  13:38:35,180 - #48 ;
+INFO  13:38:35,180 - #44 2
+INFO  13:38:35,180 - #48 ;
+INFO  13:38:35,184 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             x
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtPrint(
+            ArExp(
+              AddExpr(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+                AddPlus(
+                ) [AddPlus]
+                TermItem(
+                  FactConst(
+                    NumConst(
+                     2
+                    ) [NumConst]
+                  ) [FactConst]
+                ) [TermItem]
+              ) [AddExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+           ;
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactConst(
+                  NumConst(
+                   2
+                  ) [NumConst]
+                ) [FactConst]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:38:35,185 - --------------------------------------------------
+INFO  13:38:35,195 - --------------------------------------------------
+INFO  13:38:35,198 - Info( brojjj0 [na liniji 1])
+INFO  13:38:35,202 - KOD GENERISAN!

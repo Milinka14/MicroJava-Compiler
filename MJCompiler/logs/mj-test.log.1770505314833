@@ -1,0 +1,113 @@
+INFO  00:01:38,915 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  00:01:39,004 - #45 TestEnumi
+INFO  00:01:39,006 - #45 main
+INFO  00:01:39,009 - #45 int
+INFO  00:01:39,009 - #45 x
+INFO  00:01:39,011 - #48 ;
+INFO  00:01:39,013 - #45 char
+INFO  00:01:39,015 - #45 cc
+INFO  00:01:39,016 - #45 c
+INFO  00:01:39,016 - #48 ;
+INFO  00:01:39,018 - #44 1
+INFO  00:01:39,019 - #48 ;
+INFO  00:01:39,020 - #44 2
+INFO  00:01:39,020 - #48 ;
+INFO  00:01:39,023 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             x
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtPrint(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactConst]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+           ;
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactConst(
+                  NumConst(
+                   2
+                  ) [NumConst]
+                ) [FactConst]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:01:39,026 - --------------------------------------------------
+INFO  00:01:39,034 - --------------------------------------------------
+INFO  00:01:39,038 - Info( brojjj0 [na liniji 1])
+ERROR 00:01:39,043 - Fatalna greska tokom kompajliranja: -1
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at rs.etf.pp1.mj.runtime.Code.put(Code.java:87)
+	at rs.etf.pp1.mj.runtime.Code.write(Code.java:198)
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:79)

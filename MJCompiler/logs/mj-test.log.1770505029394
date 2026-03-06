@@ -1,0 +1,8 @@
+INFO  23:57:01,824 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:57:01,917 - #45 TestEnumi
+ERROR 23:57:01,917 - 
+Sintaksna greska na liniji 2
+ERROR 23:57:01,917 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+ERROR 23:57:01,921 - Fatalna greska tokom kompajliranja: null
+java.lang.NullPointerException
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

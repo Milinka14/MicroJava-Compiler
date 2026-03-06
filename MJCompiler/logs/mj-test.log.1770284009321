@@ -1,0 +1,320 @@
+INFO  10:32:02,438 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  10:32:02,552 - #46 TestParametri
+INFO  10:32:02,552 - #46 char
+INFO  10:32:02,554 - #46 provera
+INFO  10:32:02,558 - #46 testRedosled
+INFO  10:32:02,561 - #46 int
+INFO  10:32:02,562 - #46 prvi
+INFO  10:32:02,562 - #46 char
+INFO  10:32:02,562 - #46 drugi
+INFO  10:32:02,563 - #46 int
+INFO  10:32:02,563 - #46 treci
+INFO  10:32:02,570 - #46 prvi
+INFO  10:32:02,574 - #46 drugi
+INFO  10:32:02,577 - #46 char
+INFO  10:32:02,582 - #46 testRedosled2
+INFO  10:32:02,583 - #46 int
+INFO  10:32:02,583 - #46 prvi
+INFO  10:32:02,584 - #46 char
+INFO  10:32:02,584 - #46 drugi
+INFO  10:32:02,584 - #46 int
+INFO  10:32:02,585 - #46 treci
+INFO  10:32:02,586 - #46 prvi
+INFO  10:32:02,586 - #46 drugi
+INFO  10:32:02,586 - #46 main
+INFO  10:32:02,589 - #46 testRedosled
+INFO  10:32:02,589 - #45 10
+INFO  10:32:02,590 - #46 testRedosled2
+INFO  10:32:02,590 - #45 1
+INFO  10:32:02,590 - #47 b
+INFO  10:32:02,590 - #45 2
+INFO  10:32:02,591 - #45 20
+INFO  10:32:02,600 - Program(
+  ProgName(
+   TestParametri
+  ) [ProgName]
+  DeclarationsList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarItem(
+         provera
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       testRedosled
+      ) [MethodName]
+      FormalParameters(
+        FormalParamList(
+          FormalParamList(
+            FormalParamItem(
+              Type(
+               int
+              ) [Type]
+             prvi
+              NoArray(
+              ) [NoArray]
+            ) [FormalParamItem]
+            Type(
+             char
+            ) [Type]
+           drugi
+            NoArray(
+            ) [NoArray]
+          ) [FormalParamList]
+          Type(
+           int
+          ) [Type]
+         treci
+          NoArray(
+          ) [NoArray]
+        ) [FormalParamList]
+      ) [FormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       prvi
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtPrint(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     drugi
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtReturn(
+          NoReturnExpr(
+          ) [NoReturnExpr]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetType(
+          Type(
+           char
+          ) [Type]
+        ) [RetType]
+        MethodName(
+         testRedosled2
+        ) [MethodName]
+        FormalParameters(
+          FormalParamList(
+            FormalParamList(
+              FormalParamItem(
+                Type(
+                 int
+                ) [Type]
+               prvi
+                NoArray(
+                ) [NoArray]
+              ) [FormalParamItem]
+              Type(
+               char
+              ) [Type]
+             drugi
+              NoArray(
+              ) [NoArray]
+            ) [FormalParamList]
+            Type(
+             int
+            ) [Type]
+           treci
+            NoArray(
+            ) [NoArray]
+          ) [FormalParamList]
+        ) [FormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       prvi
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtPrint(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     drugi
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+          ) [StmtPrint]
+        ) [StatementsList]
+      ) [MethodDecl]
+      MethodDeclarations(
+        MethodDecl(
+          RetVoid(
+          ) [RetVoid]
+          MethodName(
+           main
+          ) [MethodName]
+          NoFormalParameters(
+          ) [NoFormalParameters]
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 testRedosled
+                ) [DesignatorIdent]
+                CallOperation(
+                  OptionalActPars(
+                    ActParsList(
+                      ActParsList(
+                        ActParItem(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactConst(
+                                  NumConst(
+                                   10
+                                  ) [NumConst]
+                                ) [FactConst]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                        ) [ActParItem]
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactCall(
+                                DesignatorIdent(
+                                 testRedosled2
+                                ) [DesignatorIdent]
+                                OptionalActPars(
+                                  ActParsList(
+                                    ActParsList(
+                                      ActParItem(
+                                        ArExp(
+                                          TermExpr(
+                                            TermItem(
+                                              FactConst(
+                                                NumConst(
+                                                 1
+                                                ) [NumConst]
+                                              ) [FactConst]
+                                            ) [TermItem]
+                                          ) [TermExpr]
+                                        ) [ArExp]
+                                      ) [ActParItem]
+                                      ArExp(
+                                        TermExpr(
+                                          TermItem(
+                                            FactConst(
+                                              CharConst(
+                                               b
+                                              ) [CharConst]
+                                            ) [FactConst]
+                                          ) [TermItem]
+                                        ) [TermExpr]
+                                      ) [ArExp]
+                                    ) [ActParsList]
+                                    ArExp(
+                                      TermExpr(
+                                        TermItem(
+                                          FactConst(
+                                            NumConst(
+                                             2
+                                            ) [NumConst]
+                                          ) [FactConst]
+                                        ) [TermItem]
+                                      ) [TermExpr]
+                                    ) [ArExp]
+                                  ) [ActParsList]
+                                ) [OptionalActPars]
+                              ) [FactCall]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [ActParsList]
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               20
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [ActParsList]
+                  ) [OptionalActPars]
+                ) [CallOperation]
+              ) [DesignatorStatement]
+            ) [StmtDesignator]
+          ) [StatementsList]
+        ) [MethodDecl]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [MethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:32:02,601 - --------------------------------------------------
+INFO  10:32:02,616 - --------------------------------------------------
+INFO  10:32:02,622 - Parsiranje uspesno zavrseno!

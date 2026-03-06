@@ -1,0 +1,22 @@
+INFO  13:26:06,326 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  13:26:06,424 - #45 Test3
+INFO  13:26:06,424 - #45 int
+INFO  13:26:06,427 - #45 a
+INFO  13:26:06,430 - #45 b
+INFO  13:26:06,431 - #48 ;
+INFO  13:26:06,432 - #45 main
+INFO  13:26:06,437 - #45 a
+INFO  13:26:06,439 - #44 3
+INFO  13:26:06,439 - #48 ;
+INFO  13:26:06,441 - #45 b
+INFO  13:26:06,441 - #44 1
+INFO  13:26:06,441 - #48 ;
+INFO  13:26:06,444 - #45 a
+INFO  13:26:06,445 - #44 3
+INFO  13:26:06,446 - #46 3
+ERROR 13:26:06,448 - 
+Sintaksna greska na liniji 8
+ERROR 13:26:06,448 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8
+ERROR 13:26:06,451 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.NoWidth cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.NoWidth cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

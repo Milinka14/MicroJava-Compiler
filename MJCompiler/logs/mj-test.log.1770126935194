@@ -1,0 +1,41 @@
+INFO  14:55:24,441 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:55:24,511 - #46 mojProgram
+INFO  14:55:24,513 - #46 int
+INFO  14:55:24,513 - #46 pi
+INFO  14:55:24,514 - #45 3
+INFO  14:55:24,514 - #46 mi
+INFO  14:55:24,514 - #45 4
+INFO  14:55:24,516 - #46 char
+INFO  14:55:24,516 - #46 asd
+INFO  14:55:24,516 - #47 a
+INFO  14:55:24,516 - #46 int
+INFO  14:55:24,516 - #46 a
+INFO  14:55:24,518 - #46 gfdg
+INFO  14:55:24,518 - #46 g3rg
+INFO  14:55:24,518 - #46 char
+INFO  14:55:24,520 - #46 b
+INFO  14:55:24,520 - #46 c
+INFO  14:55:24,521 - #46 d
+INFO  14:55:24,521 - #46 main
+INFO  14:55:24,524 - #46 int
+INFO  14:55:24,526 - #46 a
+INFO  14:55:24,526 - #46 b
+INFO  14:55:24,528 - #46 char
+INFO  14:55:24,528 - #46 c
+INFO  14:55:24,530 - #46 m1
+INFO  14:55:24,530 - #46 int
+INFO  14:55:24,530 - #46 a
+INFO  14:55:24,530 - #46 char
+INFO  14:55:24,530 - #46 m2
+INFO  14:55:24,531 - #46 char
+INFO  14:55:24,531 - #46 c
+INFO  14:55:24,531 - #46 int
+INFO  14:55:24,531 - #46 m3
+INFO  14:55:24,531 - #46 char
+INFO  14:55:24,531 - #46 eol
+ERROR 14:55:24,531 - 
+Sintaksna greska na liniji 21
+ERROR 14:55:24,532 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 21
+ERROR 14:55:24,534 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

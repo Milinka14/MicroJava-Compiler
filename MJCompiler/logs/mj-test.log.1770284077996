@@ -1,0 +1,13 @@
+INFO  10:34:30,235 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  10:34:30,320 - #46 TestParametri
+INFO  10:34:30,320 - #46 char
+INFO  10:34:30,322 - #46 provera
+INFO  10:34:30,326 - #46 Broj
+INFO  10:34:30,327 - #46 jedan
+INFO  10:34:30,327 - #45 1
+ERROR 10:34:30,327 - 
+Sintaksna greska na liniji 3
+ERROR 10:34:30,327 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+ERROR 10:34:30,329 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.EnumName cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.EnumName cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

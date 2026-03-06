@@ -1,0 +1,133 @@
+INFO  20:34:02,884 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  20:34:02,981 - #45 Test
+INFO  20:34:02,983 - #45 Boja
+INFO  20:34:02,985 - #45 CRVENA
+INFO  20:34:02,986 - #45 PLAVA
+INFO  20:34:02,986 - #44 5
+INFO  20:34:02,988 - #45 Dan
+INFO  20:34:02,988 - #45 PON
+INFO  20:34:02,988 - #44 3
+INFO  20:34:02,988 - #45 UTO
+INFO  20:34:02,988 - #45 Boja
+INFO  20:34:02,989 - #45 lista
+INFO  20:34:02,993 - #45 lll
+INFO  20:34:02,994 - #48 ;
+INFO  20:34:02,996 - #45 main
+INFO  20:34:03,000 - #45 lll
+INFO  20:34:03,001 - #45 Boja
+INFO  20:34:03,001 - #45 PLAVA
+INFO  20:34:03,001 - #48 ;
+INFO  20:34:03,008 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Boja
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               CRVENA
+                NoInit(
+                ) [NoInit]
+              ) [EnumItem]
+             PLAVA
+              IsInit(
+               5
+              ) [IsInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           Dan
+          ) [EnumName]
+          EnumListItems(
+            EnumItem(
+             PON
+              IsInit(
+               3
+              ) [IsInit]
+            ) [EnumItem]
+           UTO
+            NoInit(
+            ) [NoInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Boja
+        ) [Type]
+        VarListItems(
+          VarItem(
+           lista
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         lll
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorIdent(
+             lll
+            ) [DesignatorIdent]
+            AssignOperation(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorDotIdent(
+                       Boja
+                       PLAVA
+                      ) [DesignatorDotIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:34:03,015 - --------------------------------------------------
+INFO  20:34:03,024 - --------------------------------------------------
+INFO  20:34:03,030 - Info( 6 [na liniji 9])
+INFO  20:34:03,030 - Info( 1 [na liniji 9])
+ERROR 20:34:03,031 - Greska( Tipovi su nekompatibilni pri dodeli! [na liniji 9])
+ERROR 20:34:03,031 - Parsiranje NIJE uspesno zavrseno!

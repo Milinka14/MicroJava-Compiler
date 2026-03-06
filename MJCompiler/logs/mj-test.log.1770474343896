@@ -1,0 +1,37 @@
+INFO  15:25:32,866 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  15:25:32,990 - #45 Test
+INFO  15:25:32,993 - #45 Boja
+INFO  15:25:32,996 - #45 CRVENA
+INFO  15:25:32,999 - #45 PLAVA
+INFO  15:25:33,000 - #44 5
+INFO  15:25:33,002 - #45 Dan
+INFO  15:25:33,002 - #45 PON
+INFO  15:25:33,004 - #44 3
+INFO  15:25:33,004 - #45 UTO
+INFO  15:25:33,004 - #45 Boja
+INFO  15:25:33,005 - #45 lista
+INFO  15:25:33,012 - #45 lll
+INFO  15:25:33,013 - #48 ;
+INFO  15:25:33,015 - #45 Boja
+INFO  15:25:33,018 - #45 a
+INFO  15:25:33,019 - #45 vvv
+INFO  15:25:33,019 - #48 ;
+INFO  15:25:33,019 - #45 int
+INFO  15:25:33,019 - #45 num
+INFO  15:25:33,019 - #48 ;
+INFO  15:25:33,020 - #45 Boja
+INFO  15:25:33,027 - #45 bora
+INFO  15:25:33,033 - #45 vvv
+INFO  15:25:33,033 - #48 ;
+INFO  15:25:33,036 - #45 main
+INFO  15:25:33,039 - #45 num
+INFO  15:25:33,039 - #45 bora
+INFO  15:25:33,040 - #48 ;
+INFO  15:25:33,044 - #45 vvv
+INFO  15:25:33,045 - #45 a
+ERROR 15:25:33,045 - 
+Sintaksna greska na liniji 16
+ERROR 15:25:33,045 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16
+ERROR 15:25:33,048 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.ArExp cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.ArExp cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

@@ -1,0 +1,62 @@
+INFO  21:24:14,684 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:24:14,768 - #45 test301
+INFO  21:24:14,770 - #45 Broj
+INFO  21:24:14,772 - #45 NULA
+INFO  21:24:14,773 - #45 JEDAN
+INFO  21:24:14,774 - #45 PET
+INFO  21:24:14,774 - #44 5
+INFO  21:24:14,774 - #45 DESET
+INFO  21:24:14,774 - #44 10
+INFO  21:24:14,775 - #45 int
+INFO  21:24:14,776 - #45 nula
+INFO  21:24:14,776 - #44 0
+INFO  21:24:14,777 - #48 ;
+INFO  21:24:14,778 - #45 int
+INFO  21:24:14,778 - #45 jedan
+INFO  21:24:14,778 - #44 1
+INFO  21:24:14,778 - #48 ;
+INFO  21:24:14,778 - #45 int
+INFO  21:24:14,778 - #45 pet
+INFO  21:24:14,778 - #44 5
+INFO  21:24:14,778 - #48 ;
+INFO  21:24:14,778 - #45 int
+INFO  21:24:14,781 - #45 niz
+INFO  21:24:14,781 - #48 ;
+INFO  21:24:14,783 - #45 char
+INFO  21:24:14,785 - #45 nizch
+INFO  21:24:14,785 - #48 ;
+INFO  21:24:14,785 - #45 int
+INFO  21:24:14,785 - #45 a
+INFO  21:24:14,786 - #48 ;
+INFO  21:24:14,788 - #45 main
+INFO  21:24:14,794 - #45 int
+INFO  21:24:14,795 - #45 bodovi
+INFO  21:24:14,795 - #48 ;
+INFO  21:24:14,795 - #45 int
+INFO  21:24:14,795 - #45 temp
+INFO  21:24:14,795 - #48 ;
+INFO  21:24:14,795 - #45 Broj
+INFO  21:24:14,795 - #45 nula
+INFO  21:24:14,795 - #45 jedan
+INFO  21:24:14,795 - #48 ;
+INFO  21:24:14,796 - #45 bool
+INFO  21:24:14,796 - #45 bt
+INFO  21:24:14,796 - #48 ;
+INFO  21:24:14,799 - #45 bodovi
+INFO  21:24:14,800 - #44 0
+INFO  21:24:14,805 - #45 bodovi
+INFO  21:24:14,805 - #44 0
+INFO  21:24:14,808 - #48 ;
+INFO  21:24:14,809 - #45 bt
+INFO  21:24:14,809 - #46 A
+INFO  21:24:14,809 - #46 B
+INFO  21:24:14,809 - #48 ;
+INFO  21:24:14,809 - #45 temp
+INFO  21:24:14,809 - #45 bodovi
+INFO  21:24:14,810 - #44 10
+ERROR 21:24:14,810 - 
+Sintaksna greska na liniji 30
+ERROR 21:24:14,810 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 30
+ERROR 21:24:14,814 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

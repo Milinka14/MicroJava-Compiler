@@ -1,0 +1,34 @@
+INFO  17:08:54,592 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:08:54,685 - #45 TernarniTest
+INFO  17:08:54,685 - #45 int
+INFO  17:08:54,687 - #45 a
+INFO  17:08:54,689 - #45 b
+INFO  17:08:54,690 - #45 res
+INFO  17:08:54,690 - #48 ;
+INFO  17:08:54,690 - #45 char
+INFO  17:08:54,692 - #45 c
+INFO  17:08:54,692 - #48 ;
+INFO  17:08:54,692 - #45 main
+INFO  17:08:54,697 - #45 a
+INFO  17:08:54,698 - #44 10
+INFO  17:08:54,698 - #48 ;
+INFO  17:08:54,699 - #45 b
+INFO  17:08:54,699 - #44 20
+INFO  17:08:54,700 - #48 ;
+INFO  17:08:54,700 - #45 res
+INFO  17:08:54,700 - #45 a
+INFO  17:08:54,700 - #45 b
+INFO  17:08:54,703 - #45 a
+INFO  17:08:54,704 - #45 b
+INFO  17:08:54,705 - #48 ;
+INFO  17:08:54,705 - #45 res
+INFO  17:08:54,706 - #48 ;
+INFO  17:08:54,706 - #45 res
+INFO  17:08:54,707 - #45 a
+INFO  17:08:54,707 - #45 b
+ERROR 17:08:54,710 - 
+Sintaksna greska na liniji 16
+ERROR 17:08:54,710 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16
+ERROR 17:08:54,715 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

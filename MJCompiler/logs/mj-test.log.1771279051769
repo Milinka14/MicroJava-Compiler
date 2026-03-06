@@ -1,0 +1,75 @@
+INFO  22:57:27,734 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  22:57:27,866 - #46 Modifikacija
+INFO  22:57:27,868 - #46 main
+INFO  22:57:27,871 - #46 int
+INFO  22:57:27,872 - #46 s
+INFO  22:57:27,874 - #49 ;
+INFO  22:57:27,877 - #46 s
+INFO  22:57:27,878 - #45 1
+INFO  22:57:27,878 - #49 ;
+INFO  22:57:27,885 - Program(
+  ProgName(
+   Modifikacija
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           s
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorIdent(
+             s
+            ) [DesignatorIdent]
+            AssignOperation(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactMinus(
+                      FactConst(
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [FactMinus]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:57:27,886 - --------------------------------------------------
+INFO  22:57:27,893 - --------------------------------------------------
+INFO  22:57:27,897 - Info( brojjj0 [na liniji 1])
+INFO  22:57:27,903 - KOD GENERISAN!

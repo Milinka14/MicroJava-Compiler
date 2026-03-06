@@ -1,0 +1,39 @@
+INFO  13:55:29,521 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  13:55:29,644 - #46 TestParametri
+INFO  13:55:29,648 - #46 char
+INFO  13:55:29,648 - #46 provera
+INFO  13:55:29,650 - #47 s
+INFO  13:55:29,652 - #46 Broj
+INFO  13:55:29,653 - #46 jedan
+INFO  13:55:29,654 - #45 1
+INFO  13:55:29,654 - #46 dva
+INFO  13:55:29,654 - #45 2
+INFO  13:55:29,654 - #46 Broj
+INFO  13:55:29,656 - #46 br
+INFO  13:55:29,659 - #46 int
+INFO  13:55:29,661 - #46 c
+INFO  13:55:29,661 - #46 testRedosled
+INFO  13:55:29,665 - #46 int
+INFO  13:55:29,665 - #46 prvi
+INFO  13:55:29,665 - #46 char
+INFO  13:55:29,665 - #46 drugi
+INFO  13:55:29,666 - #46 int
+INFO  13:55:29,666 - #46 treci
+INFO  13:55:29,671 - #46 prvi
+INFO  13:55:29,673 - #46 drugi
+INFO  13:55:29,673 - #46 int
+INFO  13:55:29,675 - #46 testRedosled2
+INFO  13:55:29,676 - #46 int
+INFO  13:55:29,676 - #46 prvi
+INFO  13:55:29,677 - #46 char
+INFO  13:55:29,677 - #46 drugi
+INFO  13:55:29,677 - #46 int
+INFO  13:55:29,677 - #46 treci
+INFO  13:55:29,677 - #46 prvi
+INFO  13:55:29,677 - #46 drugi
+ERROR 13:55:29,681 - Fatalna greska tokom kompajliranja: null
+java.lang.NullPointerException
+	at rs.ac.bg.etf.pp1.CUP$MJParser$actions.CUP$MJParser$do_action(MJParser.java:1308)
+	at rs.ac.bg.etf.pp1.MJParser.do_action(MJParser.java:429)
+	at java_cup.runtime.lr_parser.parse(lr_parser.java:584)
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:49)

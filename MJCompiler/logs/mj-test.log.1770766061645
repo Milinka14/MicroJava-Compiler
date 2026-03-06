@@ -1,0 +1,420 @@
+INFO  00:27:27,514 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  00:27:27,629 - #45 ForTest
+INFO  00:27:27,633 - #45 main
+INFO  00:27:27,638 - #45 int
+INFO  00:27:27,639 - #45 x
+INFO  00:27:27,642 - #45 i
+INFO  00:27:27,644 - #45 sum
+INFO  00:27:27,645 - #48 ;
+INFO  00:27:27,647 - #45 x
+INFO  00:27:27,651 - #45 int
+INFO  00:27:27,652 - #44 3
+INFO  00:27:27,654 - #48 ;
+INFO  00:27:27,658 - #45 x
+INFO  00:27:27,659 - #44 0
+INFO  00:27:27,659 - #44 10
+INFO  00:27:27,660 - #48 ;
+INFO  00:27:27,660 - #45 x
+INFO  00:27:27,661 - #44 1
+INFO  00:27:27,661 - #44 20
+INFO  00:27:27,661 - #48 ;
+INFO  00:27:27,662 - #45 x
+INFO  00:27:27,662 - #44 2
+INFO  00:27:27,662 - #44 30
+INFO  00:27:27,664 - #48 ;
+INFO  00:27:27,665 - #45 sum
+INFO  00:27:27,665 - #44 0
+INFO  00:27:27,665 - #48 ;
+INFO  00:27:27,670 - #45 i
+INFO  00:27:27,670 - #44 0
+INFO  00:27:27,670 - #48 ;
+INFO  00:27:27,671 - #45 i
+INFO  00:27:27,674 - #44 3
+INFO  00:27:27,679 - #48 ;
+INFO  00:27:27,680 - #45 i
+INFO  00:27:27,683 - #45 i
+INFO  00:27:27,684 - #48 ;
+INFO  00:27:27,684 - #45 sum
+INFO  00:27:27,684 - #45 sum
+INFO  00:27:27,684 - #45 x
+INFO  00:27:27,687 - #45 i
+INFO  00:27:27,687 - #48 ;
+INFO  00:27:27,688 - #45 sum
+INFO  00:27:27,688 - #48 ;
+INFO  00:27:27,694 - Program(
+  ProgName(
+   ForTest
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarListItems(
+            VarListItems(
+              VarItem(
+               x
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             i
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           sum
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              StatementsList(
+                StatementsList(
+                  StatementsList(
+                    NoStatements(
+                    ) [NoStatements]
+                    StmtDesignator(
+                      DesignatorStatement(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                        AssignOperation(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactNew(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                  ArExp(
+                                    TermExpr(
+                                      TermItem(
+                                        FactConst(
+                                          NumConst(
+                                           3
+                                          ) [NumConst]
+                                        ) [FactConst]
+                                      ) [TermItem]
+                                    ) [TermExpr]
+                                  ) [ArExp]
+                                ) [FactNew]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                        ) [AssignOperation]
+                      ) [DesignatorStatement]
+                     ;
+                    ) [StmtDesignator]
+                  ) [StatementsList]
+                  StmtDesignator(
+                    DesignatorStatement(
+                      DesignatorArray(
+                       x
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 0
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [DesignatorArray]
+                      AssignOperation(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 10
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [AssignOperation]
+                    ) [DesignatorStatement]
+                   ;
+                  ) [StmtDesignator]
+                ) [StatementsList]
+                StmtDesignator(
+                  DesignatorStatement(
+                    DesignatorArray(
+                     x
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               1
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [DesignatorArray]
+                    AssignOperation(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               20
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [AssignOperation]
+                  ) [DesignatorStatement]
+                 ;
+                ) [StmtDesignator]
+              ) [StatementsList]
+              StmtDesignator(
+                DesignatorStatement(
+                  DesignatorArray(
+                   x
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             2
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [DesignatorArray]
+                  AssignOperation(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             30
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [AssignOperation]
+                ) [DesignatorStatement]
+               ;
+              ) [StmtDesignator]
+            ) [StatementsList]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 sum
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           0
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtFor(
+            ForStart(
+            ) [ForStart]
+            OptDesignatorStmt(
+              DesignatorStatement(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           0
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+            ) [OptDesignatorStmt]
+            FirstSemiFor(
+             ;
+            ) [FirstSemiFor]
+            OptCond(
+              CondItem(
+                CondTermItem(
+                  RelationalOp(
+                    TermExpr(
+                      TermItem(
+                        FactDesignator(
+                          DesignatorIdent(
+                           i
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [TermItem]
+                    ) [TermExpr]
+                    RelLt(
+                    ) [RelLt]
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           3
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [RelationalOp]
+                ) [CondTermItem]
+              ) [CondItem]
+            ) [OptCond]
+           ;
+            OptDesignatorStmt(
+              DesignatorStatement(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                IncOperation(
+                ) [IncOperation]
+              ) [DesignatorStatement]
+            ) [OptDesignatorStmt]
+            ForBracketEnd(
+            ) [ForBracketEnd]
+            StmtBlock(
+              StatementsList(
+                StatementsList(
+                  NoStatements(
+                  ) [NoStatements]
+                  StmtPrint(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactDesignator(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                          ) [FactDesignator]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                    NoWidth(
+                    ) [NoWidth]
+                   ;
+                  ) [StmtPrint]
+                ) [StatementsList]
+                StmtDesignator(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     sum
+                    ) [DesignatorIdent]
+                    AssignOperation(
+                      ArExp(
+                        AddExpr(
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorIdent(
+                                 sum
+                                ) [DesignatorIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                          AddPlus(
+                          ) [AddPlus]
+                          TermItem(
+                            FactDesignator(
+                              DesignatorArray(
+                               x
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactDesignator(
+                                        DesignatorIdent(
+                                         i
+                                        ) [DesignatorIdent]
+                                      ) [FactDesignator]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                              ) [DesignatorArray]
+                            ) [FactDesignator]
+                          ) [TermItem]
+                        ) [AddExpr]
+                      ) [ArExp]
+                    ) [AssignOperation]
+                  ) [DesignatorStatement]
+                 ;
+                ) [StmtDesignator]
+              ) [StatementsList]
+            ) [StmtBlock]
+          ) [StmtFor]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorIdent(
+                   sum
+                  ) [DesignatorIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:27:27,695 - --------------------------------------------------
+INFO  00:27:27,706 - --------------------------------------------------
+INFO  00:27:27,709 - Info( brojjj0 [na liniji 1])
+ERROR 00:27:27,716 - Fatalna greska tokom kompajliranja: null
+java.util.EmptyStackException
+	at java.util.Stack.peek(Stack.java:102)
+	at java.util.Stack.pop(Stack.java:84)
+	at rs.ac.bg.etf.pp1.CodeGenerator.visit(CodeGenerator.java:129)
+	at rs.ac.bg.etf.pp1.ast.ForBracketEnd.accept(ForBracketEnd.java:32)
+	at rs.ac.bg.etf.pp1.ast.ForBracketEnd.traverseBottomUp(ForBracketEnd.java:43)
+	at rs.ac.bg.etf.pp1.ast.StmtFor.traverseBottomUp(StmtFor.java:132)
+	at rs.ac.bg.etf.pp1.ast.StatementsList.traverseBottomUp(StatementsList.java:53)
+	at rs.ac.bg.etf.pp1.ast.StatementsList.traverseBottomUp(StatementsList.java:52)
+	at rs.ac.bg.etf.pp1.ast.MethodDecl.traverseBottomUp(MethodDecl.java:113)
+	at rs.ac.bg.etf.pp1.ast.MethodDeclarations.traverseBottomUp(MethodDeclarations.java:52)
+	at rs.ac.bg.etf.pp1.ast.Program.traverseBottomUp(Program.java:85)
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:76)

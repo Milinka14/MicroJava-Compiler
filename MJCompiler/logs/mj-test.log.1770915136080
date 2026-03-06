@@ -1,0 +1,225 @@
+INFO  17:49:53,710 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:49:53,839 - #45 Test
+INFO  17:49:53,840 - #45 int
+INFO  17:49:53,843 - #45 i
+INFO  17:49:53,845 - #48 ;
+INFO  17:49:53,849 - #45 main
+INFO  17:49:53,858 - #45 i
+INFO  17:49:53,858 - #44 0
+INFO  17:49:53,858 - #48 ;
+INFO  17:49:53,861 - #45 i
+INFO  17:49:53,862 - #44 2
+INFO  17:49:53,864 - #48 ;
+INFO  17:49:53,865 - #45 i
+INFO  17:49:53,869 - #45 i
+INFO  17:49:53,871 - #44 0
+INFO  17:49:53,872 - #46 0
+INFO  17:49:53,873 - #48 ;
+INFO  17:49:53,873 - #48 ;
+INFO  17:49:53,876 - #44 1
+INFO  17:49:53,876 - #46 1
+INFO  17:49:53,876 - #48 ;
+INFO  17:49:53,877 - #48 ;
+INFO  17:49:53,884 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         i
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtFor(
+          ForStart(
+          ) [ForStart]
+          OptDesignatorStmt(
+            DesignatorStatement(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              AssignOperation(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactConst(
+                        NumConst(
+                         0
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+          ) [OptDesignatorStmt]
+          FirstSemiFor(
+           ;
+          ) [FirstSemiFor]
+          OptCond(
+            CondItem(
+              CondTermItem(
+                RelationalOp(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorIdent(
+                         i
+                        ) [DesignatorIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                  RelLt(
+                  ) [RelLt]
+                  TermExpr(
+                    TermItem(
+                      FactConst(
+                        NumConst(
+                         2
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [RelationalOp]
+              ) [CondTermItem]
+            ) [CondItem]
+          ) [OptCond]
+         ;
+          OptDesignatorStmt(
+            DesignatorStatement(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              IncOperation(
+              ) [IncOperation]
+            ) [DesignatorStatement]
+          ) [OptDesignatorStmt]
+          ForBracketEnd(
+          ) [ForBracketEnd]
+          StmtBlock(
+            StatementsList(
+              NoStatements(
+              ) [NoStatements]
+              StmtSwitch(
+                SwitchStart(
+                ) [SwitchStart]
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorIdent(
+                         i
+                        ) [DesignatorIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+                SwitchBodyList(
+                  SwitchBodyList(
+                    NoSwitchBody(
+                    ) [NoSwitchBody]
+                    CaseItem(
+                      CaseStart(
+                       0
+                      ) [CaseStart]
+                      StatementsList(
+                        StatementsList(
+                          NoStatements(
+                          ) [NoStatements]
+                          StmtPrint(
+                            ArExp(
+                              TermExpr(
+                                TermItem(
+                                  FactConst(
+                                    CharConst(
+                                     0
+                                    ) [CharConst]
+                                  ) [FactConst]
+                                ) [TermItem]
+                              ) [TermExpr]
+                            ) [ArExp]
+                            NoWidth(
+                            ) [NoWidth]
+                           ;
+                          ) [StmtPrint]
+                        ) [StatementsList]
+                        StmtBreak(
+                         ;
+                        ) [StmtBreak]
+                      ) [StatementsList]
+                      JumpOverJump(
+                      ) [JumpOverJump]
+                    ) [CaseItem]
+                  ) [SwitchBodyList]
+                  CaseItem(
+                    CaseStart(
+                     1
+                    ) [CaseStart]
+                    StatementsList(
+                      StatementsList(
+                        NoStatements(
+                        ) [NoStatements]
+                        StmtPrint(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactConst(
+                                  CharConst(
+                                   1
+                                  ) [CharConst]
+                                ) [FactConst]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                          NoWidth(
+                          ) [NoWidth]
+                         ;
+                        ) [StmtPrint]
+                      ) [StatementsList]
+                      StmtBreak(
+                       ;
+                      ) [StmtBreak]
+                    ) [StatementsList]
+                    JumpOverJump(
+                    ) [JumpOverJump]
+                  ) [CaseItem]
+                ) [SwitchBodyList]
+              ) [StmtSwitch]
+            ) [StatementsList]
+          ) [StmtBlock]
+        ) [StmtFor]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:49:53,885 - --------------------------------------------------
+INFO  17:49:53,902 - --------------------------------------------------
+INFO  17:49:53,908 - Info( brojjj0 [na liniji 1])
+INFO  17:49:53,920 - KOD GENERISAN!

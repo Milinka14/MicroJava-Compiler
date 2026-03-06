@@ -1,0 +1,152 @@
+INFO  21:03:28,993 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:03:29,073 - #45 Test
+INFO  21:03:29,074 - #45 Boja
+INFO  21:03:29,075 - #45 CRVENA
+INFO  21:03:29,076 - #45 PLAVA
+INFO  21:03:29,076 - #44 5
+INFO  21:03:29,078 - #45 Dan
+INFO  21:03:29,078 - #45 PON
+INFO  21:03:29,078 - #44 3
+INFO  21:03:29,078 - #45 UTO
+INFO  21:03:29,078 - #45 Boja
+INFO  21:03:29,079 - #45 lista
+INFO  21:03:29,083 - #45 lll
+INFO  21:03:29,083 - #48 ;
+INFO  21:03:29,085 - #45 main
+INFO  21:03:29,089 - #45 lll
+INFO  21:03:29,090 - #44 3
+INFO  21:03:29,090 - #48 ;
+INFO  21:03:29,093 - #45 lll
+INFO  21:03:29,097 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Boja
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               CRVENA
+                NoInit(
+                ) [NoInit]
+              ) [EnumItem]
+             PLAVA
+              IsInit(
+               5
+              ) [IsInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           Dan
+          ) [EnumName]
+          EnumListItems(
+            EnumItem(
+             PON
+              IsInit(
+               3
+              ) [IsInit]
+            ) [EnumItem]
+           UTO
+            NoInit(
+            ) [NoInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Boja
+        ) [Type]
+        VarListItems(
+          VarItem(
+           lista
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         lll
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               lll
+              ) [DesignatorIdent]
+              AssignOperation(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactConst(
+                        NumConst(
+                         3
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+        StmtSwitch(
+          SwitchStart(
+          ) [SwitchStart]
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorIdent(
+                   lll
+                  ) [DesignatorIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoSwitchBody(
+          ) [NoSwitchBody]
+        ) [StmtSwitch]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:03:29,098 - --------------------------------------------------
+INFO  21:03:29,106 - --------------------------------------------------
+INFO  21:03:29,111 - Info( 6 [na liniji 9])
+INFO  21:03:29,111 - Info( 1 [na liniji 9])
+ERROR 21:03:29,111 - Greska( Tipovi su nekompatibilni pri dodeli! [na liniji 9])
+ERROR 21:03:29,111 - Greska( Tip expr u switchu mora biti tipa int [na liniji 2])
+ERROR 21:03:29,112 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,262 @@
+INFO  21:29:13,934 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:29:14,020 - #45 TestEnumi
+INFO  21:29:14,022 - #45 Boja
+INFO  21:29:14,025 - #45 CRVENA
+INFO  21:29:14,027 - #45 PLAVA
+INFO  21:29:14,027 - #45 ZELENA
+INFO  21:29:14,028 - #45 Dan
+INFO  21:29:14,029 - #45 PON
+INFO  21:29:14,029 - #45 UTO
+INFO  21:29:14,029 - #45 Boja
+INFO  21:29:14,029 - #45 globalnaBoja
+INFO  21:29:14,031 - #48 ;
+INFO  21:29:14,033 - #45 Dan
+INFO  21:29:14,035 - #45 globalniDan
+INFO  21:29:14,035 - #48 ;
+INFO  21:29:14,035 - #45 Boja
+INFO  21:29:14,035 - #45 nizBoja
+INFO  21:29:14,035 - #48 ;
+INFO  21:29:14,036 - #45 Boja
+INFO  21:29:14,036 - #45 vratiIstuBoju
+INFO  21:29:14,038 - #45 Boja
+INFO  21:29:14,038 - #45 b
+INFO  21:29:14,040 - #45 b
+INFO  21:29:14,040 - #48 ;
+INFO  21:29:14,042 - #45 Boja
+INFO  21:29:14,043 - #45 dajCrvenu
+INFO  21:29:14,044 - #45 Boja
+INFO  21:29:14,044 - #45 CRVENA
+INFO  21:29:14,044 - #48 ;
+INFO  21:29:14,044 - #45 main
+INFO  21:29:14,046 - #45 Boja
+INFO  21:29:14,046 - #45 lokalnaB
+INFO  21:29:14,046 - #48 ;
+INFO  21:29:14,046 - #45 int
+INFO  21:29:14,046 - #45 x
+INFO  21:29:14,046 - #48 ;
+INFO  21:29:14,049 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclEnum(
+              EnumDecl(
+                EnumName(
+                 Boja
+                ) [EnumName]
+                EnumListItems(
+                  EnumListItems(
+                    EnumItem(
+                     CRVENA
+                      NoInit(
+                      ) [NoInit]
+                    ) [EnumItem]
+                   PLAVA
+                    NoInit(
+                    ) [NoInit]
+                  ) [EnumListItems]
+                 ZELENA
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumListItems]
+              ) [EnumDecl]
+            ) [DeclEnum]
+          ) [DeclarationsList]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Dan
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 PON
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumItem]
+               UTO
+                NoInit(
+                ) [NoInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             Boja
+            ) [Type]
+            VarItem(
+             globalnaBoja
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Dan
+          ) [Type]
+          VarItem(
+           globalniDan
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Boja
+        ) [Type]
+        VarItem(
+         nizBoja
+          IsArray(
+          ) [IsArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         Boja
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       vratiIstuBoju
+      ) [MethodName]
+      FormalParameters(
+        FormalParamItem(
+          Type(
+           Boja
+          ) [Type]
+         b
+          NoArray(
+          ) [NoArray]
+        ) [FormalParamItem]
+      ) [FormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     b
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetType(
+          Type(
+           Boja
+          ) [Type]
+        ) [RetType]
+        MethodName(
+         dajCrvenu
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtReturn(
+            ReturnExpr(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorDotIdent(
+                       Boja
+                       CRVENA
+                      ) [DesignatorDotIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [ReturnExpr]
+            SemiLine(
+             ;
+            ) [SemiLine]
+          ) [StmtReturn]
+        ) [StatementsList]
+      ) [MethodDecl]
+      MethodDeclarations(
+        MethodDecl(
+          RetVoid(
+          ) [RetVoid]
+          MethodName(
+           main
+          ) [MethodName]
+          NoFormalParameters(
+          ) [NoFormalParameters]
+          VarDeclF(
+            VarDeclF(
+              NoVarDeclF(
+              ) [NoVarDeclF]
+              VarDecl(
+                Type(
+                 Boja
+                ) [Type]
+                VarItem(
+                 lokalnaB
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               ;
+              ) [VarDecl]
+            ) [VarDeclF]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarItem(
+               x
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [VarDeclF]
+          NoStatements(
+          ) [NoStatements]
+        ) [MethodDecl]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [MethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:29:14,050 - --------------------------------------------------
+INFO  21:29:14,059 - --------------------------------------------------
+INFO  21:29:14,070 - KOD GENERISAN!

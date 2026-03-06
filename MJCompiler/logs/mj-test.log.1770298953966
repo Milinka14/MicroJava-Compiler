@@ -1,0 +1,29 @@
+INFO  14:42:24,133 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:42:24,262 - #46 TestParametri
+INFO  14:42:24,268 - #46 char
+INFO  14:42:24,268 - #46 provera
+INFO  14:42:24,273 - #47 s
+INFO  14:42:24,276 - #46 Broj
+INFO  14:42:24,280 - #46 jedan
+INFO  14:42:24,280 - #45 1
+INFO  14:42:24,281 - #46 dva
+INFO  14:42:24,281 - #45 2
+INFO  14:42:24,282 - #46 Broj
+INFO  14:42:24,287 - #46 br
+INFO  14:42:24,292 - #46 int
+INFO  14:42:24,293 - #46 c
+INFO  14:42:24,294 - #46 testRedosled
+INFO  14:42:24,297 - #46 int
+INFO  14:42:24,297 - #46 prvi
+INFO  14:42:24,297 - #46 char
+INFO  14:42:24,297 - #46 drugi
+INFO  14:42:24,298 - #46 int
+INFO  14:42:24,298 - #46 treci
+INFO  14:42:24,308 - #46 prvi
+INFO  14:42:24,310 - #46 c
+ERROR 14:42:24,310 - 
+Sintaksna greska na liniji 10
+ERROR 14:42:24,310 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+ERROR 14:42:24,313 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

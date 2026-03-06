@@ -1,0 +1,407 @@
+INFO  00:25:46,204 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  00:25:46,301 - #45 ForTest
+INFO  00:25:46,302 - #45 main
+INFO  00:25:46,305 - #45 int
+INFO  00:25:46,307 - #45 x
+INFO  00:25:46,310 - #45 i
+INFO  00:25:46,311 - #45 sum
+INFO  00:25:46,312 - #48 ;
+INFO  00:25:46,313 - #45 x
+INFO  00:25:46,315 - #45 int
+INFO  00:25:46,315 - #44 3
+INFO  00:25:46,315 - #48 ;
+INFO  00:25:46,317 - #45 x
+INFO  00:25:46,317 - #44 0
+INFO  00:25:46,317 - #44 10
+INFO  00:25:46,317 - #48 ;
+INFO  00:25:46,317 - #45 x
+INFO  00:25:46,317 - #44 1
+INFO  00:25:46,317 - #44 20
+INFO  00:25:46,317 - #48 ;
+INFO  00:25:46,317 - #45 x
+INFO  00:25:46,317 - #44 2
+INFO  00:25:46,317 - #44 30
+INFO  00:25:46,320 - #48 ;
+INFO  00:25:46,320 - #45 sum
+INFO  00:25:46,320 - #44 0
+INFO  00:25:46,320 - #48 ;
+INFO  00:25:46,322 - #45 i
+INFO  00:25:46,322 - #44 0
+INFO  00:25:46,322 - #48 ;
+INFO  00:25:46,322 - #45 i
+INFO  00:25:46,323 - #44 3
+INFO  00:25:46,325 - #48 ;
+INFO  00:25:46,325 - #45 i
+INFO  00:25:46,328 - #45 i
+INFO  00:25:46,329 - #48 ;
+INFO  00:25:46,329 - #45 sum
+INFO  00:25:46,330 - #45 sum
+INFO  00:25:46,330 - #45 x
+INFO  00:25:46,331 - #45 i
+INFO  00:25:46,331 - #48 ;
+INFO  00:25:46,332 - #45 sum
+INFO  00:25:46,332 - #48 ;
+INFO  00:25:46,337 - Program(
+  ProgName(
+   ForTest
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarListItems(
+            VarListItems(
+              VarItem(
+               x
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             i
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           sum
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              StatementsList(
+                StatementsList(
+                  StatementsList(
+                    NoStatements(
+                    ) [NoStatements]
+                    StmtDesignator(
+                      DesignatorStatement(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                        AssignOperation(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactNew(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                  ArExp(
+                                    TermExpr(
+                                      TermItem(
+                                        FactConst(
+                                          NumConst(
+                                           3
+                                          ) [NumConst]
+                                        ) [FactConst]
+                                      ) [TermItem]
+                                    ) [TermExpr]
+                                  ) [ArExp]
+                                ) [FactNew]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                        ) [AssignOperation]
+                      ) [DesignatorStatement]
+                     ;
+                    ) [StmtDesignator]
+                  ) [StatementsList]
+                  StmtDesignator(
+                    DesignatorStatement(
+                      DesignatorArray(
+                       x
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 0
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [DesignatorArray]
+                      AssignOperation(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 10
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [AssignOperation]
+                    ) [DesignatorStatement]
+                   ;
+                  ) [StmtDesignator]
+                ) [StatementsList]
+                StmtDesignator(
+                  DesignatorStatement(
+                    DesignatorArray(
+                     x
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               1
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [DesignatorArray]
+                    AssignOperation(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               20
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [AssignOperation]
+                  ) [DesignatorStatement]
+                 ;
+                ) [StmtDesignator]
+              ) [StatementsList]
+              StmtDesignator(
+                DesignatorStatement(
+                  DesignatorArray(
+                   x
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             2
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [DesignatorArray]
+                  AssignOperation(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             30
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [AssignOperation]
+                ) [DesignatorStatement]
+               ;
+              ) [StmtDesignator]
+            ) [StatementsList]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 sum
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           0
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtFor(
+            ForStart(
+            ) [ForStart]
+            OptDesignatorStmt(
+              DesignatorStatement(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           0
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+            ) [OptDesignatorStmt]
+            FirstSemiFor(
+             ;
+            ) [FirstSemiFor]
+            OptCond(
+              CondItem(
+                CondTermItem(
+                  RelationalOp(
+                    TermExpr(
+                      TermItem(
+                        FactDesignator(
+                          DesignatorIdent(
+                           i
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [TermItem]
+                    ) [TermExpr]
+                    RelLt(
+                    ) [RelLt]
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           3
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [RelationalOp]
+                ) [CondTermItem]
+              ) [CondItem]
+            ) [OptCond]
+           ;
+            OptDesignatorStmt(
+              DesignatorStatement(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                IncOperation(
+                ) [IncOperation]
+              ) [DesignatorStatement]
+            ) [OptDesignatorStmt]
+            ForBracketEnd(
+            ) [ForBracketEnd]
+            StmtBlock(
+              StatementsList(
+                StatementsList(
+                  NoStatements(
+                  ) [NoStatements]
+                  StmtPrint(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactDesignator(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                          ) [FactDesignator]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                    NoWidth(
+                    ) [NoWidth]
+                   ;
+                  ) [StmtPrint]
+                ) [StatementsList]
+                StmtDesignator(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     sum
+                    ) [DesignatorIdent]
+                    AssignOperation(
+                      ArExp(
+                        AddExpr(
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorIdent(
+                                 sum
+                                ) [DesignatorIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                          AddPlus(
+                          ) [AddPlus]
+                          TermItem(
+                            FactDesignator(
+                              DesignatorArray(
+                               x
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactDesignator(
+                                        DesignatorIdent(
+                                         i
+                                        ) [DesignatorIdent]
+                                      ) [FactDesignator]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                              ) [DesignatorArray]
+                            ) [FactDesignator]
+                          ) [TermItem]
+                        ) [AddExpr]
+                      ) [ArExp]
+                    ) [AssignOperation]
+                  ) [DesignatorStatement]
+                 ;
+                ) [StmtDesignator]
+              ) [StatementsList]
+            ) [StmtBlock]
+          ) [StmtFor]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorIdent(
+                   sum
+                  ) [DesignatorIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:25:46,338 - --------------------------------------------------
+INFO  00:25:46,348 - --------------------------------------------------
+INFO  00:25:46,353 - Info( brojjj0 [na liniji 1])
+INFO  00:25:46,361 - KOD GENERISAN!

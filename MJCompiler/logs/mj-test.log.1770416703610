@@ -1,0 +1,148 @@
+INFO  23:24:48,874 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:24:48,962 - #45 Test
+INFO  23:24:48,965 - #45 Boja
+INFO  23:24:48,966 - #45 CRVENA
+INFO  23:24:48,968 - #45 PLAVA
+INFO  23:24:48,968 - #44 5
+INFO  23:24:48,971 - #45 Dan
+INFO  23:24:48,971 - #45 PON
+INFO  23:24:48,971 - #44 3
+INFO  23:24:48,971 - #45 UTO
+INFO  23:24:48,971 - #45 Boja
+INFO  23:24:48,971 - #45 lista
+INFO  23:24:48,975 - #45 lll
+INFO  23:24:48,976 - #48 ;
+INFO  23:24:48,977 - #45 int
+INFO  23:24:48,978 - #45 a
+INFO  23:24:48,978 - #48 ;
+INFO  23:24:48,979 - #45 main
+INFO  23:24:48,983 - #45 a
+INFO  23:24:48,984 - #45 Boja
+INFO  23:24:48,985 - #45 CRVENA
+INFO  23:24:48,985 - #48 ;
+INFO  23:24:49,002 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Boja
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 CRVENA
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumItem]
+               PLAVA
+                IsInit(
+                 5
+                ) [IsInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Dan
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               PON
+                IsInit(
+                 3
+                ) [IsInit]
+              ) [EnumItem]
+             UTO
+              NoInit(
+              ) [NoInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarListItems(
+            VarItem(
+             lista
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           lll
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorIdent(
+             a
+            ) [DesignatorIdent]
+            AssignOperation(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorDotIdent(
+                       Boja
+                       CRVENA
+                      ) [DesignatorDotIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:24:49,002 - --------------------------------------------------
+INFO  23:24:49,013 - --------------------------------------------------
+INFO  23:24:49,020 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,330 @@
+INFO  10:41:05,532 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  10:41:05,698 - #46 TestParametri
+INFO  10:41:05,705 - #46 char
+INFO  10:41:05,705 - #46 provera
+INFO  10:41:05,707 - #47 s
+INFO  10:41:05,712 - #46 Broj
+INFO  10:41:05,716 - #46 jedan
+INFO  10:41:05,716 - #45 1
+INFO  10:41:05,717 - #46 dva
+INFO  10:41:05,717 - #45 2
+INFO  10:41:05,717 - #46 Broj
+INFO  10:41:05,723 - #46 br
+INFO  10:41:05,733 - #46 testRedosled
+INFO  10:41:05,743 - #46 int
+INFO  10:41:05,743 - #46 prvi
+INFO  10:41:05,744 - #46 char
+INFO  10:41:05,744 - #46 drugi
+INFO  10:41:05,744 - #46 int
+INFO  10:41:05,745 - #46 treci
+INFO  10:41:05,756 - #46 prvi
+INFO  10:41:05,763 - #46 drugi
+INFO  10:41:05,769 - #46 testRedosled2
+INFO  10:41:05,769 - #46 int
+INFO  10:41:05,770 - #46 prvi
+INFO  10:41:05,770 - #46 char
+INFO  10:41:05,770 - #46 drugi
+INFO  10:41:05,770 - #46 int
+INFO  10:41:05,770 - #46 treci
+INFO  10:41:05,770 - #46 prvi
+INFO  10:41:05,771 - #46 drugi
+INFO  10:41:05,771 - #46 tadrue
+INFO  10:41:05,772 - #46 main
+INFO  10:41:05,775 - #46 testRedosled
+INFO  10:41:05,775 - #45 10
+INFO  10:41:05,776 - #47 a
+INFO  10:41:05,776 - #45 20
+INFO  10:41:05,788 - Program(
+  ProgName(
+   TestParametri
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclConst(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstItem(
+             provera
+              CharConst(
+               s
+              ) [CharConst]
+            ) [ConstItem]
+          ) [ConstDecl]
+        ) [DeclConst]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           Broj
+          ) [EnumName]
+          EnumListItems(
+            EnumItem(
+             jedan
+              IsInit(
+               1
+              ) [IsInit]
+            ) [EnumItem]
+           dva
+            IsInit(
+             2
+            ) [IsInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Broj
+        ) [Type]
+        VarItem(
+         br
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       testRedosled
+      ) [MethodName]
+      FormalParameters(
+        FormalParamList(
+          FormalParamList(
+            FormalParamItem(
+              Type(
+               int
+              ) [Type]
+             prvi
+              NoArray(
+              ) [NoArray]
+            ) [FormalParamItem]
+            Type(
+             char
+            ) [Type]
+           drugi
+            NoArray(
+            ) [NoArray]
+          ) [FormalParamList]
+          Type(
+           int
+          ) [Type]
+         treci
+          NoArray(
+          ) [NoArray]
+        ) [FormalParamList]
+      ) [FormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtPrint(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     prvi
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorIdent(
+                   drugi
+                  ) [DesignatorIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         testRedosled2
+        ) [MethodName]
+        FormalParameters(
+          FormalParamList(
+            FormalParamList(
+              FormalParamItem(
+                Type(
+                 int
+                ) [Type]
+               prvi
+                NoArray(
+                ) [NoArray]
+              ) [FormalParamItem]
+              Type(
+               char
+              ) [Type]
+             drugi
+              NoArray(
+              ) [NoArray]
+            ) [FormalParamList]
+            Type(
+             int
+            ) [Type]
+           treci
+            NoArray(
+            ) [NoArray]
+          ) [FormalParamList]
+        ) [FormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              NoStatements(
+              ) [NoStatements]
+              StmtPrint(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorIdent(
+                         prvi
+                        ) [DesignatorIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+                NoWidth(
+                ) [NoWidth]
+              ) [StmtPrint]
+            ) [StatementsList]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       drugi
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtReturn(
+            ReturnExpr(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       tadrue
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [ReturnExpr]
+          ) [StmtReturn]
+        ) [StatementsList]
+      ) [MethodDecl]
+      MethodDeclarations(
+        MethodDecl(
+          RetVoid(
+          ) [RetVoid]
+          MethodName(
+           main
+          ) [MethodName]
+          NoFormalParameters(
+          ) [NoFormalParameters]
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 testRedosled
+                ) [DesignatorIdent]
+                CallOperation(
+                  OptionalActPars(
+                    ActParsList(
+                      ActParsList(
+                        ActParItem(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactConst(
+                                  NumConst(
+                                   10
+                                  ) [NumConst]
+                                ) [FactConst]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                        ) [ActParItem]
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                CharConst(
+                                 a
+                                ) [CharConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [ActParsList]
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               20
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [ActParsList]
+                  ) [OptionalActPars]
+                ) [CallOperation]
+              ) [DesignatorStatement]
+            ) [StmtDesignator]
+          ) [StatementsList]
+        ) [MethodDecl]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [MethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:41:05,790 - --------------------------------------------------
+INFO  10:41:05,809 - --------------------------------------------------
+ERROR 10:41:05,818 - Greska( Greska: Ime tadrue nije deklarisano! [na liniji 14])
+ERROR 10:41:05,821 - Greska( Void metoda 'testRedosled2' ne sme vracati vrijednost! [na liniji 14])
+ERROR 10:41:05,822 - Parsiranje NIJE uspesno zavrseno!

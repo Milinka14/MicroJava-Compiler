@@ -1,0 +1,23 @@
+INFO  14:54:37,423 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:54:37,507 - #45 TestNestedSwitch
+INFO  14:54:37,507 - #45 int
+INFO  14:54:37,510 - #45 x
+INFO  14:54:37,512 - #45 y
+INFO  14:54:37,512 - #48 ;
+INFO  14:54:37,513 - #45 char
+INFO  14:54:37,514 - #45 z
+INFO  14:54:37,514 - #48 ;
+INFO  14:54:37,515 - #45 int
+INFO  14:54:37,515 - #45 niz
+INFO  14:54:37,515 - #48 ;
+INFO  14:54:37,516 - #45 mili
+INFO  14:54:37,519 - #45 ili
+INFO  14:54:37,520 - #45 nili
+INFO  14:54:37,521 - #45 mili
+INFO  14:54:37,523 - #45 lol
+ERROR 14:54:37,523 - 
+Sintaksna greska na liniji 7
+ERROR 14:54:37,523 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
+ERROR 14:54:37,527 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

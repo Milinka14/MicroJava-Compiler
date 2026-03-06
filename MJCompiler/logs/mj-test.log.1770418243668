@@ -1,0 +1,149 @@
+INFO  23:50:28,378 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:50:28,625 - #45 Test
+INFO  23:50:28,627 - #45 Boja
+INFO  23:50:28,629 - #45 CRVENA
+INFO  23:50:28,630 - #45 PLAVA
+INFO  23:50:28,630 - #44 5
+INFO  23:50:28,633 - #45 Dan
+INFO  23:50:28,633 - #45 PON
+INFO  23:50:28,633 - #44 3
+INFO  23:50:28,633 - #45 UTO
+INFO  23:50:28,633 - #45 Boja
+INFO  23:50:28,633 - #45 lista
+INFO  23:50:28,638 - #45 lll
+INFO  23:50:28,638 - #48 ;
+INFO  23:50:28,641 - #45 Boja
+INFO  23:50:28,643 - #45 a
+INFO  23:50:28,643 - #48 ;
+INFO  23:50:28,643 - #45 main
+INFO  23:50:28,648 - #45 a
+INFO  23:50:28,650 - #45 Dan
+INFO  23:50:28,650 - #45 PON
+INFO  23:50:28,650 - #48 ;
+INFO  23:50:28,658 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Boja
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 CRVENA
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumItem]
+               PLAVA
+                IsInit(
+                 5
+                ) [IsInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Dan
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               PON
+                IsInit(
+                 3
+                ) [IsInit]
+              ) [EnumItem]
+             UTO
+              NoInit(
+              ) [NoInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarListItems(
+            VarItem(
+             lista
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           lll
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Boja
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorIdent(
+             a
+            ) [DesignatorIdent]
+            AssignOperation(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorDotIdent(
+                       Dan
+                       PON
+                      ) [DesignatorDotIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:50:28,658 - --------------------------------------------------
+INFO  23:50:28,669 - --------------------------------------------------
+ERROR 23:50:28,677 - Greska( Nekompatibilni enumi! Ne mozes dodeliti vrednost jednog enuma drugom. [na liniji 9])
+ERROR 23:50:28,678 - Parsiranje NIJE uspesno zavrseno!

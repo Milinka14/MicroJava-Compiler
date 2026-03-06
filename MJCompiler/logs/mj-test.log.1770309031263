@@ -1,0 +1,383 @@
+INFO  17:18:55,764 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:18:55,878 - #45 TestPuca
+INFO  17:18:55,878 - #45 int
+INFO  17:18:55,882 - #45 niz
+INFO  17:18:55,883 - #48 ;
+INFO  17:18:55,888 - #45 char
+INFO  17:18:55,890 - #45 c
+INFO  17:18:55,890 - #48 ;
+INFO  17:18:55,891 - #45 int
+INFO  17:18:55,891 - #45 a
+INFO  17:18:55,891 - #48 ;
+INFO  17:18:55,891 - #45 bool
+INFO  17:18:55,893 - #45 f
+INFO  17:18:55,893 - #48 ;
+INFO  17:18:55,893 - #45 main
+INFO  17:18:55,899 - #45 a
+INFO  17:18:55,900 - #44 5
+INFO  17:18:55,900 - #48 ;
+INFO  17:18:55,904 - #45 c
+INFO  17:18:55,906 - #46 x
+INFO  17:18:55,906 - #48 ;
+INFO  17:18:55,906 - #45 niz
+INFO  17:18:55,913 - #45 int
+INFO  17:18:55,913 - #44 2
+INFO  17:18:55,913 - #48 ;
+INFO  17:18:55,913 - #45 a
+INFO  17:18:55,913 - #45 c
+INFO  17:18:55,918 - #44 1
+INFO  17:18:55,919 - #48 ;
+INFO  17:18:55,922 - #45 niz
+INFO  17:18:55,922 - #45 null
+INFO  17:18:55,923 - #44 2
+INFO  17:18:55,924 - #48 ;
+INFO  17:18:55,924 - #45 a
+INFO  17:18:55,924 - #44 5
+INFO  17:18:55,927 - #44 3
+INFO  17:18:55,927 - #48 ;
+INFO  17:18:55,927 - #45 f
+INFO  17:18:55,933 - Program(
+  ProgName(
+   TestPuca
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarItem(
+               niz
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarItem(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           a
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        VarItem(
+         f
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              StatementsList(
+                StatementsList(
+                  StatementsList(
+                    NoStatements(
+                    ) [NoStatements]
+                    StmtDesignator(
+                      DesignatorStatement(
+                        DesignatorIdent(
+                         a
+                        ) [DesignatorIdent]
+                        AssignOperation(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactConst(
+                                  NumConst(
+                                   5
+                                  ) [NumConst]
+                                ) [FactConst]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                        ) [AssignOperation]
+                      ) [DesignatorStatement]
+                      SemiLine(
+                       ;
+                      ) [SemiLine]
+                    ) [StmtDesignator]
+                  ) [StatementsList]
+                  StmtDesignator(
+                    DesignatorStatement(
+                      DesignatorIdent(
+                       c
+                      ) [DesignatorIdent]
+                      AssignOperation(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                CharConst(
+                                 x
+                                ) [CharConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [AssignOperation]
+                    ) [DesignatorStatement]
+                    SemiLine(
+                     ;
+                    ) [SemiLine]
+                  ) [StmtDesignator]
+                ) [StatementsList]
+                StmtDesignator(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     niz
+                    ) [DesignatorIdent]
+                    AssignOperation(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactNew(
+                              Type(
+                               int
+                              ) [Type]
+                              ArExp(
+                                TermExpr(
+                                  TermItem(
+                                    FactConst(
+                                      NumConst(
+                                       2
+                                      ) [NumConst]
+                                    ) [FactConst]
+                                  ) [TermItem]
+                                ) [TermExpr]
+                              ) [ArExp]
+                            ) [FactNew]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [AssignOperation]
+                  ) [DesignatorStatement]
+                  SemiLine(
+                   ;
+                  ) [SemiLine]
+                ) [StmtDesignator]
+              ) [StatementsList]
+              StmtIf(
+                CondItem(
+                  CondTermItem(
+                    RelationalOp(
+                      TermExpr(
+                        TermItem(
+                          FactDesignator(
+                            DesignatorIdent(
+                             a
+                            ) [DesignatorIdent]
+                          ) [FactDesignator]
+                        ) [TermItem]
+                      ) [TermExpr]
+                      RelEq(
+                      ) [RelEq]
+                      TermExpr(
+                        TermItem(
+                          FactDesignator(
+                            DesignatorIdent(
+                             c
+                            ) [DesignatorIdent]
+                          ) [FactDesignator]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [RelationalOp]
+                  ) [CondTermItem]
+                ) [CondItem]
+                StmtPrint(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           1
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                  NoWidth(
+                  ) [NoWidth]
+                 ;
+                ) [StmtPrint]
+                NoElse(
+                ) [NoElse]
+              ) [StmtIf]
+            ) [StatementsList]
+            StmtIf(
+              CondItem(
+                CondTermItem(
+                  RelationalOp(
+                    TermExpr(
+                      TermItem(
+                        FactDesignator(
+                          DesignatorIdent(
+                           niz
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [TermItem]
+                    ) [TermExpr]
+                    RelGt(
+                    ) [RelGt]
+                    TermExpr(
+                      TermItem(
+                        FactDesignator(
+                          DesignatorIdent(
+                           null
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [RelationalOp]
+                ) [CondTermItem]
+              ) [CondItem]
+              StmtPrint(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactConst(
+                        NumConst(
+                         2
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+                NoWidth(
+                ) [NoWidth]
+               ;
+              ) [StmtPrint]
+              NoElse(
+              ) [NoElse]
+            ) [StmtIf]
+          ) [StatementsList]
+          StmtIf(
+            CondItem(
+              CondTermItem(
+                BooleanArith(
+                  AddExpr(
+                    TermExpr(
+                      TermItem(
+                        FactDesignator(
+                          DesignatorIdent(
+                           a
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [TermItem]
+                    ) [TermExpr]
+                    AddPlus(
+                    ) [AddPlus]
+                    TermItem(
+                      FactConst(
+                        NumConst(
+                         5
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [AddExpr]
+                ) [BooleanArith]
+              ) [CondTermItem]
+            ) [CondItem]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       3
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+             ;
+            ) [StmtPrint]
+            NoElse(
+            ) [NoElse]
+          ) [StmtIf]
+        ) [StatementsList]
+        StmtIf(
+          CondItem(
+            CondTermItem(
+              BooleanArith(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       f
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [BooleanArith]
+            ) [CondTermItem]
+          ) [CondItem]
+          StmtBlock(
+            NoStatements(
+            ) [NoStatements]
+          ) [StmtBlock]
+          NoElse(
+          ) [NoElse]
+        ) [StmtIf]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:18:55,934 - --------------------------------------------------
+INFO  17:18:55,947 - --------------------------------------------------
+ERROR 17:18:55,954 - Greska( Tipovi u relacionom izrazu nisu kompatibilni! [na liniji 13])
+ERROR 17:18:55,955 - Greska( Uz nizove/klase mogu se koristiti samo == ili != [na liniji 17])
+ERROR 17:18:55,955 - Greska( Uslov mora biti tipa bool! [na liniji 21])
+ERROR 17:18:55,956 - Parsiranje NIJE uspesno zavrseno!

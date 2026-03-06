@@ -1,0 +1,27 @@
+INFO  23:55:53,938 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:55:54,056 - #45 Test
+INFO  23:55:54,058 - #45 Boja
+INFO  23:55:54,060 - #45 CRVENA
+INFO  23:55:54,061 - #45 PLAVA
+INFO  23:55:54,061 - #44 5
+INFO  23:55:54,063 - #45 Dan
+INFO  23:55:54,063 - #45 PON
+INFO  23:55:54,063 - #44 3
+INFO  23:55:54,065 - #45 UTO
+INFO  23:55:54,065 - #45 Boja
+INFO  23:55:54,065 - #45 lista
+INFO  23:55:54,071 - #45 lll
+INFO  23:55:54,072 - #48 ;
+INFO  23:55:54,074 - #45 Boja
+INFO  23:55:54,076 - #45 a
+INFO  23:55:54,076 - #48 ;
+INFO  23:55:54,076 - #45 int
+INFO  23:55:54,076 - #45 num
+INFO  23:55:54,076 - #48 ;
+INFO  23:55:54,076 - #45 int
+ERROR 23:55:54,077 - 
+Sintaksna greska na liniji 7
+ERROR 23:55:54,077 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
+ERROR 23:55:54,079 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

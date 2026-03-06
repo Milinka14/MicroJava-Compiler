@@ -1,0 +1,323 @@
+INFO  16:47:33,348 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  16:47:33,449 - #45 Test
+INFO  16:47:33,454 - #45 Boja
+INFO  16:47:33,456 - #45 CRVENA
+INFO  16:47:33,457 - #45 PLAVA
+INFO  16:47:33,457 - #44 5
+INFO  16:47:33,459 - #45 Dan
+INFO  16:47:33,460 - #45 PON
+INFO  16:47:33,460 - #44 3
+INFO  16:47:33,460 - #45 UTO
+INFO  16:47:33,460 - #45 Boja
+INFO  16:47:33,460 - #45 lista
+INFO  16:47:33,464 - #45 lll
+INFO  16:47:33,465 - #48 ;
+INFO  16:47:33,467 - #45 Boja
+INFO  16:47:33,469 - #45 a
+INFO  16:47:33,469 - #45 vvv
+INFO  16:47:33,470 - #48 ;
+INFO  16:47:33,470 - #45 int
+INFO  16:47:33,470 - #45 num
+INFO  16:47:33,470 - #48 ;
+INFO  16:47:33,471 - #45 Boja
+INFO  16:47:33,477 - #45 bora
+INFO  16:47:33,478 - #45 Boja
+INFO  16:47:33,479 - #45 pol
+INFO  16:47:33,481 - #45 vvv
+INFO  16:47:33,481 - #48 ;
+INFO  16:47:33,485 - #45 main
+INFO  16:47:33,487 - #45 vvv
+INFO  16:47:33,487 - #45 bora
+INFO  16:47:33,488 - #45 a
+INFO  16:47:33,488 - #44 2
+INFO  16:47:33,489 - #48 ;
+INFO  16:47:33,492 - #45 a
+INFO  16:47:33,492 - #44 1
+INFO  16:47:33,493 - #45 a
+INFO  16:47:33,493 - #44 1
+INFO  16:47:33,493 - #45 Boja
+INFO  16:47:33,494 - #45 CRVENA
+INFO  16:47:33,494 - #48 ;
+INFO  16:47:33,498 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclEnum(
+              EnumDecl(
+                EnumName(
+                 Boja
+                ) [EnumName]
+                EnumListItems(
+                  EnumItem(
+                   CRVENA
+                    NoInit(
+                    ) [NoInit]
+                  ) [EnumItem]
+                 PLAVA
+                  IsInit(
+                   5
+                  ) [IsInit]
+                ) [EnumListItems]
+              ) [EnumDecl]
+            ) [DeclEnum]
+          ) [DeclarationsList]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Dan
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 PON
+                  IsInit(
+                   3
+                  ) [IsInit]
+                ) [EnumItem]
+               UTO
+                NoInit(
+                ) [NoInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             Boja
+            ) [Type]
+            VarListItems(
+              VarItem(
+               lista
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             lll
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarListItems(
+            VarItem(
+             a
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           vvv
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         num
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         Boja
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       bora
+      ) [MethodName]
+      FormalParameters(
+        FormalParamItem(
+          Type(
+           Boja
+          ) [Type]
+         pol
+          NoArray(
+          ) [NoArray]
+        ) [FormalParamItem]
+      ) [FormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     vvv
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              NoStatements(
+              ) [NoStatements]
+              StmtDesignator(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   vvv
+                  ) [DesignatorIdent]
+                  AssignOperation(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactCall(
+                            DesignatorIdent(
+                             bora
+                            ) [DesignatorIdent]
+                            OptionalActPars(
+                              ActParItem(
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactDesignator(
+                                        DesignatorArray(
+                                         a
+                                          ArExp(
+                                            TermExpr(
+                                              TermItem(
+                                                FactConst(
+                                                  NumConst(
+                                                   2
+                                                  ) [NumConst]
+                                                ) [FactConst]
+                                              ) [TermItem]
+                                            ) [TermExpr]
+                                          ) [ArExp]
+                                        ) [DesignatorArray]
+                                      ) [FactDesignator]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                              ) [ActParItem]
+                            ) [OptionalActPars]
+                          ) [FactCall]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [AssignOperation]
+                ) [DesignatorStatement]
+               ;
+              ) [StmtDesignator]
+            ) [StatementsList]
+            StmtSwitch(
+              SwitchStart(
+              ) [SwitchStart]
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorArray(
+                       a
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 1
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [DesignatorArray]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoSwitchBody(
+              ) [NoSwitchBody]
+            ) [StmtSwitch]
+          ) [StatementsList]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorArray(
+               a
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactConst(
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [DesignatorArray]
+              AssignOperation(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorDotIdent(
+                         Boja
+                         CRVENA
+                        ) [DesignatorDotIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+      ) [MethodDecl]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:47:33,498 - --------------------------------------------------
+INFO  16:47:33,509 - --------------------------------------------------
+ERROR 16:47:33,520 - Greska( Enum varijabli se mora dodeliti simbolicka konstanta, a ne sirovi broj! [na liniji 16])
+ERROR 16:47:33,521 - Parsiranje NIJE uspesno zavrseno!

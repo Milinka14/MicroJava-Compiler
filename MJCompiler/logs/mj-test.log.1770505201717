@@ -1,0 +1,89 @@
+INFO  23:58:41,509 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:58:41,582 - #45 TestEnumi
+INFO  23:58:41,584 - #45 main
+INFO  23:58:41,586 - #45 int
+INFO  23:58:41,587 - #45 x
+INFO  23:58:41,588 - #48 ;
+INFO  23:58:41,590 - #45 char
+INFO  23:58:41,592 - #45 cc
+INFO  23:58:41,593 - #45 c
+INFO  23:58:41,593 - #48 ;
+INFO  23:58:41,594 - #44 1
+INFO  23:58:41,595 - #48 ;
+INFO  23:58:41,598 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             x
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactConst]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:58:41,601 - --------------------------------------------------
+INFO  23:58:41,611 - --------------------------------------------------
+INFO  23:58:41,614 - Info( brojjj0 [na liniji 1])
+INFO  23:58:41,617 - KOD GENERISAN!

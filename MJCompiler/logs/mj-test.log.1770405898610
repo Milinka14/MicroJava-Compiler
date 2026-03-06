@@ -1,0 +1,505 @@
+INFO  20:23:48,732 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  20:23:48,883 - #45 Test
+INFO  20:23:48,887 - #45 Boja
+INFO  20:23:48,889 - #45 CRVENA
+INFO  20:23:48,892 - #45 PLAVA
+INFO  20:23:48,892 - #44 5
+INFO  20:23:48,896 - #45 Dan
+INFO  20:23:48,896 - #45 PON
+INFO  20:23:48,896 - #44 3
+INFO  20:23:48,896 - #45 UTO
+INFO  20:23:48,896 - #45 Boja
+INFO  20:23:48,896 - #45 lista
+INFO  20:23:48,903 - #45 lll
+INFO  20:23:48,904 - #48 ;
+INFO  20:23:48,908 - #45 Boja
+INFO  20:23:48,909 - #45 proveriBoju
+INFO  20:23:48,910 - #45 Boja
+INFO  20:23:48,910 - #45 b
+INFO  20:23:48,914 - #45 ord
+INFO  20:23:48,914 - #46 O
+INFO  20:23:48,917 - #48 ;
+INFO  20:23:48,924 - #45 ord
+INFO  20:23:48,924 - #46 K
+INFO  20:23:48,925 - #48 ;
+INFO  20:23:48,925 - #45 Boja
+INFO  20:23:48,925 - #45 CRVENA
+INFO  20:23:48,925 - #48 ;
+INFO  20:23:48,931 - #45 main
+INFO  20:23:48,937 - #45 Boja
+INFO  20:23:48,939 - #45 mojab
+INFO  20:23:48,940 - #48 ;
+INFO  20:23:48,940 - #45 Dan
+INFO  20:23:48,941 - #45 danas
+INFO  20:23:48,941 - #48 ;
+INFO  20:23:48,941 - #45 lll
+INFO  20:23:48,941 - #44 3
+INFO  20:23:48,942 - #48 ;
+INFO  20:23:48,945 - #45 mojab
+INFO  20:23:48,945 - #45 Boja
+INFO  20:23:48,945 - #45 CRVENA
+INFO  20:23:48,945 - #48 ;
+INFO  20:23:48,945 - #45 danas
+INFO  20:23:48,946 - #45 Dan
+INFO  20:23:48,946 - #45 PON
+INFO  20:23:48,946 - #48 ;
+INFO  20:23:48,946 - #45 mojab
+INFO  20:23:48,946 - #45 Dan
+INFO  20:23:48,946 - #45 PON
+INFO  20:23:48,947 - #48 ;
+INFO  20:23:48,947 - #45 mojab
+INFO  20:23:48,947 - #44 1
+INFO  20:23:48,948 - #48 ;
+INFO  20:23:48,948 - #45 proveriBoju
+INFO  20:23:48,948 - #45 Boja
+INFO  20:23:48,948 - #45 PLAVA
+INFO  20:23:48,948 - #48 ;
+INFO  20:23:48,948 - #45 proveriBoju
+INFO  20:23:48,948 - #45 Dan
+INFO  20:23:48,949 - #45 PON
+INFO  20:23:48,949 - #48 ;
+INFO  20:23:48,949 - #45 proveriBoju
+INFO  20:23:48,949 - #44 0
+INFO  20:23:48,951 - #48 ;
+INFO  20:23:48,959 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Boja
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               CRVENA
+                NoInit(
+                ) [NoInit]
+              ) [EnumItem]
+             PLAVA
+              IsInit(
+               5
+              ) [IsInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           Dan
+          ) [EnumName]
+          EnumListItems(
+            EnumItem(
+             PON
+              IsInit(
+               3
+              ) [IsInit]
+            ) [EnumItem]
+           UTO
+            NoInit(
+            ) [NoInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         Boja
+        ) [Type]
+        VarListItems(
+          VarItem(
+           lista
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         lll
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         Boja
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       proveriBoju
+      ) [MethodName]
+      FormalParameters(
+        FormalParamItem(
+          Type(
+           Boja
+          ) [Type]
+         b
+          NoArray(
+          ) [NoArray]
+        ) [FormalParamItem]
+      ) [FormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactCall(
+                      DesignatorIdent(
+                       ord
+                      ) [DesignatorIdent]
+                      OptionalActPars(
+                        ActParItem(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactConst(
+                                  CharConst(
+                                   O
+                                  ) [CharConst]
+                                ) [FactConst]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                        ) [ActParItem]
+                      ) [OptionalActPars]
+                    ) [FactCall]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+             ;
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtPrint(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactCall(
+                    DesignatorIdent(
+                     ord
+                    ) [DesignatorIdent]
+                    OptionalActPars(
+                      ActParItem(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                CharConst(
+                                 K
+                                ) [CharConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [ActParItem]
+                    ) [OptionalActPars]
+                  ) [FactCall]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+           ;
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorDotIdent(
+                     Boja
+                     CRVENA
+                    ) [DesignatorDotIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        VarDeclF(
+          VarDeclF(
+            NoVarDeclF(
+            ) [NoVarDeclF]
+            VarDecl(
+              Type(
+               Boja
+              ) [Type]
+              VarItem(
+               mojab
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [VarDeclF]
+          VarDecl(
+            Type(
+             Dan
+            ) [Type]
+            VarItem(
+             danas
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              StatementsList(
+                StatementsList(
+                  StatementsList(
+                    StatementsList(
+                      StatementsList(
+                        NoStatements(
+                        ) [NoStatements]
+                        StmtDesignator(
+                          DesignatorStatement(
+                            DesignatorIdent(
+                             lll
+                            ) [DesignatorIdent]
+                            AssignOperation(
+                              ArExp(
+                                TermExpr(
+                                  TermItem(
+                                    FactConst(
+                                      NumConst(
+                                       3
+                                      ) [NumConst]
+                                    ) [FactConst]
+                                  ) [TermItem]
+                                ) [TermExpr]
+                              ) [ArExp]
+                            ) [AssignOperation]
+                          ) [DesignatorStatement]
+                         ;
+                        ) [StmtDesignator]
+                      ) [StatementsList]
+                      StmtDesignator(
+                        DesignatorStatement(
+                          DesignatorIdent(
+                           mojab
+                          ) [DesignatorIdent]
+                          AssignOperation(
+                            ArExp(
+                              TermExpr(
+                                TermItem(
+                                  FactDesignator(
+                                    DesignatorDotIdent(
+                                     Boja
+                                     CRVENA
+                                    ) [DesignatorDotIdent]
+                                  ) [FactDesignator]
+                                ) [TermItem]
+                              ) [TermExpr]
+                            ) [ArExp]
+                          ) [AssignOperation]
+                        ) [DesignatorStatement]
+                       ;
+                      ) [StmtDesignator]
+                    ) [StatementsList]
+                    StmtDesignator(
+                      DesignatorStatement(
+                        DesignatorIdent(
+                         danas
+                        ) [DesignatorIdent]
+                        AssignOperation(
+                          ArExp(
+                            TermExpr(
+                              TermItem(
+                                FactDesignator(
+                                  DesignatorDotIdent(
+                                   Dan
+                                   PON
+                                  ) [DesignatorDotIdent]
+                                ) [FactDesignator]
+                              ) [TermItem]
+                            ) [TermExpr]
+                          ) [ArExp]
+                        ) [AssignOperation]
+                      ) [DesignatorStatement]
+                     ;
+                    ) [StmtDesignator]
+                  ) [StatementsList]
+                  StmtDesignator(
+                    DesignatorStatement(
+                      DesignatorIdent(
+                       mojab
+                      ) [DesignatorIdent]
+                      AssignOperation(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorDotIdent(
+                                 Dan
+                                 PON
+                                ) [DesignatorDotIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [AssignOperation]
+                    ) [DesignatorStatement]
+                   ;
+                  ) [StmtDesignator]
+                ) [StatementsList]
+                StmtDesignator(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     mojab
+                    ) [DesignatorIdent]
+                    AssignOperation(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               1
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [AssignOperation]
+                  ) [DesignatorStatement]
+                 ;
+                ) [StmtDesignator]
+              ) [StatementsList]
+              StmtDesignator(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   proveriBoju
+                  ) [DesignatorIdent]
+                  CallOperation(
+                    OptionalActPars(
+                      ActParItem(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorDotIdent(
+                                 Boja
+                                 PLAVA
+                                ) [DesignatorDotIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [ActParItem]
+                    ) [OptionalActPars]
+                  ) [CallOperation]
+                ) [DesignatorStatement]
+               ;
+              ) [StmtDesignator]
+            ) [StatementsList]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 proveriBoju
+                ) [DesignatorIdent]
+                CallOperation(
+                  OptionalActPars(
+                    ActParItem(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactDesignator(
+                              DesignatorDotIdent(
+                               Dan
+                               PON
+                              ) [DesignatorDotIdent]
+                            ) [FactDesignator]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [ActParItem]
+                  ) [OptionalActPars]
+                ) [CallOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               proveriBoju
+              ) [DesignatorIdent]
+              CallOperation(
+                OptionalActPars(
+                  ActParItem(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             0
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [ActParItem]
+                ) [OptionalActPars]
+              ) [CallOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+      ) [MethodDecl]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:23:48,960 - --------------------------------------------------
+INFO  20:23:48,972 - --------------------------------------------------
+ERROR 20:23:49,057 - Greska( Povratni tip return naredbe mora da bude kompatibilan sa tipom definisanim u potpisu fje [na liniji 8])
+ERROR 20:23:49,057 - Greska( Povratna vrednost ne odgovara Enum tipu funkcije! [na liniji 8])
+INFO  20:23:49,058 - Info( 1 [na liniji 15])
+INFO  20:23:49,058 - Info( 1 [na liniji 15])
+ERROR 20:23:49,063 - Greska( Enum varijabli se mora dodeliti polje enuma! [na liniji 15])
+INFO  20:23:49,063 - Info( 1 [na liniji 16])
+INFO  20:23:49,063 - Info( 1 [na liniji 16])
+INFO  20:23:49,063 - Info( 1 [na liniji 17])
+INFO  20:23:49,063 - Info( 1 [na liniji 17])
+INFO  20:23:49,064 - Info( 1 [na liniji 20])
+INFO  20:23:49,065 - Info( 1 [na liniji 20])
+ERROR 20:23:49,067 - Greska( Nekompatibilni enumi pri dodeli! [na liniji 20])
+INFO  20:23:49,067 - Info( 1 [na liniji 23])
+INFO  20:23:49,067 - Info( 1 [na liniji 23])
+ERROR 20:23:49,067 - Greska( Enum varijabli se mora dodeliti polje enuma! [na liniji 23])
+ERROR 20:23:49,072 - Parsiranje NIJE uspesno zavrseno!

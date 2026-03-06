@@ -1,0 +1,225 @@
+INFO  12:43:43,568 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  12:43:43,664 - #45 Test3
+INFO  12:43:43,664 - #45 int
+INFO  12:43:43,667 - #45 a
+INFO  12:43:43,671 - #45 b
+INFO  12:43:43,671 - #48 ;
+INFO  12:43:43,674 - #45 main
+INFO  12:43:43,679 - #45 a
+INFO  12:43:43,681 - #44 1
+INFO  12:43:43,681 - #48 ;
+INFO  12:43:43,684 - #45 b
+INFO  12:43:43,685 - #44 1
+INFO  12:43:43,685 - #48 ;
+INFO  12:43:43,687 - #45 a
+INFO  12:43:43,689 - #44 1
+INFO  12:43:43,690 - #46 1
+INFO  12:43:43,691 - #48 ;
+INFO  12:43:43,693 - #44 2
+INFO  12:43:43,693 - #46 2
+INFO  12:43:43,694 - #48 ;
+INFO  12:43:43,694 - #44 3
+INFO  12:43:43,695 - #46 3
+INFO  12:43:43,695 - #48 ;
+INFO  12:43:43,697 - #46 f
+INFO  12:43:43,697 - #48 ;
+INFO  12:43:43,706 - Program(
+  ProgName(
+   Test3
+  ) [ProgName]
+  DeclarationsList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarListItems(
+          VarItem(
+           a
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         b
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              NoStatements(
+              ) [NoStatements]
+              StmtDesignator(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                  AssignOperation(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             1
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [AssignOperation]
+                ) [DesignatorStatement]
+               ;
+              ) [StmtDesignator]
+            ) [StatementsList]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 b
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           1
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtSwitch(
+            SwitchStart(
+            ) [SwitchStart]
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            SwitchBodyList(
+              SwitchBodyList(
+                SwitchBodyList(
+                  NoSwitchBody(
+                  ) [NoSwitchBody]
+                  CaseItem(
+                    CaseStart(
+                     1
+                    ) [CaseStart]
+                    StmtPrint(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              CharConst(
+                               1
+                              ) [CharConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                      NoWidth(
+                      ) [NoWidth]
+                     ;
+                    ) [StmtPrint]
+                  ) [CaseItem]
+                ) [SwitchBodyList]
+                CaseItem(
+                  CaseStart(
+                   2
+                  ) [CaseStart]
+                  StmtPrint(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            CharConst(
+                             2
+                            ) [CharConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                    NoWidth(
+                    ) [NoWidth]
+                   ;
+                  ) [StmtPrint]
+                ) [CaseItem]
+              ) [SwitchBodyList]
+              CaseItem(
+                CaseStart(
+                 3
+                ) [CaseStart]
+                StmtPrint(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          CharConst(
+                           3
+                          ) [CharConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                  NoWidth(
+                  ) [NoWidth]
+                 ;
+                ) [StmtPrint]
+              ) [CaseItem]
+            ) [SwitchBodyList]
+          ) [StmtSwitch]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactConst(
+                  CharConst(
+                   f
+                  ) [CharConst]
+                ) [FactConst]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:43:43,708 - --------------------------------------------------
+INFO  12:43:43,727 - --------------------------------------------------
+INFO  12:43:43,733 - Info( brojjj0 [na liniji 1])
+INFO  12:43:43,744 - KOD GENERISAN!

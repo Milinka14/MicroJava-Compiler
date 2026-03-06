@@ -1,0 +1,239 @@
+INFO  23:52:20,850 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:52:20,988 - #45 Test
+INFO  23:52:20,991 - #45 Boja
+INFO  23:52:20,992 - #45 CRVENA
+INFO  23:52:20,993 - #45 PLAVA
+INFO  23:52:20,994 - #44 5
+INFO  23:52:20,995 - #45 Dan
+INFO  23:52:20,997 - #45 PON
+INFO  23:52:20,997 - #44 3
+INFO  23:52:20,997 - #45 UTO
+INFO  23:52:20,997 - #45 Boja
+INFO  23:52:20,997 - #45 lista
+INFO  23:52:21,002 - #45 lll
+INFO  23:52:21,003 - #48 ;
+INFO  23:52:21,004 - #45 Boja
+INFO  23:52:21,006 - #45 a
+INFO  23:52:21,006 - #48 ;
+INFO  23:52:21,007 - #45 int
+INFO  23:52:21,007 - #45 num
+INFO  23:52:21,007 - #48 ;
+INFO  23:52:21,007 - #45 Boja
+INFO  23:52:21,007 - #45 soma
+INFO  23:52:21,013 - #45 a
+INFO  23:52:21,013 - #48 ;
+INFO  23:52:21,015 - #45 main
+INFO  23:52:21,017 - #45 num
+INFO  23:52:21,017 - #45 Boja
+INFO  23:52:21,019 - #45 CRVENA
+INFO  23:52:21,019 - #44 3
+INFO  23:52:21,022 - #48 ;
+INFO  23:52:21,026 - #45 a
+INFO  23:52:21,034 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclEnum(
+              EnumDecl(
+                EnumName(
+                 Boja
+                ) [EnumName]
+                EnumListItems(
+                  EnumItem(
+                   CRVENA
+                    NoInit(
+                    ) [NoInit]
+                  ) [EnumItem]
+                 PLAVA
+                  IsInit(
+                   5
+                  ) [IsInit]
+                ) [EnumListItems]
+              ) [EnumDecl]
+            ) [DeclEnum]
+          ) [DeclarationsList]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Dan
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 PON
+                  IsInit(
+                   3
+                  ) [IsInit]
+                ) [EnumItem]
+               UTO
+                NoInit(
+                ) [NoInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             Boja
+            ) [Type]
+            VarListItems(
+              VarItem(
+               lista
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             lll
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarItem(
+           a
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         num
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         Boja
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       soma
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 num
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermList(
+                        TermItem(
+                          FactDesignator(
+                            DesignatorDotIdent(
+                             Boja
+                             CRVENA
+                            ) [DesignatorDotIdent]
+                          ) [FactDesignator]
+                        ) [TermItem]
+                        MulMultiply(
+                        ) [MulMultiply]
+                        FactConst(
+                          NumConst(
+                           3
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermList]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtSwitch(
+            SwitchStart(
+            ) [SwitchStart]
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            NoSwitchBody(
+            ) [NoSwitchBody]
+          ) [StmtSwitch]
+        ) [StatementsList]
+      ) [MethodDecl]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:52:21,034 - --------------------------------------------------
+INFO  23:52:21,048 - --------------------------------------------------
+ERROR 23:52:21,058 - Greska( Povratni tip return naredbe mora da bude kompatibilan sa tipom definisanim u potpisu fje [na liniji 10])
+ERROR 23:52:21,060 - Parsiranje NIJE uspesno zavrseno!

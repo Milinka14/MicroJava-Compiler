@@ -1,0 +1,373 @@
+INFO  21:57:56,936 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:57:57,020 - #46 mojProgram
+INFO  21:57:57,024 - #46 int
+INFO  21:57:57,024 - #46 pi
+INFO  21:57:57,027 - #45 3
+INFO  21:57:57,027 - #46 mi
+INFO  21:57:57,027 - #45 4
+INFO  21:57:57,030 - #46 char
+INFO  21:57:57,031 - #46 asd
+INFO  21:57:57,031 - #47 a
+INFO  21:57:57,031 - #46 int
+INFO  21:57:57,031 - #46 a
+INFO  21:57:57,036 - #46 gfdg
+INFO  21:57:57,039 - #46 g3rg
+INFO  21:57:57,039 - #46 char
+INFO  21:57:57,043 - #46 b
+INFO  21:57:57,043 - #46 c
+INFO  21:57:57,044 - #46 d
+INFO  21:57:57,044 - #46 int
+INFO  21:57:57,044 - #46 TRI
+INFO  21:57:57,044 - #46 Broj
+INFO  21:57:57,048 - #46 NULA
+INFO  21:57:57,053 - #46 TRI
+INFO  21:57:57,053 - #45 3
+INFO  21:57:57,054 - #46 PET
+INFO  21:57:57,054 - #45 5
+INFO  21:57:57,054 - #46 Sest
+INFO  21:57:57,058 - #46 int
+INFO  21:57:57,058 - #46 NULA
+INFO  21:57:57,058 - #45 0
+INFO  21:57:57,058 - #46 main
+INFO  21:57:57,067 - #46 int
+INFO  21:57:57,070 - #46 a
+INFO  21:57:57,071 - #46 b
+INFO  21:57:57,071 - #46 char
+INFO  21:57:57,071 - #46 c
+INFO  21:57:57,077 - #46 m1
+INFO  21:57:57,077 - #46 int
+INFO  21:57:57,078 - #46 s
+INFO  21:57:57,078 - #46 int
+INFO  21:57:57,078 - #46 k
+INFO  21:57:57,079 - #46 char
+INFO  21:57:57,079 - #46 b
+INFO  21:57:57,080 - #46 int
+INFO  21:57:57,080 - #46 a
+INFO  21:57:57,080 - #46 char
+INFO  21:57:57,080 - #46 m2
+INFO  21:57:57,080 - #46 int
+INFO  21:57:57,081 - #46 c
+INFO  21:57:57,081 - #46 int
+INFO  21:57:57,081 - #46 m3
+INFO  21:57:57,081 - #46 char
+INFO  21:57:57,081 - #46 eol
+INFO  21:57:57,089 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            DeclarationsList(
+              DeclarationsList(
+                NoDeclarations(
+                ) [NoDeclarations]
+                DeclConst(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    ConstListItems(
+                      ConstItem(
+                       pi
+                        NumConst(
+                         3
+                        ) [NumConst]
+                      ) [ConstItem]
+                     mi
+                      NumConst(
+                       4
+                      ) [NumConst]
+                    ) [ConstListItems]
+                  ) [ConstDecl]
+                ) [DeclConst]
+              ) [DeclarationsList]
+              DeclConst(
+                ConstDecl(
+                  Type(
+                   char
+                  ) [Type]
+                  ConstItem(
+                   asd
+                    CharConst(
+                     a
+                    ) [CharConst]
+                  ) [ConstItem]
+                ) [ConstDecl]
+              ) [DeclConst]
+            ) [DeclarationsList]
+            DeclVar(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarListItems(
+                  VarListItems(
+                    VarItem(
+                     a
+                      IsArray(
+                      ) [IsArray]
+                    ) [VarItem]
+                   gfdg
+                    NoArray(
+                    ) [NoArray]
+                  ) [VarListItems]
+                 g3rg
+                  IsArray(
+                  ) [IsArray]
+                ) [VarListItems]
+              ) [VarDecl]
+            ) [DeclVar]
+          ) [DeclarationsList]
+          DeclVar(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              VarListItems(
+                VarListItems(
+                  VarItem(
+                   b
+                    NoArray(
+                    ) [NoArray]
+                  ) [VarItem]
+                 c
+                  NoArray(
+                  ) [NoArray]
+                ) [VarListItems]
+               d
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             TRI
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           Broj
+          ) [EnumName]
+          EnumListItems(
+            EnumListItems(
+              EnumListItems(
+                EnumItem(
+                 NULA
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumItem]
+               TRI
+                IsInit(
+                 3
+                ) [IsInit]
+              ) [EnumListItems]
+             PET
+              IsInit(
+               5
+              ) [IsInit]
+            ) [EnumListItems]
+           Sest
+            NoInit(
+            ) [NoInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstItem(
+         NULA
+          NumConst(
+           0
+          ) [NumConst]
+        ) [ConstItem]
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarListItems(
+              VarItem(
+               a
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             b
+              IsArray(
+              ) [IsArray]
+            ) [VarListItems]
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarItem(
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+        ) [VarDecl]
+      ) [VarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         m1
+        ) [MethodName]
+        FormalParameters(
+          FormalParamList(
+            FormalParamList(
+              FormalParamItem(
+                Type(
+                 int
+                ) [Type]
+               s
+                NoArray(
+                ) [NoArray]
+              ) [FormalParamItem]
+              Type(
+               int
+              ) [Type]
+             k
+              IsArray(
+              ) [IsArray]
+            ) [FormalParamList]
+            Type(
+             char
+            ) [Type]
+           b
+            NoArray(
+            ) [NoArray]
+          ) [FormalParamList]
+        ) [FormalParameters]
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             a
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+          ) [VarDecl]
+        ) [VarDeclF]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+      MethodDeclarations(
+        MethodDecl(
+          RetType(
+            Type(
+             char
+            ) [Type]
+          ) [RetType]
+          MethodName(
+           m2
+          ) [MethodName]
+          FormalParameters(
+            FormalParamItem(
+              Type(
+               int
+              ) [Type]
+             c
+              IsArray(
+              ) [IsArray]
+            ) [FormalParamItem]
+          ) [FormalParameters]
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          NoStatements(
+          ) [NoStatements]
+        ) [MethodDecl]
+        MethodDeclarations(
+          MethodDecl(
+            RetType(
+              Type(
+               int
+              ) [Type]
+            ) [RetType]
+            MethodName(
+             m3
+            ) [MethodName]
+            NoFormalParameters(
+            ) [NoFormalParameters]
+            VarDeclF(
+              NoVarDeclF(
+              ) [NoVarDeclF]
+              VarDecl(
+                Type(
+                 char
+                ) [Type]
+                VarItem(
+                 eol
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+              ) [VarDecl]
+            ) [VarDeclF]
+            NoStatements(
+            ) [NoStatements]
+          ) [MethodDecl]
+          NoMethodDeclarations(
+          ) [NoMethodDeclarations]
+        ) [MethodDeclarations]
+      ) [MethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:57:57,090 - --------------------------------------------------
+INFO  21:57:57,103 - --------------------------------------------------
+ERROR 21:57:57,109 - Fatalna greska tokom kompajliranja: null
+java.lang.NullPointerException
+	at rs.ac.bg.etf.pp1.SemAnalyzer.visit(SemAnalyzer.java:189)
+	at rs.ac.bg.etf.pp1.ast.EnumItem.accept(EnumItem.java:36)
+	at rs.ac.bg.etf.pp1.ast.EnumItem.traverseBottomUp(EnumItem.java:50)
+	at rs.ac.bg.etf.pp1.ast.EnumListItems.traverseBottomUp(EnumListItems.java:62)
+	at rs.ac.bg.etf.pp1.ast.EnumListItems.traverseBottomUp(EnumListItems.java:62)
+	at rs.ac.bg.etf.pp1.ast.EnumListItems.traverseBottomUp(EnumListItems.java:62)
+	at rs.ac.bg.etf.pp1.ast.EnumDecl.traverseBottomUp(EnumDecl.java:71)
+	at rs.ac.bg.etf.pp1.ast.DeclEnum.traverseBottomUp(DeclEnum.java:39)
+	at rs.ac.bg.etf.pp1.ast.DeclarationsList.traverseBottomUp(DeclarationsList.java:53)
+	at rs.ac.bg.etf.pp1.ast.DeclarationsList.traverseBottomUp(DeclarationsList.java:52)
+	at rs.ac.bg.etf.pp1.ast.Program.traverseBottomUp(Program.java:84)
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:63)

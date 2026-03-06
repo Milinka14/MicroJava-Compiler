@@ -1,0 +1,10 @@
+INFO  20:25:21,648 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  20:25:21,776 - #46 virtual
+INFO  20:25:21,776 - #46 int
+INFO  20:25:21,779 - #46 maxNiza
+ERROR 20:25:21,780 - 
+Sintaksna greska na liniji 3
+ERROR 20:25:21,781 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+ERROR 20:25:21,786 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

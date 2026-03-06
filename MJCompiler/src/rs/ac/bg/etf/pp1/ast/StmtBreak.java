@@ -1,0 +1,51 @@
+// generated with ast extension for cup
+// version 0.8
+// 17/1/2026 18:13:54
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public class StmtBreak extends Statement {
+
+    private Character S1;
+
+    public StmtBreak (Character S1) {
+        this.S1=S1;
+    }
+
+    public Character getS1() {
+        return S1;
+    }
+
+    public void setS1(Character S1) {
+        this.S1=S1;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("StmtBreak(\n");
+
+        buffer.append(" "+tab+S1);
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [StmtBreak]");
+        return buffer.toString();
+    }
+}

@@ -1,0 +1,187 @@
+INFO  11:21:27,814 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  11:21:27,916 - #45 Test
+INFO  11:21:27,918 - #45 Boja
+INFO  11:21:27,919 - #45 CRVENA
+INFO  11:21:27,920 - #45 PLAVA
+INFO  11:21:27,921 - #44 5
+INFO  11:21:27,922 - #45 Dan
+INFO  11:21:27,922 - #45 PON
+INFO  11:21:27,922 - #44 3
+INFO  11:21:27,922 - #45 UTO
+INFO  11:21:27,923 - #45 Boja
+INFO  11:21:27,923 - #45 lista
+INFO  11:21:27,927 - #45 lll
+INFO  11:21:27,927 - #48 ;
+INFO  11:21:27,929 - #45 Boja
+INFO  11:21:27,930 - #45 a
+INFO  11:21:27,930 - #45 vvv
+INFO  11:21:27,930 - #48 ;
+INFO  11:21:27,931 - #45 int
+INFO  11:21:27,931 - #45 num
+INFO  11:21:27,931 - #48 ;
+INFO  11:21:27,931 - #45 Boja
+INFO  11:21:27,932 - #45 bora
+INFO  11:21:27,936 - #44 1
+INFO  11:21:27,936 - #48 ;
+INFO  11:21:27,939 - #45 main
+INFO  11:21:27,942 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclEnum(
+              EnumDecl(
+                EnumName(
+                 Boja
+                ) [EnumName]
+                EnumListItems(
+                  EnumItem(
+                   CRVENA
+                    NoInit(
+                    ) [NoInit]
+                  ) [EnumItem]
+                 PLAVA
+                  IsInit(
+                   5
+                  ) [IsInit]
+                ) [EnumListItems]
+              ) [EnumDecl]
+            ) [DeclEnum]
+          ) [DeclarationsList]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Dan
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 PON
+                  IsInit(
+                   3
+                  ) [IsInit]
+                ) [EnumItem]
+               UTO
+                NoInit(
+                ) [NoInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             Boja
+            ) [Type]
+            VarListItems(
+              VarItem(
+               lista
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             lll
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarListItems(
+            VarItem(
+             a
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           vvv
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         num
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         Boja
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       bora
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactConst]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:21:27,942 - --------------------------------------------------
+INFO  11:21:27,950 - --------------------------------------------------
+ERROR 11:21:27,955 - Greska( Funkcija koja vraca Enum mora vratiti simbolicku konstantu ili varijablu tog enuma, a ne broj! [na liniji 10])
+ERROR 11:21:27,956 - Parsiranje NIJE uspesno zavrseno!

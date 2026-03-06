@@ -1,0 +1,20 @@
+INFO  20:13:48,831 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  20:13:48,977 - #45 test302
+INFO  20:13:48,980 - #45 int
+INFO  20:13:48,980 - #45 jedan
+INFO  20:13:48,983 - #44 1
+INFO  20:13:48,983 - #48 ;
+INFO  20:13:48,984 - #45 int
+INFO  20:13:48,986 - #45 i
+INFO  20:13:48,986 - #48 ;
+INFO  20:13:48,988 - #45 bool
+INFO  20:13:48,989 - #45 ibool
+INFO  20:13:48,989 - #48 ;
+INFO  20:13:48,990 - #45 eunm
+INFO  20:13:48,990 - #45 a
+ERROR 20:13:48,990 - 
+Sintaksna greska na liniji 9
+ERROR 20:13:48,990 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+ERROR 20:13:48,996 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

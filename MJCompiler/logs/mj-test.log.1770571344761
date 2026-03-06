@@ -1,0 +1,34 @@
+INFO  18:22:05,204 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  18:22:05,295 - #45 TestEnumi
+INFO  18:22:05,296 - #45 t
+INFO  18:22:05,297 - #45 j
+INFO  18:22:05,298 - #44 7
+INFO  18:22:05,298 - #45 d
+INFO  18:22:05,299 - #45 t
+INFO  18:22:05,300 - #45 f
+INFO  18:22:05,302 - #48 ;
+INFO  18:22:05,304 - #45 int
+INFO  18:22:05,305 - #45 br
+INFO  18:22:05,305 - #45 br2
+INFO  18:22:05,305 - #48 ;
+INFO  18:22:05,305 - #45 int
+INFO  18:22:05,305 - #45 niz
+INFO  18:22:05,305 - #48 ;
+INFO  18:22:05,306 - #45 t
+INFO  18:22:05,306 - #45 ttt
+INFO  18:22:05,307 - #48 ;
+INFO  18:22:05,307 - #45 main
+INFO  18:22:05,309 - #45 char
+INFO  18:22:05,311 - #45 cc
+INFO  18:22:05,314 - #45 c
+INFO  18:22:05,314 - #48 ;
+INFO  18:22:05,314 - #45 ttt
+INFO  18:22:05,315 - #45 t
+INFO  18:22:05,315 - #45 j
+INFO  18:22:05,316 - #45 br2
+ERROR 18:22:05,316 - 
+Sintaksna greska na liniji 12
+ERROR 18:22:05,316 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12
+ERROR 18:22:05,319 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

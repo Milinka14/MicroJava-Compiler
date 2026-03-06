@@ -1,0 +1,84 @@
+INFO  16:26:55,907 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  16:26:55,988 - #46 mojProgram
+INFO  16:26:55,990 - #46 int
+INFO  16:26:55,990 - #46 pi
+INFO  16:26:55,992 - #45 3
+INFO  16:26:55,994 - #46 int
+INFO  16:26:55,994 - #46 pi
+INFO  16:26:55,994 - #45 3
+INFO  16:26:55,994 - #46 int
+INFO  16:26:55,994 - #46 pi
+INFO  16:26:55,994 - #45 6
+INFO  16:26:55,994 - #46 main
+INFO  16:26:56,001 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclConst(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             pi
+              NumConst(
+               3
+              ) [NumConst]
+            ) [ConstItem]
+          ) [ConstDecl]
+        ) [DeclConst]
+      ) [DeclarationsList]
+      DeclConst(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstItem(
+           pi
+            NumConst(
+             3
+            ) [NumConst]
+          ) [ConstItem]
+        ) [ConstDecl]
+      ) [DeclConst]
+    ) [DeclarationsList]
+    DeclConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstItem(
+         pi
+          NumConst(
+           6
+          ) [NumConst]
+        ) [ConstItem]
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+     main
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:26:56,003 - --------------------------------------------------
+INFO  16:26:56,011 - --------------------------------------------------
+ERROR 16:26:56,013 - Greska( Vec postoji deklaracija sa istim imenom: pi [na liniji 4])
+ERROR 16:26:56,013 - Greska( Vec postoji deklaracija sa istim imenom: pi [na liniji 5])
+ERROR 16:26:56,014 - Parsiranje NIJE uspesno zavrseno!

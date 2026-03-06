@@ -1,0 +1,295 @@
+INFO  11:58:46,322 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  11:58:46,412 - #45 test301
+INFO  11:58:46,413 - #45 Broj
+INFO  11:58:46,415 - #45 NULA
+INFO  11:58:46,416 - #45 JEDAN
+INFO  11:58:46,416 - #45 PET
+INFO  11:58:46,416 - #44 5
+INFO  11:58:46,416 - #45 DESET
+INFO  11:58:46,416 - #44 10
+INFO  11:58:46,417 - #45 int
+INFO  11:58:46,417 - #45 nula
+INFO  11:58:46,418 - #44 0
+INFO  11:58:46,419 - #48 ;
+INFO  11:58:46,420 - #45 int
+INFO  11:58:46,420 - #45 jedan
+INFO  11:58:46,420 - #44 1
+INFO  11:58:46,420 - #48 ;
+INFO  11:58:46,420 - #45 int
+INFO  11:58:46,420 - #45 pet
+INFO  11:58:46,420 - #44 5
+INFO  11:58:46,420 - #48 ;
+INFO  11:58:46,420 - #45 int
+INFO  11:58:46,421 - #45 niz
+INFO  11:58:46,421 - #48 ;
+INFO  11:58:46,424 - #45 char
+INFO  11:58:46,425 - #45 nizch
+INFO  11:58:46,425 - #48 ;
+INFO  11:58:46,425 - #45 int
+INFO  11:58:46,425 - #45 a
+INFO  11:58:46,426 - #48 ;
+INFO  11:58:46,428 - #45 main
+INFO  11:58:46,431 - #45 int
+INFO  11:58:46,433 - #45 bodovi
+INFO  11:58:46,433 - #48 ;
+INFO  11:58:46,433 - #45 int
+INFO  11:58:46,433 - #45 temp
+INFO  11:58:46,434 - #48 ;
+INFO  11:58:46,434 - #45 Broj
+INFO  11:58:46,434 - #45 nula
+INFO  11:58:46,434 - #45 jedan
+INFO  11:58:46,434 - #48 ;
+INFO  11:58:46,434 - #45 bool
+INFO  11:58:46,435 - #45 bt
+INFO  11:58:46,435 - #48 ;
+INFO  11:58:46,435 - #45 niz
+INFO  11:58:46,436 - #44 1
+INFO  11:58:46,437 - #45 Broj
+INFO  11:58:46,437 - #45 JEDAN
+INFO  11:58:46,437 - #48 ;
+INFO  11:58:46,441 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            DeclarationsList(
+              DeclarationsList(
+                NoDeclarations(
+                ) [NoDeclarations]
+                DeclEnum(
+                  EnumDecl(
+                    EnumName(
+                     Broj
+                    ) [EnumName]
+                    EnumListItems(
+                      EnumListItems(
+                        EnumListItems(
+                          EnumItem(
+                           NULA
+                            NoInit(
+                            ) [NoInit]
+                          ) [EnumItem]
+                         JEDAN
+                          NoInit(
+                          ) [NoInit]
+                        ) [EnumListItems]
+                       PET
+                        IsInit(
+                         5
+                        ) [IsInit]
+                      ) [EnumListItems]
+                     DESET
+                      IsInit(
+                       10
+                      ) [IsInit]
+                    ) [EnumListItems]
+                  ) [EnumDecl]
+                ) [DeclEnum]
+              ) [DeclarationsList]
+              DeclConst(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstItem(
+                   nula
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [ConstItem]
+                 ;
+                ) [ConstDecl]
+              ) [DeclConst]
+            ) [DeclarationsList]
+            DeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstItem(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstItem]
+               ;
+              ) [ConstDecl]
+            ) [DeclConst]
+          ) [DeclarationsList]
+          DeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstItem(
+               pet
+                NumConst(
+                 5
+                ) [NumConst]
+              ) [ConstItem]
+             ;
+            ) [ConstDecl]
+          ) [DeclConst]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             niz
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarItem(
+           nizch
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          VarDeclF(
+            VarDeclF(
+              NoVarDeclF(
+              ) [NoVarDeclF]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarItem(
+                 bodovi
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               ;
+              ) [VarDecl]
+            ) [VarDeclF]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarItem(
+               temp
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [VarDeclF]
+          VarDecl(
+            Type(
+             Broj
+            ) [Type]
+            VarListItems(
+              VarItem(
+               nula
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             jedan
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          VarItem(
+           bt
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorArray(
+             niz
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [DesignatorArray]
+            AssignOperation(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactMinus(
+                      FactDesignator(
+                        DesignatorDotIdent(
+                         Broj
+                         JEDAN
+                        ) [DesignatorDotIdent]
+                      ) [FactDesignator]
+                    ) [FactMinus]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:58:46,442 - --------------------------------------------------
+INFO  11:58:46,451 - --------------------------------------------------
+INFO  11:58:46,455 - Info( brojjj0 [na liniji 3])
+INFO  11:58:46,460 - KOD GENERISAN!

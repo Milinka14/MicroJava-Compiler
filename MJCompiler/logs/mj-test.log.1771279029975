@@ -1,0 +1,42 @@
+INFO  22:57:01,920 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  22:57:02,040 - #46 Modifikacija
+INFO  22:57:02,042 - #46 int
+INFO  22:57:02,042 - #46 max
+INFO  22:57:02,045 - #46 int
+INFO  22:57:02,045 - #46 n
+INFO  22:57:02,046 - #46 int
+INFO  22:57:02,049 - #46 i
+INFO  22:57:02,050 - #46 m
+INFO  22:57:02,051 - #49 ;
+INFO  22:57:02,052 - #46 m
+INFO  22:57:02,053 - #46 n
+INFO  22:57:02,053 - #45 0
+INFO  22:57:02,054 - #49 ;
+INFO  22:57:02,056 - #46 i
+INFO  22:57:02,056 - #45 1
+INFO  22:57:02,056 - #49 ;
+INFO  22:57:02,056 - #46 i
+INFO  22:57:02,058 - #46 len
+INFO  22:57:02,060 - #46 n
+INFO  22:57:02,060 - #49 ;
+INFO  22:57:02,061 - #46 i
+INFO  22:57:02,066 - #46 n
+INFO  22:57:02,066 - #46 i
+INFO  22:57:02,066 - #46 m
+INFO  22:57:02,066 - #46 m
+INFO  22:57:02,069 - #46 n
+INFO  22:57:02,069 - #46 i
+INFO  22:57:02,069 - #49 ;
+INFO  22:57:02,071 - #46 m
+INFO  22:57:02,073 - #49 ;
+INFO  22:57:02,075 - #46 main
+INFO  22:57:02,077 - #46 int
+INFO  22:57:02,077 - #46 s
+INFO  22:57:02,077 - #49 ;
+INFO  22:57:02,077 - #46 s
+ERROR 22:57:02,077 - 
+Sintaksna greska na liniji 11
+ERROR 22:57:02,077 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+ERROR 22:57:02,081 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

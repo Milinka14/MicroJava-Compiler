@@ -1,0 +1,155 @@
+INFO  14:07:55,487 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:07:55,568 - #45 TestEnumi
+INFO  14:07:55,570 - #45 int
+INFO  14:07:55,570 - #45 x
+INFO  14:07:55,572 - #44 1
+INFO  14:07:55,573 - #48 ;
+INFO  14:07:55,576 - #45 main
+INFO  14:07:55,578 - #45 char
+INFO  14:07:55,579 - #45 cc
+INFO  14:07:55,582 - #45 c
+INFO  14:07:55,582 - #48 ;
+INFO  14:07:55,584 - #45 x
+INFO  14:07:55,587 - #48 ;
+INFO  14:07:55,587 - #44 2
+INFO  14:07:55,588 - #44 3
+INFO  14:07:55,591 - #44 2
+INFO  14:07:55,593 - #48 ;
+INFO  14:07:55,593 - #46 a
+INFO  14:07:55,593 - #48 ;
+INFO  14:07:55,598 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  DeclarationsList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstItem(
+         x
+          NumConst(
+           1
+          ) [NumConst]
+        ) [ConstItem]
+       ;
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       x
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+             ;
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtPrint(
+            ArExp(
+              AddExpr(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+                AddPlus(
+                ) [AddPlus]
+                TermList(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       3
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                  MulMultiply(
+                  ) [MulMultiply]
+                  FactConst(
+                    NumConst(
+                     2
+                    ) [NumConst]
+                  ) [FactConst]
+                ) [TermList]
+              ) [AddExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+           ;
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactConst(
+                  CharConst(
+                   a
+                  ) [CharConst]
+                ) [FactConst]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:07:55,599 - --------------------------------------------------
+INFO  14:07:55,605 - --------------------------------------------------
+INFO  14:07:55,610 - Info( brojjj0 [na liniji 1])
+INFO  14:07:55,615 - KOD GENERISAN!

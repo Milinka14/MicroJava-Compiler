@@ -1,0 +1,12 @@
+INFO  16:00:26,928 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  16:00:27,004 - #46 mojProgram
+INFO  16:00:27,007 - #46 intkj
+INFO  16:00:27,007 - #46 pi
+INFO  16:00:27,008 - #45 3
+INFO  16:00:27,010 - #46 ch
+ERROR 16:00:27,010 - 
+Sintaksna greska na liniji 5
+ERROR 16:00:27,010 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5
+ERROR 16:00:27,013 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DeclarationsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DeclarationsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

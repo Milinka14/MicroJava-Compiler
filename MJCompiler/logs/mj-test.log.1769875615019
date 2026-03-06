@@ -1,0 +1,55 @@
+INFO  17:06:41,873 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:06:41,955 - #46 mojProgram
+INFO  17:06:41,956 - #46 int
+INFO  17:06:41,957 - #46 pi
+INFO  17:06:41,958 - #45 3
+INFO  17:06:41,958 - #46 pi
+INFO  17:06:41,958 - #45 4
+INFO  17:06:41,959 - #46 main
+INFO  17:06:41,966 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstListItems(
+          ConstItem(
+           pi
+            NumConst(
+             3
+            ) [NumConst]
+          ) [ConstItem]
+         pi
+          NumConst(
+           4
+          ) [NumConst]
+        ) [ConstListItems]
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+     main
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:06:41,967 - --------------------------------------------------
+INFO  17:06:41,976 - --------------------------------------------------
+ERROR 17:06:41,979 - Greska( Vec postoji deklaracija sa istim imenom u ovom opsegu: pi [na liniji 3])
+ERROR 17:06:41,980 - Parsiranje NIJE uspesno zavrseno!

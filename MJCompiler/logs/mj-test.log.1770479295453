@@ -1,0 +1,37 @@
+INFO  16:48:05,657 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  16:48:05,789 - #45 Test
+INFO  16:48:05,792 - #45 Boja
+INFO  16:48:05,796 - #45 CRVENA
+INFO  16:48:05,798 - #45 PLAVA
+INFO  16:48:05,798 - #44 5
+INFO  16:48:05,802 - #45 Dan
+INFO  16:48:05,802 - #45 PON
+INFO  16:48:05,802 - #44 3
+INFO  16:48:05,802 - #45 UTO
+INFO  16:48:05,802 - #45 Boja
+INFO  16:48:05,803 - #45 lista
+INFO  16:48:05,807 - #45 lll
+INFO  16:48:05,807 - #48 ;
+INFO  16:48:05,810 - #45 Boja
+INFO  16:48:05,812 - #45 a
+INFO  16:48:05,812 - #45 vvv
+INFO  16:48:05,812 - #48 ;
+INFO  16:48:05,812 - #45 int
+INFO  16:48:05,812 - #45 num
+INFO  16:48:05,813 - #48 ;
+INFO  16:48:05,813 - #45 Boja
+INFO  16:48:05,814 - #45 bora
+INFO  16:48:05,817 - #45 Boja
+INFO  16:48:05,817 - #45 pol
+INFO  16:48:05,820 - #45 a
+INFO  16:48:05,820 - #44 2
+INFO  16:48:05,820 - #48 ;
+INFO  16:48:05,824 - #45 main
+INFO  16:48:05,827 - #45 vvv
+INFO  16:48:05,827 - #48 ;
+ERROR 16:48:05,827 - 
+Sintaksna greska na liniji 16
+ERROR 16:48:05,827 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16
+ERROR 16:48:05,829 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DesignatorIdent cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

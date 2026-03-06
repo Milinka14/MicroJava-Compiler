@@ -1,0 +1,248 @@
+INFO  14:53:40,975 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:53:41,056 - #46 mojProgram
+INFO  14:53:41,058 - #46 int
+INFO  14:53:41,058 - #46 pi
+INFO  14:53:41,059 - #45 3
+INFO  14:53:41,060 - #46 mi
+INFO  14:53:41,060 - #45 4
+INFO  14:53:41,061 - #46 char
+INFO  14:53:41,061 - #46 asd
+INFO  14:53:41,061 - #47 a
+INFO  14:53:41,062 - #46 int
+INFO  14:53:41,062 - #46 a
+INFO  14:53:41,064 - #46 gfdg
+INFO  14:53:41,065 - #46 g3rg
+INFO  14:53:41,065 - #46 char
+INFO  14:53:41,067 - #46 b
+INFO  14:53:41,067 - #46 c
+INFO  14:53:41,067 - #46 d
+INFO  14:53:41,067 - #46 main
+INFO  14:53:41,070 - #46 int
+INFO  14:53:41,072 - #46 a
+INFO  14:53:41,072 - #46 b
+INFO  14:53:41,074 - #46 char
+INFO  14:53:41,075 - #46 c
+INFO  14:53:41,077 - #46 m1
+INFO  14:53:41,077 - #46 int
+INFO  14:53:41,077 - #46 a
+INFO  14:53:41,078 - #46 char
+INFO  14:53:41,078 - #46 m2
+INFO  14:53:41,078 - #46 char
+INFO  14:53:41,078 - #46 c
+INFO  14:53:41,078 - #46 int
+INFO  14:53:41,078 - #46 m3
+INFO  14:53:41,081 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstListItems(
+                ConstItem(
+                 pi
+                  NumConst(
+                   3
+                  ) [NumConst]
+                ) [ConstItem]
+               mi
+                NumConst(
+                 4
+                ) [NumConst]
+              ) [ConstListItems]
+            ) [ConstDecl]
+          ) [DeclConst]
+        ) [DeclarationsList]
+        DeclConst(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstItem(
+             asd
+              CharConst(
+               a
+              ) [CharConst]
+            ) [ConstItem]
+          ) [ConstDecl]
+        ) [DeclConst]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarListItems(
+            VarListItems(
+              VarItem(
+               a
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             gfdg
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           g3rg
+            IsArray(
+            ) [IsArray]
+          ) [VarListItems]
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarListItems(
+          VarListItems(
+            VarItem(
+             b
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         d
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarListItems(
+              VarItem(
+               a
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             b
+              IsArray(
+              ) [IsArray]
+            ) [VarListItems]
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarItem(
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+        ) [VarDecl]
+      ) [VarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         m1
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             a
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+          ) [VarDecl]
+        ) [VarDeclF]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodDecl]
+      MethodDeclarations(
+        MethodDecl(
+          RetType(
+            Type(
+             char
+            ) [Type]
+          ) [RetType]
+          MethodName(
+           m2
+          ) [MethodName]
+          NoFormalParameters(
+          ) [NoFormalParameters]
+          VarDeclF(
+            NoVarDeclF(
+            ) [NoVarDeclF]
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              VarItem(
+               c
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+            ) [VarDecl]
+          ) [VarDeclF]
+          NoStatements(
+          ) [NoStatements]
+        ) [MethodDecl]
+        MethodDeclarations(
+          MethodDecl(
+            RetType(
+              Type(
+               int
+              ) [Type]
+            ) [RetType]
+            MethodName(
+             m3
+            ) [MethodName]
+            NoFormalParameters(
+            ) [NoFormalParameters]
+            NoVarDeclF(
+            ) [NoVarDeclF]
+            NoStatements(
+            ) [NoStatements]
+          ) [MethodDecl]
+          NoMethodDeclarations(
+          ) [NoMethodDeclarations]
+        ) [MethodDeclarations]
+      ) [MethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:53:41,081 - --------------------------------------------------
+INFO  14:53:41,088 - --------------------------------------------------
+INFO  14:53:41,091 - Parsiranje uspesno zavrseno!

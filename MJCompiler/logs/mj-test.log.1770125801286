@@ -1,0 +1,148 @@
+INFO  14:36:28,387 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:36:28,470 - #46 mojProgram
+INFO  14:36:28,472 - #46 int
+INFO  14:36:28,472 - #46 pi
+INFO  14:36:28,473 - #45 3
+INFO  14:36:28,473 - #46 mi
+INFO  14:36:28,473 - #45 4
+INFO  14:36:28,474 - #46 char
+INFO  14:36:28,474 - #46 asd
+INFO  14:36:28,475 - #47 a
+INFO  14:36:28,475 - #46 int
+INFO  14:36:28,475 - #46 a
+INFO  14:36:28,478 - #46 gfdg
+INFO  14:36:28,481 - #46 g3rg
+INFO  14:36:28,481 - #46 char
+INFO  14:36:28,482 - #46 b
+INFO  14:36:28,482 - #46 c
+INFO  14:36:28,482 - #46 d
+INFO  14:36:28,482 - #46 char
+INFO  14:36:28,482 - #46 int
+INFO  14:36:28,482 - #46 maddin
+INFO  14:36:28,493 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstListItems(
+                  ConstItem(
+                   pi
+                    NumConst(
+                     3
+                    ) [NumConst]
+                  ) [ConstItem]
+                 mi
+                  NumConst(
+                   4
+                  ) [NumConst]
+                ) [ConstListItems]
+              ) [ConstDecl]
+            ) [DeclConst]
+          ) [DeclarationsList]
+          DeclConst(
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+              ConstItem(
+               asd
+                CharConst(
+                 a
+                ) [CharConst]
+              ) [ConstItem]
+            ) [ConstDecl]
+          ) [DeclConst]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarListItems(
+              VarListItems(
+                VarItem(
+                 a
+                  IsArray(
+                  ) [IsArray]
+                ) [VarItem]
+               gfdg
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             g3rg
+              IsArray(
+              ) [IsArray]
+            ) [VarListItems]
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarListItems(
+              VarItem(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             c
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           d
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarItem(
+         int
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       maddin
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:36:28,494 - --------------------------------------------------
+INFO  14:36:28,503 - --------------------------------------------------
+ERROR 14:36:28,507 - Greska( Vec postoji deklaracija sa istim imenom: int [na liniji 7])
+ERROR 14:36:28,507 - Greska( Program mora imati definisanu main metodu! [na liniji 1])
+ERROR 14:36:28,508 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,147 @@
+INFO  01:09:07,571 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  01:09:07,663 - #46 mojProgram
+INFO  01:09:07,666 - #46 int
+INFO  01:09:07,666 - #46 pi
+INFO  01:09:07,668 - #45 3
+INFO  01:09:07,668 - #46 mi
+INFO  01:09:07,668 - #45 4
+INFO  01:09:07,671 - #46 char
+INFO  01:09:07,671 - #46 asd
+INFO  01:09:07,671 - #47 a
+INFO  01:09:07,671 - #46 int
+INFO  01:09:07,671 - #46 a
+INFO  01:09:07,675 - #46 gfdg
+INFO  01:09:07,678 - #46 g3rg
+INFO  01:09:07,678 - #46 char
+INFO  01:09:07,679 - #46 b
+INFO  01:09:07,680 - #46 c
+INFO  01:09:07,680 - #46 d
+INFO  01:09:07,680 - #46 char
+INFO  01:09:07,680 - #46 int
+INFO  01:09:07,680 - #46 main
+INFO  01:09:07,691 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstListItems(
+                  ConstItem(
+                   pi
+                    NumConst(
+                     3
+                    ) [NumConst]
+                  ) [ConstItem]
+                 mi
+                  NumConst(
+                   4
+                  ) [NumConst]
+                ) [ConstListItems]
+              ) [ConstDecl]
+            ) [DeclConst]
+          ) [DeclarationsList]
+          DeclConst(
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+              ConstItem(
+               asd
+                CharConst(
+                 a
+                ) [CharConst]
+              ) [ConstItem]
+            ) [ConstDecl]
+          ) [DeclConst]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarListItems(
+              VarListItems(
+                VarItem(
+                 a
+                  IsArray(
+                  ) [IsArray]
+                ) [VarItem]
+               gfdg
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             g3rg
+              IsArray(
+              ) [IsArray]
+            ) [VarListItems]
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarListItems(
+              VarItem(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             c
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           d
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarItem(
+         int
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:09:07,694 - --------------------------------------------------
+INFO  01:09:07,705 - --------------------------------------------------
+ERROR 01:09:07,709 - Greska( Greska: Ime 'int' je rezervisano kao tip podataka! [na liniji 7])
+ERROR 01:09:07,710 - Parsiranje NIJE uspesno zavrseno!

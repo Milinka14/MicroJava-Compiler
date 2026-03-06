@@ -1,0 +1,298 @@
+INFO  11:58:40,023 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  11:58:40,103 - #45 test301
+INFO  11:58:40,104 - #45 Broj
+INFO  11:58:40,106 - #45 NULA
+INFO  11:58:40,107 - #45 JEDAN
+INFO  11:58:40,107 - #45 PET
+INFO  11:58:40,107 - #44 5
+INFO  11:58:40,107 - #45 DESET
+INFO  11:58:40,108 - #44 10
+INFO  11:58:40,109 - #45 int
+INFO  11:58:40,109 - #45 nula
+INFO  11:58:40,110 - #44 0
+INFO  11:58:40,110 - #48 ;
+INFO  11:58:40,111 - #45 int
+INFO  11:58:40,113 - #45 jedan
+INFO  11:58:40,113 - #44 1
+INFO  11:58:40,113 - #48 ;
+INFO  11:58:40,113 - #45 int
+INFO  11:58:40,113 - #45 pet
+INFO  11:58:40,113 - #44 5
+INFO  11:58:40,113 - #48 ;
+INFO  11:58:40,113 - #45 int
+INFO  11:58:40,114 - #45 niz
+INFO  11:58:40,114 - #48 ;
+INFO  11:58:40,116 - #45 char
+INFO  11:58:40,118 - #45 nizch
+INFO  11:58:40,118 - #48 ;
+INFO  11:58:40,118 - #45 int
+INFO  11:58:40,118 - #45 a
+INFO  11:58:40,118 - #48 ;
+INFO  11:58:40,119 - #45 main
+INFO  11:58:40,122 - #45 int
+INFO  11:58:40,123 - #45 bodovi
+INFO  11:58:40,123 - #48 ;
+INFO  11:58:40,123 - #45 int
+INFO  11:58:40,123 - #45 temp
+INFO  11:58:40,123 - #48 ;
+INFO  11:58:40,124 - #45 Broj
+INFO  11:58:40,124 - #45 nula
+INFO  11:58:40,124 - #45 jedan
+INFO  11:58:40,124 - #48 ;
+INFO  11:58:40,124 - #45 bool
+INFO  11:58:40,124 - #45 bt
+INFO  11:58:40,124 - #48 ;
+INFO  11:58:40,124 - #45 niz
+INFO  11:58:40,126 - #44 1
+INFO  11:58:40,126 - #45 Broj
+INFO  11:58:40,126 - #45 jedan
+INFO  11:58:40,126 - #48 ;
+INFO  11:58:40,131 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            DeclarationsList(
+              DeclarationsList(
+                NoDeclarations(
+                ) [NoDeclarations]
+                DeclEnum(
+                  EnumDecl(
+                    EnumName(
+                     Broj
+                    ) [EnumName]
+                    EnumListItems(
+                      EnumListItems(
+                        EnumListItems(
+                          EnumItem(
+                           NULA
+                            NoInit(
+                            ) [NoInit]
+                          ) [EnumItem]
+                         JEDAN
+                          NoInit(
+                          ) [NoInit]
+                        ) [EnumListItems]
+                       PET
+                        IsInit(
+                         5
+                        ) [IsInit]
+                      ) [EnumListItems]
+                     DESET
+                      IsInit(
+                       10
+                      ) [IsInit]
+                    ) [EnumListItems]
+                  ) [EnumDecl]
+                ) [DeclEnum]
+              ) [DeclarationsList]
+              DeclConst(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstItem(
+                   nula
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [ConstItem]
+                 ;
+                ) [ConstDecl]
+              ) [DeclConst]
+            ) [DeclarationsList]
+            DeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstItem(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstItem]
+               ;
+              ) [ConstDecl]
+            ) [DeclConst]
+          ) [DeclarationsList]
+          DeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstItem(
+               pet
+                NumConst(
+                 5
+                ) [NumConst]
+              ) [ConstItem]
+             ;
+            ) [ConstDecl]
+          ) [DeclConst]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             niz
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarItem(
+           nizch
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          VarDeclF(
+            VarDeclF(
+              NoVarDeclF(
+              ) [NoVarDeclF]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarItem(
+                 bodovi
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               ;
+              ) [VarDecl]
+            ) [VarDeclF]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarItem(
+               temp
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [VarDeclF]
+          VarDecl(
+            Type(
+             Broj
+            ) [Type]
+            VarListItems(
+              VarItem(
+               nula
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             jedan
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          VarItem(
+           bt
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorArray(
+             niz
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [DesignatorArray]
+            AssignOperation(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactMinus(
+                      FactDesignator(
+                        DesignatorDotIdent(
+                         Broj
+                         jedan
+                        ) [DesignatorDotIdent]
+                      ) [FactDesignator]
+                    ) [FactMinus]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:58:40,132 - --------------------------------------------------
+INFO  11:58:40,142 - --------------------------------------------------
+INFO  11:58:40,146 - Info( brojjj0 [na liniji 3])
+ERROR 11:58:40,147 - Greska( Enum Broj nema konstantu jedan [na liniji 23])
+ERROR 11:58:40,147 - Greska( Greska: Unarni minus se moze koristiti samo uz tip int! [na liniji 23])
+ERROR 11:58:40,147 - Greska( Nekompatibilni tipovi! [na liniji 23])
+ERROR 11:58:40,148 - Parsiranje NIJE uspesno zavrseno!

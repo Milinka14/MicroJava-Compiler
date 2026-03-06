@@ -1,0 +1,69 @@
+INFO  23:45:07,467 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  23:45:07,588 - #45 TestEnumi
+INFO  23:45:07,594 - #45 main
+INFO  23:45:07,603 - #45 int
+INFO  23:45:07,605 - #45 x
+INFO  23:45:07,610 - #48 ;
+INFO  23:45:07,616 - #45 char
+INFO  23:45:07,620 - #45 cc
+INFO  23:45:07,624 - #45 c
+INFO  23:45:07,624 - #48 ;
+INFO  23:45:07,639 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             x
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:45:07,640 - --------------------------------------------------
+INFO  23:45:07,661 - --------------------------------------------------
+INFO  23:45:07,667 - Info( brojjj0 [na liniji 1])
+INFO  23:45:07,676 - KOD GENERISAN!

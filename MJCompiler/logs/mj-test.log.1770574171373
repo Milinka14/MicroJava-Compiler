@@ -1,0 +1,26 @@
+INFO  19:09:19,931 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  19:09:20,042 - #45 TestEnumi
+INFO  19:09:20,047 - #45 t
+INFO  19:09:20,050 - #45 j
+INFO  19:09:20,051 - #44 7
+INFO  19:09:20,052 - #45 d
+INFO  19:09:20,056 - #45 t
+INFO  19:09:20,061 - #45 f
+INFO  19:09:20,064 - #48 ;
+INFO  19:09:20,069 - #45 int
+INFO  19:09:20,072 - #45 br
+INFO  19:09:20,073 - #45 br2
+INFO  19:09:20,073 - #48 ;
+INFO  19:09:20,073 - #45 int
+INFO  19:09:20,073 - #45 niz
+INFO  19:09:20,074 - #48 ;
+INFO  19:09:20,076 - #45 t
+INFO  19:09:20,077 - #45 ttt
+INFO  19:09:20,077 - #48 ;
+INFO  19:09:20,077 - #45 co
+ERROR 19:09:20,078 - 
+Sintaksna greska na liniji 7
+ERROR 19:09:20,078 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
+ERROR 19:09:20,088 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DeclarationsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DeclarationsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

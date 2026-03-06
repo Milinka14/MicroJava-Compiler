@@ -1,0 +1,207 @@
+INFO  14:15:41,613 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:15:41,699 - #45 TestEnumi
+INFO  14:15:41,701 - #45 int
+INFO  14:15:41,701 - #45 x
+INFO  14:15:41,702 - #44 5
+INFO  14:15:41,703 - #48 ;
+INFO  14:15:41,704 - #45 t
+INFO  14:15:41,705 - #45 j
+INFO  14:15:41,707 - #45 d
+INFO  14:15:41,707 - #45 int
+INFO  14:15:41,707 - #45 niz
+INFO  14:15:41,708 - #48 ;
+INFO  14:15:41,711 - #45 main
+INFO  14:15:41,714 - #45 char
+INFO  14:15:41,716 - #45 cc
+INFO  14:15:41,716 - #45 c
+INFO  14:15:41,716 - #48 ;
+INFO  14:15:41,718 - #45 niz
+INFO  14:15:41,718 - #44 1
+INFO  14:15:41,719 - #48 ;
+INFO  14:15:41,719 - #44 2
+INFO  14:15:41,719 - #44 3
+INFO  14:15:41,722 - #44 2
+INFO  14:15:41,724 - #48 ;
+INFO  14:15:41,724 - #46 a
+INFO  14:15:41,724 - #48 ;
+INFO  14:15:41,728 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclConst(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             x
+              NumConst(
+               5
+              ) [NumConst]
+            ) [ConstItem]
+           ;
+          ) [ConstDecl]
+        ) [DeclConst]
+      ) [DeclarationsList]
+      DeclEnum(
+        EnumDecl(
+          EnumName(
+           t
+          ) [EnumName]
+          EnumListItems(
+            EnumItem(
+             j
+              NoInit(
+              ) [NoInit]
+            ) [EnumItem]
+           d
+            NoInit(
+            ) [NoInit]
+          ) [EnumListItems]
+        ) [EnumDecl]
+      ) [DeclEnum]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         niz
+          IsArray(
+          ) [IsArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorArray(
+                       niz
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 1
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [DesignatorArray]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+             ;
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtPrint(
+            ArExp(
+              AddExpr(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+                AddPlus(
+                ) [AddPlus]
+                TermList(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       3
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                  MulMultiply(
+                  ) [MulMultiply]
+                  FactConst(
+                    NumConst(
+                     2
+                    ) [NumConst]
+                  ) [FactConst]
+                ) [TermList]
+              ) [AddExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+           ;
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactConst(
+                  CharConst(
+                   a
+                  ) [CharConst]
+                ) [FactConst]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:15:41,728 - --------------------------------------------------
+INFO  14:15:41,735 - --------------------------------------------------
+INFO  14:15:41,740 - Info( brojjj0 [na liniji 1])
+INFO  14:15:41,745 - KOD GENERISAN!

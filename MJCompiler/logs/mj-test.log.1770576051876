@@ -1,0 +1,34 @@
+INFO  19:40:32,824 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  19:40:32,912 - #45 TestEnumi
+INFO  19:40:32,914 - #45 t
+INFO  19:40:32,915 - #45 j
+INFO  19:40:32,915 - #44 7
+INFO  19:40:32,916 - #45 d
+INFO  19:40:32,917 - #45 t
+INFO  19:40:32,919 - #45 f
+INFO  19:40:32,920 - #48 ;
+INFO  19:40:32,922 - #45 int
+INFO  19:40:32,924 - #45 br
+INFO  19:40:32,924 - #45 br2
+INFO  19:40:32,924 - #48 ;
+INFO  19:40:32,924 - #45 int
+INFO  19:40:32,925 - #45 niz
+INFO  19:40:32,925 - #48 ;
+INFO  19:40:32,926 - #45 t
+INFO  19:40:32,926 - #45 ttt
+INFO  19:40:32,926 - #48 ;
+INFO  19:40:32,927 - #45 char
+INFO  19:40:32,927 - #45 co
+INFO  19:40:32,927 - #46 f
+INFO  19:40:32,930 - #48 ;
+INFO  19:40:32,933 - #45 main
+INFO  19:40:32,936 - #45 char
+INFO  19:40:32,937 - #45 cc
+INFO  19:40:32,938 - #45 c
+INFO  19:40:32,938 - #48 ;
+ERROR 19:40:32,938 - 
+Sintaksna greska na liniji 13
+ERROR 19:40:32,939 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13
+ERROR 19:40:32,942 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.VarDeclF cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.VarDeclF cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

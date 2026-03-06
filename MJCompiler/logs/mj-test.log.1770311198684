@@ -1,0 +1,152 @@
+INFO  17:50:39,327 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:50:39,442 - #45 TestPuca
+INFO  17:50:39,442 - #45 int
+INFO  17:50:39,445 - #45 niz
+INFO  17:50:39,446 - #48 ;
+INFO  17:50:39,449 - #45 char
+INFO  17:50:39,450 - #45 c
+INFO  17:50:39,451 - #48 ;
+INFO  17:50:39,453 - #45 int
+INFO  17:50:39,453 - #45 a
+INFO  17:50:39,453 - #48 ;
+INFO  17:50:39,453 - #45 int
+INFO  17:50:39,453 - #45 f
+INFO  17:50:39,453 - #48 ;
+INFO  17:50:39,453 - #45 main
+INFO  17:50:39,461 - #45 f
+INFO  17:50:39,461 - #44 1
+INFO  17:50:39,462 - #44 2
+INFO  17:50:39,471 - Program(
+  ProgName(
+   TestPuca
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarItem(
+               niz
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarItem(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           a
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         f
+          IsArray(
+          ) [IsArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtIf(
+          CondItem(
+            CondTermItem(
+              RelationalOp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorArray(
+                       f
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 1
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [DesignatorArray]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+                RelGt(
+                ) [RelGt]
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [RelationalOp]
+            ) [CondTermItem]
+          ) [CondItem]
+          StmtBlock(
+            NoStatements(
+            ) [NoStatements]
+          ) [StmtBlock]
+          NoElse(
+          ) [NoElse]
+        ) [StmtIf]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:50:39,479 - --------------------------------------------------
+INFO  17:50:39,491 - --------------------------------------------------
+INFO  17:50:39,500 - Parsiranje uspesno zavrseno!

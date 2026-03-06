@@ -1,0 +1,337 @@
+INFO  17:24:59,766 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:24:59,845 - #45 TernarniTest
+INFO  17:24:59,845 - #45 int
+INFO  17:24:59,847 - #45 a
+INFO  17:24:59,850 - #45 b
+INFO  17:24:59,850 - #45 res
+INFO  17:24:59,850 - #48 ;
+INFO  17:24:59,850 - #45 char
+INFO  17:24:59,852 - #45 c
+INFO  17:24:59,852 - #48 ;
+INFO  17:24:59,852 - #45 main
+INFO  17:24:59,855 - #45 a
+INFO  17:24:59,856 - #44 10
+INFO  17:24:59,856 - #48 ;
+INFO  17:24:59,857 - #45 b
+INFO  17:24:59,857 - #44 20
+INFO  17:24:59,857 - #48 ;
+INFO  17:24:59,858 - #45 res
+INFO  17:24:59,858 - #45 a
+INFO  17:24:59,858 - #45 b
+INFO  17:24:59,862 - #45 a
+INFO  17:24:59,862 - #45 b
+INFO  17:24:59,865 - #44 1
+INFO  17:24:59,865 - #44 2
+INFO  17:24:59,867 - #45 a
+INFO  17:24:59,867 - #45 b
+INFO  17:24:59,868 - #44 1
+INFO  17:24:59,868 - #44 2
+INFO  17:24:59,869 - #48 ;
+INFO  17:24:59,869 - #45 res
+INFO  17:24:59,871 - #48 ;
+INFO  17:24:59,875 - Program(
+  ProgName(
+   TernarniTest
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarListItems(
+            VarListItems(
+              VarItem(
+               a
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             b
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           res
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarItem(
+         c
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              NoStatements(
+              ) [NoStatements]
+              StmtDesignator(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                  AssignOperation(
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             10
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [AssignOperation]
+                ) [DesignatorStatement]
+               ;
+              ) [StmtDesignator]
+            ) [StatementsList]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 b
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           20
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               res
+              ) [DesignatorIdent]
+              AssignOperation(
+                ConditionExpr(
+                  TernaryExpr(
+                    CondItem(
+                      CondTermItem(
+                        RelationalOp(
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorIdent(
+                                 a
+                                ) [DesignatorIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                          RelNe(
+                          ) [RelNe]
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorIdent(
+                                 b
+                                ) [DesignatorIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [RelationalOp]
+                      ) [CondTermItem]
+                    ) [CondItem]
+                    TernaryQuestion(
+                    ) [TernaryQuestion]
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactParen(
+                            ConditionExpr(
+                              TernaryExpr(
+                                CondItem(
+                                  CondTermItem(
+                                    RelationalOp(
+                                      TermExpr(
+                                        TermItem(
+                                          FactDesignator(
+                                            DesignatorIdent(
+                                             a
+                                            ) [DesignatorIdent]
+                                          ) [FactDesignator]
+                                        ) [TermItem]
+                                      ) [TermExpr]
+                                      RelGt(
+                                      ) [RelGt]
+                                      TermExpr(
+                                        TermItem(
+                                          FactDesignator(
+                                            DesignatorIdent(
+                                             b
+                                            ) [DesignatorIdent]
+                                          ) [FactDesignator]
+                                        ) [TermItem]
+                                      ) [TermExpr]
+                                    ) [RelationalOp]
+                                  ) [CondTermItem]
+                                ) [CondItem]
+                                TernaryQuestion(
+                                ) [TernaryQuestion]
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactConst(
+                                        NumConst(
+                                         1
+                                        ) [NumConst]
+                                      ) [FactConst]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                                SecondExpr(
+                                ) [SecondExpr]
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactConst(
+                                        NumConst(
+                                         2
+                                        ) [NumConst]
+                                      ) [FactConst]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                              ) [TernaryExpr]
+                            ) [ConditionExpr]
+                          ) [FactParen]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                    SecondExpr(
+                    ) [SecondExpr]
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactParen(
+                            ConditionExpr(
+                              TernaryExpr(
+                                CondItem(
+                                  CondTermItem(
+                                    RelationalOp(
+                                      TermExpr(
+                                        TermItem(
+                                          FactDesignator(
+                                            DesignatorIdent(
+                                             a
+                                            ) [DesignatorIdent]
+                                          ) [FactDesignator]
+                                        ) [TermItem]
+                                      ) [TermExpr]
+                                      RelLt(
+                                      ) [RelLt]
+                                      TermExpr(
+                                        TermItem(
+                                          FactDesignator(
+                                            DesignatorIdent(
+                                             b
+                                            ) [DesignatorIdent]
+                                          ) [FactDesignator]
+                                        ) [TermItem]
+                                      ) [TermExpr]
+                                    ) [RelationalOp]
+                                  ) [CondTermItem]
+                                ) [CondItem]
+                                TernaryQuestion(
+                                ) [TernaryQuestion]
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactConst(
+                                        NumConst(
+                                         1
+                                        ) [NumConst]
+                                      ) [FactConst]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                                SecondExpr(
+                                ) [SecondExpr]
+                                ArExp(
+                                  TermExpr(
+                                    TermItem(
+                                      FactConst(
+                                        NumConst(
+                                         2
+                                        ) [NumConst]
+                                      ) [FactConst]
+                                    ) [TermItem]
+                                  ) [TermExpr]
+                                ) [ArExp]
+                              ) [TernaryExpr]
+                            ) [ConditionExpr]
+                          ) [FactParen]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [TernaryExpr]
+                ) [ConditionExpr]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorIdent(
+                   res
+                  ) [DesignatorIdent]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:24:59,875 - --------------------------------------------------
+INFO  17:24:59,883 - --------------------------------------------------
+INFO  17:24:59,888 - Info( brojjj0 [na liniji 1])
+INFO  17:24:59,895 - KOD GENERISAN!

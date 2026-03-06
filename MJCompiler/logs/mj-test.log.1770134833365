@@ -1,0 +1,30 @@
+INFO  17:06:41,169 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:06:41,253 - #46 mojProgram
+INFO  17:06:41,256 - #46 int
+INFO  17:06:41,256 - #46 pi
+INFO  17:06:41,258 - #45 3
+INFO  17:06:41,258 - #46 mi
+INFO  17:06:41,258 - #45 4
+INFO  17:06:41,260 - #46 char
+INFO  17:06:41,260 - #46 asd
+INFO  17:06:41,261 - #47 a
+INFO  17:06:41,262 - #46 int
+INFO  17:06:41,262 - #46 a
+INFO  17:06:41,267 - #46 gfdg
+INFO  17:06:41,270 - #46 g3rg
+INFO  17:06:41,270 - #46 char
+INFO  17:06:41,273 - #46 b
+INFO  17:06:41,273 - #46 c
+INFO  17:06:41,274 - #46 d
+INFO  17:06:41,274 - #46 Broj
+INFO  17:06:41,276 - #46 NULA
+INFO  17:06:41,278 - #46 TRI
+INFO  17:06:41,278 - #45 3
+INFO  17:06:41,281 - #46 PET
+INFO  17:06:41,281 - #45 5
+ERROR 17:06:41,281 - 
+Sintaksna greska na liniji 7
+ERROR 17:06:41,281 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
+ERROR 17:06:41,285 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.EnumListItems cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.EnumListItems cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

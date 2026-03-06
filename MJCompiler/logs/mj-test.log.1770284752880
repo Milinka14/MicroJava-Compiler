@@ -1,0 +1,43 @@
+INFO  10:45:15,648 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  10:45:15,868 - #46 TestParametri
+INFO  10:45:15,871 - #46 char
+INFO  10:45:15,871 - #46 provera
+INFO  10:45:15,874 - #47 s
+INFO  10:45:15,876 - #46 Broj
+INFO  10:45:15,879 - #46 jedan
+INFO  10:45:15,879 - #45 1
+INFO  10:45:15,880 - #46 dva
+INFO  10:45:15,880 - #45 2
+INFO  10:45:15,880 - #46 Broj
+INFO  10:45:15,883 - #46 br
+INFO  10:45:15,886 - #46 int
+INFO  10:45:15,890 - #46 c
+INFO  10:45:15,890 - #46 testRedosled
+INFO  10:45:15,893 - #46 int
+INFO  10:45:15,894 - #46 prvi
+INFO  10:45:15,894 - #46 char
+INFO  10:45:15,894 - #46 drugi
+INFO  10:45:15,894 - #46 int
+INFO  10:45:15,894 - #46 treci
+INFO  10:45:15,900 - #46 prvi
+INFO  10:45:15,901 - #46 drugi
+INFO  10:45:15,902 - #46 uwg
+INFO  10:45:15,903 - #46 testRedosled2
+INFO  10:45:15,903 - #46 int
+INFO  10:45:15,903 - #46 prvi
+INFO  10:45:15,903 - #46 char
+INFO  10:45:15,903 - #46 drugi
+INFO  10:45:15,904 - #46 int
+INFO  10:45:15,904 - #46 treci
+INFO  10:45:15,904 - #46 prvi
+INFO  10:45:15,904 - #46 drugi
+INFO  10:45:15,906 - #46 char
+INFO  10:45:15,906 - #46 tt
+INFO  10:45:15,910 - #46 char
+INFO  10:45:15,911 - #46 c
+ERROR 10:45:15,911 - 
+Sintaksna greska na liniji 18
+ERROR 10:45:15,911 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 18
+ERROR 10:45:15,916 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

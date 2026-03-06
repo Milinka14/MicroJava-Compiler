@@ -1,0 +1,47 @@
+INFO  16:00:52,617 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  16:00:52,713 - #46 mojProgram
+INFO  16:00:52,716 - #46 mojProgram
+INFO  16:00:52,716 - #46 pi
+INFO  16:00:52,718 - #45 3
+INFO  16:00:52,722 - #46 main
+INFO  16:00:52,731 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclConst(
+      ConstDecl(
+        Type(
+         mojProgram
+        ) [Type]
+        ConstItem(
+         pi
+          NumConst(
+           3
+          ) [NumConst]
+        ) [ConstItem]
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+     main
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:00:52,732 - --------------------------------------------------
+INFO  16:00:52,741 - --------------------------------------------------
+ERROR 16:00:52,743 - Greska( Ne postoji zadati tip podataka: mojProgram [na liniji 3])
+ERROR 16:00:52,744 - Parsiranje NIJE uspesno zavrseno!

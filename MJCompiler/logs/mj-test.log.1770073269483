@@ -1,0 +1,98 @@
+INFO  00:00:54,924 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  00:00:55,008 - #46 mojProgram
+INFO  00:00:55,011 - #46 int
+INFO  00:00:55,011 - #46 pi
+INFO  00:00:55,012 - #45 3
+INFO  00:00:55,013 - #46 mi
+INFO  00:00:55,013 - #45 4
+INFO  00:00:55,013 - #46 int
+INFO  00:00:55,016 - #46 a
+INFO  00:00:55,019 - #46 char
+INFO  00:00:55,021 - #46 b
+INFO  00:00:55,021 - #46 c
+INFO  00:00:55,021 - #46 d
+INFO  00:00:55,021 - #46 main
+INFO  00:00:55,031 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclConst(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstListItems(
+              ConstItem(
+               pi
+                NumConst(
+                 3
+                ) [NumConst]
+              ) [ConstItem]
+             mi
+              NumConst(
+               4
+              ) [NumConst]
+            ) [ConstListItems]
+          ) [ConstDecl]
+        ) [DeclConst]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           a
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarListItems(
+          VarListItems(
+            VarItem(
+             b
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         d
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+     main
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:00:55,033 - --------------------------------------------------
+INFO  00:00:55,040 - --------------------------------------------------
+INFO  00:00:55,045 - Parsiranje uspesno zavrseno!

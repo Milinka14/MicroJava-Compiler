@@ -1,0 +1,66 @@
+INFO  21:25:03,720 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:25:03,808 - #45 test301
+INFO  21:25:03,810 - #45 Broj
+INFO  21:25:03,811 - #45 NULA
+INFO  21:25:03,812 - #45 JEDAN
+INFO  21:25:03,813 - #45 PET
+INFO  21:25:03,813 - #44 5
+INFO  21:25:03,813 - #45 DESET
+INFO  21:25:03,813 - #44 10
+INFO  21:25:03,814 - #45 int
+INFO  21:25:03,814 - #45 nula
+INFO  21:25:03,815 - #44 0
+INFO  21:25:03,816 - #48 ;
+INFO  21:25:03,818 - #45 int
+INFO  21:25:03,818 - #45 jedan
+INFO  21:25:03,818 - #44 1
+INFO  21:25:03,818 - #48 ;
+INFO  21:25:03,818 - #45 int
+INFO  21:25:03,818 - #45 pet
+INFO  21:25:03,818 - #44 5
+INFO  21:25:03,818 - #48 ;
+INFO  21:25:03,818 - #45 int
+INFO  21:25:03,820 - #45 niz
+INFO  21:25:03,820 - #48 ;
+INFO  21:25:03,823 - #45 char
+INFO  21:25:03,824 - #45 nizch
+INFO  21:25:03,825 - #48 ;
+INFO  21:25:03,825 - #45 int
+INFO  21:25:03,825 - #45 a
+INFO  21:25:03,825 - #48 ;
+INFO  21:25:03,826 - #45 main
+INFO  21:25:03,828 - #45 int
+INFO  21:25:03,829 - #45 bodovi
+INFO  21:25:03,829 - #48 ;
+INFO  21:25:03,830 - #45 int
+INFO  21:25:03,830 - #45 temp
+INFO  21:25:03,830 - #48 ;
+INFO  21:25:03,830 - #45 Broj
+INFO  21:25:03,830 - #45 nula
+INFO  21:25:03,830 - #45 jedan
+INFO  21:25:03,830 - #48 ;
+INFO  21:25:03,830 - #45 bool
+INFO  21:25:03,830 - #45 bt
+INFO  21:25:03,830 - #48 ;
+INFO  21:25:03,830 - #45 bodovi
+INFO  21:25:03,831 - #44 5
+INFO  21:25:03,831 - #44 3
+INFO  21:25:03,834 - #44 1
+INFO  21:25:03,834 - #44 0
+INFO  21:25:03,834 - #48 ;
+INFO  21:25:03,835 - #45 a
+INFO  21:25:03,835 - #45 bt
+INFO  21:25:03,835 - #46 a
+INFO  21:25:03,835 - #44 10
+INFO  21:25:03,835 - #48 ;
+INFO  21:25:03,836 - #45 a
+INFO  21:25:03,836 - #45 bt
+INFO  21:25:03,836 - #45 niz
+INFO  21:25:03,836 - #44 5
+INFO  21:25:03,836 - #48 ;
+ERROR 21:25:03,836 - 
+Sintaksna greska na liniji 32
+ERROR 21:25:03,836 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 32
+ERROR 21:25:03,839 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.DesignatorStatement cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.DesignatorStatement cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

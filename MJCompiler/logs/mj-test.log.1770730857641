@@ -1,0 +1,26 @@
+INFO  14:40:41,025 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:40:41,123 - #45 Test3
+INFO  14:40:41,123 - #45 int
+INFO  14:40:41,126 - #45 a
+INFO  14:40:41,131 - #45 b
+INFO  14:40:41,131 - #48 ;
+INFO  14:40:41,134 - #45 main
+INFO  14:40:41,141 - #45 a
+INFO  14:40:41,143 - #44 3
+INFO  14:40:41,144 - #48 ;
+INFO  14:40:41,146 - #45 b
+INFO  14:40:41,146 - #44 1
+INFO  14:40:41,146 - #48 ;
+INFO  14:40:41,149 - #45 a
+INFO  14:40:41,152 - #44 3
+INFO  14:40:41,154 - #45 b
+INFO  14:40:41,154 - #44 1
+INFO  14:40:41,161 - #44 3
+INFO  14:40:41,163 - #48 ;
+INFO  14:40:41,163 - #45 lse
+ERROR 14:40:41,167 - 
+Sintaksna greska na liniji 11
+ERROR 14:40:41,168 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+ERROR 14:40:41,174 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.StatementsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.StatementsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

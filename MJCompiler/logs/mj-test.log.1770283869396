@@ -1,0 +1,37 @@
+INFO  10:30:58,885 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  10:30:58,989 - #46 TestParametri
+INFO  10:30:58,989 - #46 char
+INFO  10:30:58,991 - #46 provera
+INFO  10:30:58,997 - #46 testRedosled
+INFO  10:30:58,999 - #46 int
+INFO  10:30:58,999 - #46 prvi
+INFO  10:30:59,000 - #46 char
+INFO  10:30:59,000 - #46 drugi
+INFO  10:30:59,000 - #46 int
+INFO  10:30:59,000 - #46 treci
+INFO  10:30:59,006 - #46 prvi
+INFO  10:30:59,009 - #46 drugi
+INFO  10:30:59,010 - #46 char
+INFO  10:30:59,012 - #46 testRedosled2
+INFO  10:30:59,012 - #46 int
+INFO  10:30:59,013 - #46 prvi
+INFO  10:30:59,013 - #46 char
+INFO  10:30:59,013 - #46 drugi
+INFO  10:30:59,014 - #46 int
+INFO  10:30:59,015 - #46 treci
+INFO  10:30:59,015 - #46 prvi
+INFO  10:30:59,015 - #46 drugi
+INFO  10:30:59,016 - #46 main
+INFO  10:30:59,018 - #46 testRedosled
+INFO  10:30:59,019 - #45 10
+INFO  10:30:59,019 - #46 testRedosled2
+INFO  10:30:59,019 - #45 1
+INFO  10:30:59,019 - #47 b
+INFO  10:30:59,020 - #45 2
+INFO  10:30:59,020 - #45 20
+ERROR 10:30:59,023 - 
+Sintaksna greska na liniji 19
+ERROR 10:30:59,023 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19
+ERROR 10:30:59,027 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.StatementsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.StatementsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

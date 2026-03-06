@@ -1,0 +1,128 @@
+INFO  00:12:40,312 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  00:12:40,403 - #46 mojProgram
+INFO  00:12:40,404 - #46 int
+INFO  00:12:40,404 - #46 pi
+INFO  00:12:40,406 - #45 3
+INFO  00:12:40,406 - #46 mi
+INFO  00:12:40,406 - #45 4
+INFO  00:12:40,408 - #46 char
+INFO  00:12:40,408 - #46 asd
+INFO  00:12:40,408 - #47 a
+INFO  00:12:40,408 - #46 int
+INFO  00:12:40,408 - #46 a
+INFO  00:12:40,410 - #46 gfdg
+INFO  00:12:40,411 - #46 g3rg
+INFO  00:12:40,411 - #46 char
+INFO  00:12:40,413 - #46 b
+INFO  00:12:40,413 - #46 c
+INFO  00:12:40,413 - #46 d
+INFO  00:12:40,413 - #46 main
+INFO  00:12:40,420 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstListItems(
+                ConstItem(
+                 pi
+                  NumConst(
+                   3
+                  ) [NumConst]
+                ) [ConstItem]
+               mi
+                NumConst(
+                 4
+                ) [NumConst]
+              ) [ConstListItems]
+            ) [ConstDecl]
+          ) [DeclConst]
+        ) [DeclarationsList]
+        DeclConst(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstItem(
+             asd
+              CharConst(
+               a
+              ) [CharConst]
+            ) [ConstItem]
+          ) [ConstDecl]
+        ) [DeclConst]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarListItems(
+            VarListItems(
+              VarItem(
+               a
+                IsArray(
+                ) [IsArray]
+              ) [VarItem]
+             gfdg
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           g3rg
+            IsArray(
+            ) [IsArray]
+          ) [VarListItems]
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarListItems(
+          VarListItems(
+            VarItem(
+             b
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         d
+          NoArray(
+          ) [NoArray]
+        ) [VarListItems]
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+     main
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:12:40,422 - --------------------------------------------------
+INFO  00:12:40,429 - --------------------------------------------------
+INFO  00:12:40,432 - Parsiranje uspesno zavrseno!

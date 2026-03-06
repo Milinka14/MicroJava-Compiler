@@ -1,0 +1,446 @@
+INFO  21:25:41,163 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:25:41,242 - #45 test301
+INFO  21:25:41,244 - #45 Broj
+INFO  21:25:41,245 - #45 NULA
+INFO  21:25:41,247 - #45 JEDAN
+INFO  21:25:41,247 - #45 PET
+INFO  21:25:41,247 - #44 5
+INFO  21:25:41,247 - #45 DESET
+INFO  21:25:41,248 - #44 10
+INFO  21:25:41,249 - #45 int
+INFO  21:25:41,249 - #45 nula
+INFO  21:25:41,250 - #44 0
+INFO  21:25:41,250 - #48 ;
+INFO  21:25:41,251 - #45 int
+INFO  21:25:41,251 - #45 jedan
+INFO  21:25:41,251 - #44 1
+INFO  21:25:41,252 - #48 ;
+INFO  21:25:41,252 - #45 int
+INFO  21:25:41,252 - #45 pet
+INFO  21:25:41,252 - #44 5
+INFO  21:25:41,252 - #48 ;
+INFO  21:25:41,252 - #45 int
+INFO  21:25:41,254 - #45 niz
+INFO  21:25:41,254 - #48 ;
+INFO  21:25:41,256 - #45 char
+INFO  21:25:41,257 - #45 nizch
+INFO  21:25:41,257 - #48 ;
+INFO  21:25:41,257 - #45 int
+INFO  21:25:41,257 - #45 a
+INFO  21:25:41,257 - #48 ;
+INFO  21:25:41,259 - #45 main
+INFO  21:25:41,261 - #45 int
+INFO  21:25:41,262 - #45 bodovi
+INFO  21:25:41,262 - #48 ;
+INFO  21:25:41,262 - #45 int
+INFO  21:25:41,262 - #45 temp
+INFO  21:25:41,262 - #48 ;
+INFO  21:25:41,262 - #45 Broj
+INFO  21:25:41,262 - #45 nula
+INFO  21:25:41,263 - #45 jedan
+INFO  21:25:41,263 - #48 ;
+INFO  21:25:41,263 - #45 bool
+INFO  21:25:41,263 - #45 bt
+INFO  21:25:41,263 - #48 ;
+INFO  21:25:41,263 - #45 bodovi
+INFO  21:25:41,264 - #44 5
+INFO  21:25:41,264 - #44 3
+INFO  21:25:41,267 - #44 1
+INFO  21:25:41,267 - #44 0
+INFO  21:25:41,267 - #48 ;
+INFO  21:25:41,268 - #45 a
+INFO  21:25:41,268 - #45 bt
+INFO  21:25:41,269 - #46 a
+INFO  21:25:41,269 - #44 10
+INFO  21:25:41,269 - #48 ;
+INFO  21:25:41,269 - #45 a
+INFO  21:25:41,269 - #45 bt
+INFO  21:25:41,269 - #45 niz
+INFO  21:25:41,269 - #44 5
+INFO  21:25:41,269 - #48 ;
+INFO  21:25:41,273 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            DeclarationsList(
+              DeclarationsList(
+                NoDeclarations(
+                ) [NoDeclarations]
+                DeclEnum(
+                  EnumDecl(
+                    EnumName(
+                     Broj
+                    ) [EnumName]
+                    EnumListItems(
+                      EnumListItems(
+                        EnumListItems(
+                          EnumItem(
+                           NULA
+                            NoInit(
+                            ) [NoInit]
+                          ) [EnumItem]
+                         JEDAN
+                          NoInit(
+                          ) [NoInit]
+                        ) [EnumListItems]
+                       PET
+                        IsInit(
+                         5
+                        ) [IsInit]
+                      ) [EnumListItems]
+                     DESET
+                      IsInit(
+                       10
+                      ) [IsInit]
+                    ) [EnumListItems]
+                  ) [EnumDecl]
+                ) [DeclEnum]
+              ) [DeclarationsList]
+              DeclConst(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstItem(
+                   nula
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [ConstItem]
+                 ;
+                ) [ConstDecl]
+              ) [DeclConst]
+            ) [DeclarationsList]
+            DeclConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstItem(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstItem]
+               ;
+              ) [ConstDecl]
+            ) [DeclConst]
+          ) [DeclarationsList]
+          DeclConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstItem(
+               pet
+                NumConst(
+                 5
+                ) [NumConst]
+              ) [ConstItem]
+             ;
+            ) [ConstDecl]
+          ) [DeclConst]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             niz
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarItem(
+           nizch
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          VarDeclF(
+            VarDeclF(
+              NoVarDeclF(
+              ) [NoVarDeclF]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarItem(
+                 bodovi
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               ;
+              ) [VarDecl]
+            ) [VarDeclF]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarItem(
+               temp
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [VarDeclF]
+          VarDecl(
+            Type(
+             Broj
+            ) [Type]
+            VarListItems(
+              VarItem(
+               nula
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             jedan
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          VarItem(
+           bt
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 bodovi
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ConditionExpr(
+                    TernaryExpr(
+                      CondItem(
+                        CondTermItem(
+                          BooleanArith(
+                            AddExpr(
+                              TermExpr(
+                                TermItem(
+                                  FactConst(
+                                    NumConst(
+                                     5
+                                    ) [NumConst]
+                                  ) [FactConst]
+                                ) [TermItem]
+                              ) [TermExpr]
+                              AddPlus(
+                              ) [AddPlus]
+                              TermItem(
+                                FactConst(
+                                  NumConst(
+                                   3
+                                  ) [NumConst]
+                                ) [FactConst]
+                              ) [TermItem]
+                            ) [AddExpr]
+                          ) [BooleanArith]
+                        ) [CondTermItem]
+                      ) [CondItem]
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               1
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               0
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [TernaryExpr]
+                  ) [ConditionExpr]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              AssignOperation(
+                ConditionExpr(
+                  TernaryExpr(
+                    CondItem(
+                      CondTermItem(
+                        BooleanArith(
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorIdent(
+                                 bt
+                                ) [DesignatorIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [BooleanArith]
+                      ) [CondTermItem]
+                    ) [CondItem]
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            CharConst(
+                             a
+                            ) [CharConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             10
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [TernaryExpr]
+                ) [ConditionExpr]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorIdent(
+             a
+            ) [DesignatorIdent]
+            AssignOperation(
+              ConditionExpr(
+                TernaryExpr(
+                  CondItem(
+                    CondTermItem(
+                      BooleanArith(
+                        TermExpr(
+                          TermItem(
+                            FactDesignator(
+                              DesignatorIdent(
+                               bt
+                              ) [DesignatorIdent]
+                            ) [FactDesignator]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [BooleanArith]
+                    ) [CondTermItem]
+                  ) [CondItem]
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactDesignator(
+                          DesignatorIdent(
+                           niz
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          NumConst(
+                           5
+                          ) [NumConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [TernaryExpr]
+              ) [ConditionExpr]
+            ) [AssignOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:25:41,274 - --------------------------------------------------
+INFO  21:25:41,286 - --------------------------------------------------
+INFO  21:25:41,289 - Info( brojjj0 [na liniji 3])
+ERROR 21:25:41,291 - Greska( Uslov mora biti tipa bool! [na liniji 24])
+ERROR 21:25:41,291 - Greska( Uslov u for petlji mora biti tipa bool! [na liniji 24])
+ERROR 21:25:41,291 - Greska( Nekompatibilni tipovi! [na liniji 24])
+ERROR 21:25:41,291 - Greska( Tipovi grana ternarnog operatora nisu kompatibilni! [na liniji 27])
+ERROR 21:25:41,291 - Greska( Nekompatibilni tipovi! [na liniji 27])
+ERROR 21:25:41,293 - Greska( Tipovi grana ternarnog operatora nisu kompatibilni! [na liniji 30])
+ERROR 21:25:41,293 - Greska( Nekompatibilni tipovi! [na liniji 30])
+ERROR 21:25:41,293 - Parsiranje NIJE uspesno zavrseno!

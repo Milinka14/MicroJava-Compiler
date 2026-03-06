@@ -1,0 +1,45 @@
+INFO  17:18:43,702 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:18:43,811 - #45 TestPuca
+INFO  17:18:43,811 - #45 int
+INFO  17:18:43,814 - #45 niz
+INFO  17:18:43,816 - #48 ;
+INFO  17:18:43,819 - #45 char
+INFO  17:18:43,820 - #45 c
+INFO  17:18:43,820 - #48 ;
+INFO  17:18:43,822 - #45 int
+INFO  17:18:43,822 - #45 a
+INFO  17:18:43,822 - #48 ;
+INFO  17:18:43,822 - #45 bool
+INFO  17:18:43,822 - #45 f
+INFO  17:18:43,822 - #48 ;
+INFO  17:18:43,822 - #45 main
+INFO  17:18:43,827 - #45 a
+INFO  17:18:43,830 - #44 5
+INFO  17:18:43,830 - #48 ;
+INFO  17:18:43,831 - #45 c
+INFO  17:18:43,835 - #46 x
+INFO  17:18:43,835 - #48 ;
+INFO  17:18:43,835 - #45 niz
+INFO  17:18:43,836 - #45 int
+INFO  17:18:43,837 - #44 2
+INFO  17:18:43,837 - #48 ;
+INFO  17:18:43,837 - #45 a
+INFO  17:18:43,838 - #45 c
+INFO  17:18:43,841 - #44 1
+INFO  17:18:43,842 - #48 ;
+INFO  17:18:43,844 - #45 niz
+INFO  17:18:43,844 - #45 null
+INFO  17:18:43,846 - #44 2
+INFO  17:18:43,846 - #48 ;
+INFO  17:18:43,847 - #45 a
+INFO  17:18:43,847 - #44 5
+INFO  17:18:43,851 - #44 3
+INFO  17:18:43,851 - #48 ;
+INFO  17:18:43,851 - #45 a
+INFO  17:18:43,851 - #45 c
+ERROR 17:18:43,852 - 
+Sintaksna greska na liniji 26
+ERROR 17:18:43,852 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 26
+ERROR 17:18:43,854 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

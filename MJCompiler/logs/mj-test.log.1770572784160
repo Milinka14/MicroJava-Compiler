@@ -1,0 +1,241 @@
+INFO  18:45:07,654 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  18:45:07,750 - #45 TestEnumi
+INFO  18:45:07,752 - #45 t
+INFO  18:45:07,752 - #45 j
+INFO  18:45:07,753 - #44 7
+INFO  18:45:07,753 - #45 d
+INFO  18:45:07,754 - #45 t
+INFO  18:45:07,756 - #45 f
+INFO  18:45:07,758 - #48 ;
+INFO  18:45:07,760 - #45 int
+INFO  18:45:07,761 - #45 br
+INFO  18:45:07,761 - #45 br2
+INFO  18:45:07,761 - #48 ;
+INFO  18:45:07,761 - #45 int
+INFO  18:45:07,761 - #45 niz
+INFO  18:45:07,761 - #48 ;
+INFO  18:45:07,762 - #45 t
+INFO  18:45:07,762 - #45 ttt
+INFO  18:45:07,762 - #48 ;
+INFO  18:45:07,762 - #45 main
+INFO  18:45:07,765 - #45 char
+INFO  18:45:07,767 - #45 cc
+INFO  18:45:07,768 - #45 c
+INFO  18:45:07,768 - #48 ;
+INFO  18:45:07,768 - #45 cc
+INFO  18:45:07,770 - #45 char
+INFO  18:45:07,770 - #44 3
+INFO  18:45:07,770 - #48 ;
+INFO  18:45:07,771 - #45 cc
+INFO  18:45:07,771 - #44 0
+INFO  18:45:07,773 - #48 ;
+INFO  18:45:07,777 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclEnum(
+              EnumDecl(
+                EnumName(
+                 t
+                ) [EnumName]
+                EnumListItems(
+                  EnumItem(
+                   j
+                    IsInit(
+                     7
+                    ) [IsInit]
+                  ) [EnumItem]
+                 d
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumListItems]
+              ) [EnumDecl]
+            ) [DeclEnum]
+          ) [DeclarationsList]
+          DeclVar(
+            VarDecl(
+              Type(
+               t
+              ) [Type]
+              VarItem(
+               f
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             ;
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarListItems(
+              VarItem(
+               br
+                NoArray(
+                ) [NoArray]
+              ) [VarItem]
+             br2
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           niz
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         t
+        ) [Type]
+        VarItem(
+         ttt
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          NoStatements(
+          ) [NoStatements]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               cc
+              ) [DesignatorIdent]
+              AssignOperation(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactNew(
+                        Type(
+                         char
+                        ) [Type]
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 3
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [FactNew]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+              ) [AssignOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactDesignator(
+                  DesignatorArray(
+                   cc
+                    ArExp(
+                      TermExpr(
+                        TermItem(
+                          FactConst(
+                            NumConst(
+                             0
+                            ) [NumConst]
+                          ) [FactConst]
+                        ) [TermItem]
+                      ) [TermExpr]
+                    ) [ArExp]
+                  ) [DesignatorArray]
+                ) [FactDesignator]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:45:07,778 - --------------------------------------------------
+INFO  18:45:07,787 - --------------------------------------------------
+INFO  18:45:07,790 - Info( brojjj0 [na liniji 1])
+ERROR 18:45:07,795 - Fatalna greska tokom kompajliranja: null
+java.lang.NullPointerException
+	at rs.ac.bg.etf.pp1.CodeGenerator.visit(CodeGenerator.java:92)
+	at rs.ac.bg.etf.pp1.ast.FactNew.accept(FactNew.java:37)
+	at rs.ac.bg.etf.pp1.ast.FactNew.traverseBottomUp(FactNew.java:54)
+	at rs.ac.bg.etf.pp1.ast.TermItem.traverseBottomUp(TermItem.java:39)
+	at rs.ac.bg.etf.pp1.ast.TermExpr.traverseBottomUp(TermExpr.java:39)
+	at rs.ac.bg.etf.pp1.ast.ArExp.traverseBottomUp(ArExp.java:39)
+	at rs.ac.bg.etf.pp1.ast.AssignOperation.traverseBottomUp(AssignOperation.java:39)
+	at rs.ac.bg.etf.pp1.ast.DesignatorStatement.traverseBottomUp(DesignatorStatement.java:71)
+	at rs.ac.bg.etf.pp1.ast.StmtDesignator.traverseBottomUp(StmtDesignator.java:49)
+	at rs.ac.bg.etf.pp1.ast.StatementsList.traverseBottomUp(StatementsList.java:53)
+	at rs.ac.bg.etf.pp1.ast.StatementsList.traverseBottomUp(StatementsList.java:52)
+	at rs.ac.bg.etf.pp1.ast.MethodDecl.traverseBottomUp(MethodDecl.java:113)
+	at rs.ac.bg.etf.pp1.ast.MethodDeclarations.traverseBottomUp(MethodDeclarations.java:52)
+	at rs.ac.bg.etf.pp1.ast.Program.traverseBottomUp(Program.java:85)
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:76)

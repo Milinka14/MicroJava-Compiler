@@ -1,0 +1,72 @@
+INFO  21:24:27,998 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:24:28,095 - #45 test301
+INFO  21:24:28,100 - #45 Broj
+INFO  21:24:28,103 - #45 NULA
+INFO  21:24:28,107 - #45 JEDAN
+INFO  21:24:28,108 - #45 PET
+INFO  21:24:28,108 - #44 5
+INFO  21:24:28,109 - #45 DESET
+INFO  21:24:28,109 - #44 10
+INFO  21:24:28,113 - #45 int
+INFO  21:24:28,113 - #45 nula
+INFO  21:24:28,117 - #44 0
+INFO  21:24:28,118 - #48 ;
+INFO  21:24:28,121 - #45 int
+INFO  21:24:28,121 - #45 jedan
+INFO  21:24:28,122 - #44 1
+INFO  21:24:28,122 - #48 ;
+INFO  21:24:28,123 - #45 int
+INFO  21:24:28,123 - #45 pet
+INFO  21:24:28,123 - #44 5
+INFO  21:24:28,124 - #48 ;
+INFO  21:24:28,124 - #45 int
+INFO  21:24:28,127 - #45 niz
+INFO  21:24:28,127 - #48 ;
+INFO  21:24:28,135 - #45 char
+INFO  21:24:28,141 - #45 nizch
+INFO  21:24:28,141 - #48 ;
+INFO  21:24:28,141 - #45 int
+INFO  21:24:28,141 - #45 a
+INFO  21:24:28,142 - #48 ;
+INFO  21:24:28,148 - #45 main
+INFO  21:24:28,163 - #45 int
+INFO  21:24:28,166 - #45 bodovi
+INFO  21:24:28,167 - #48 ;
+INFO  21:24:28,167 - #45 int
+INFO  21:24:28,168 - #45 temp
+INFO  21:24:28,169 - #48 ;
+INFO  21:24:28,169 - #45 Broj
+INFO  21:24:28,169 - #45 nula
+INFO  21:24:28,169 - #45 jedan
+INFO  21:24:28,169 - #48 ;
+INFO  21:24:28,170 - #45 bool
+INFO  21:24:28,170 - #45 bt
+INFO  21:24:28,170 - #48 ;
+INFO  21:24:28,174 - #45 bodovi
+INFO  21:24:28,176 - #44 0
+INFO  21:24:28,187 - #45 bodovi
+INFO  21:24:28,187 - #44 0
+INFO  21:24:28,191 - #48 ;
+INFO  21:24:28,191 - #45 bodovi
+INFO  21:24:28,192 - #45 nula
+INFO  21:24:28,192 - #45 Broj
+INFO  21:24:28,196 - #45 NULA
+INFO  21:24:28,196 - #45 pet
+INFO  21:24:28,196 - #44 3
+INFO  21:24:28,196 - #44 100
+INFO  21:24:28,196 - #44 200
+INFO  21:24:28,197 - #44 0
+INFO  21:24:28,197 - #48 ;
+INFO  21:24:28,200 - #45 bt
+INFO  21:24:28,200 - #46 A
+INFO  21:24:28,200 - #46 B
+INFO  21:24:28,200 - #48 ;
+INFO  21:24:28,200 - #45 temp
+INFO  21:24:28,201 - #45 bodovi
+INFO  21:24:28,201 - #44 10
+ERROR 21:24:28,202 - 
+Sintaksna greska na liniji 31
+ERROR 21:24:28,202 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 31
+ERROR 21:24:28,212 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

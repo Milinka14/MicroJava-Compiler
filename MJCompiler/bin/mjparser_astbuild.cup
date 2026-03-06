@@ -1,0 +1,334 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+/* --- KOD PARSERA --- */
+parser code {:
+    boolean errorDetected = false;
+    Logger log = Logger.getLogger(getClass());
+   
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+        errorDetected = true;
+        StringBuilder msg = new StringBuilder(message); 
+        if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+:}
+
+scan with {:
+    Symbol s = this.getScanner().next_token();
+    if (s != null && s.value != null) 
+        log.info(s.toString() + " " + s.value.toString());
+    return s;
+:}
+
+/* --- TERMINALI (Tokeni koje JFlex salje) --- */
+
+terminal PROG, LBRACE, RBRACE, COMMA, DOT, LPAREN, RPAREN, LBRACKET, RBRACKET;
+terminal VOID, CONST, ENUM, NEW, LENGTH;
+terminal WHILE;
+
+terminal IF, ELSE, FOR, BREAK, CONTINUE, RETURN, SWITCH, CASE, COLON;
+
+terminal ASSIGN, INC, DEC, QUESTION, OR, AND;
+terminal PLUS, MINUS, MUL, DIV, MOD;
+terminal EQ, NE, GT, GE, LT, LE;
+terminal READ, PRINT;
+
+//tokeni koji imaju vr brojevi, identi, char i bool
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Character CHARACTER;
+terminal Integer BOOL;
+terminal Character SEMI;
+
+
+nonterminal Program Program;
+nonterminal Declarations Declarations;
+nonterminal Declaration Declaration;
+nonterminal MethodDeclList MethodDeclList;
+nonterminal MethodDecl MethodDecl;
+nonterminal ConstDecl ConstDecl;
+nonterminal VarDecl VarDecl;
+nonterminal EnumDecl EnumDecl;
+nonterminal ConstList ConstList;
+nonterminal VarList VarList;
+nonterminal EnumList EnumList;
+nonterminal IsList IsList;
+nonterminal IsInitialized IsInitialized;
+nonterminal ReturnType ReturnType;
+nonterminal FormPars FormPars;
+nonterminal FormParsList FormParsList;
+nonterminal VarDeclFunc VarDeclFunc;
+
+nonterminal Statements Statements;
+nonterminal Statement Statement;
+nonterminal DesignatorStatement DesignatorStatement;
+nonterminal DesignatorOperation DesignatorOperation;
+nonterminal ElsePart ElsePart;
+nonterminal Condition Condition;
+nonterminal CondTerm CondTerm;
+nonterminal CondFact CondFact;
+nonterminal Expr Expr;
+nonterminal Term Term;
+nonterminal Designator Designator;
+nonterminal Addop Addop;
+nonterminal Mulop Mulop;
+nonterminal Relop Relop;
+nonterminal Type Type;
+nonterminal Constant Constant;
+nonterminal OptActPars OptActPars;
+nonterminal ActPars ActPars;
+nonterminal Width Width;
+nonterminal SwitchBody SwitchBody;
+nonterminal CaseItem CaseItem;
+nonterminal OptExpr OptExpr;
+nonterminal OptDesignatorStatement OptDesignatorStatement;
+nonterminal OptCondition OptCondition;
+nonterminal ArithExpr ArithExpr;
+nonterminal CondExpr CondExpr;
+nonterminal ProgName ProgName;
+nonterminal MethodName MethodName;
+nonterminal EnumName EnumName;
+nonterminal SecondExpr SecondExpr;
+nonterminal SemiLine SemiLine;
+nonterminal CaseStart CaseStart;
+nonterminal FirstSemiFor FirstSemiFor;
+nonterminal ForBracketEnd ForBracketEnd;
+nonterminal TernaryQuestion TernaryQuestion;
+nonterminal ReturnStart ReturnStart;
+nonterminal Factor Factor;
+nonterminal SwitchStart SwitchStart;
+nonterminal ForStart ForStart;
+nonterminal IfConditionEnd IfConditionEnd;
+nonterminal IfEnded IfEnded;
+nonterminal JumpOverJump JumpOverJump;
+nonterminal LeftOr LeftOr;
+nonterminal LeftAnd LeftAnd;
+nonterminal WhileStart WhileStart;
+
+precedence left ELSE; // vezuje za posl, mozda i ne treba? ispod idu ovi sa manjim prio
+
+// glavno deklaracije promj ---------------------------------------------------------------
+
+Program ::= (Program) PROG ProgName:P1 Declarations:D2 LBRACE MethodDeclList:M3 RBRACE {: RESULT=new Program(P1, D2, M3); RESULT.setLine(P1left); :};
+
+ProgName ::= (ProgName) IDENT:I1 {: RESULT=new ProgName(I1); RESULT.setLine(I1left); :};
+
+Declarations ::= (DeclarationsList) Declarations:D1 Declaration:D2 {: RESULT=new DeclarationsList(D1, D2); RESULT.setLine(D1left); :}
+               | (NoDeclarations) {: RESULT=new NoDeclarations(); :} /* nista */;
+
+Declaration ::= (DeclConst) ConstDecl:C1 {: RESULT=new DeclConst(C1); RESULT.setLine(C1left); :}
+              | (DeclVar) VarDecl:V1 {: RESULT=new DeclVar(V1); RESULT.setLine(V1left); :}
+              | (DeclEnum) EnumDecl:E1 {: RESULT=new DeclEnum(E1); RESULT.setLine(E1left); :};
+
+// sve vezano za dekalracije constova, varova,enuma ----------------------------------------
+
+ConstDecl ::= (ConstDecl) CONST Type:T1 ConstList:C2 SEMI:S3 {: RESULT=new ConstDecl(T1, C2, S3); RESULT.setLine(T1left); :};
+
+ConstList ::= (ConstItem) IDENT:I1 ASSIGN Constant:C2 {: RESULT=new ConstItem(I1, C2); RESULT.setLine(I1left); :}
+            | (ConstListItems) ConstList:C1 COMMA IDENT:I2 ASSIGN Constant:C3 {: RESULT=new ConstListItems(C1, I2, C3); RESULT.setLine(C1left); :};
+
+VarDecl ::= (VarDecl) Type:T1 VarList:V2 SEMI:S3 {: RESULT=new VarDecl(T1, V2, S3); RESULT.setLine(T1left); :};
+
+VarList ::= (VarItem) IDENT:I1 IsList:I2 {: RESULT=new VarItem(I1, I2); RESULT.setLine(I1left); :}
+          | (VarListItems) VarList:V1 COMMA IDENT:I2 IsList:I3 {: RESULT=new VarListItems(V1, I2, I3); RESULT.setLine(V1left); :};
+
+IsList ::= (IsArray) LBRACKET RBRACKET {: RESULT=new IsArray(); :} // [] za nizove
+         | (NoArray) {: RESULT=new NoArray(); :} /* nista */;
+
+EnumDecl ::= (EnumDecl) ENUM EnumName:E1 LBRACE EnumList:E2 RBRACE {: RESULT=new EnumDecl(E1, E2); RESULT.setLine(E1left); :};
+
+EnumName ::= (EnumName) IDENT:I1 {: RESULT=new EnumName(I1); RESULT.setLine(I1left); :};
+
+EnumList ::= (EnumItem) IDENT:I1 IsInitialized:I2 {: RESULT=new EnumItem(I1, I2); RESULT.setLine(I1left); :}
+           | (EnumListItems) EnumList:E1 COMMA IDENT:I2 IsInitialized:I3 {: RESULT=new EnumListItems(E1, I2, I3); RESULT.setLine(E1left); :};
+
+IsInitialized ::= (IsInit) ASSIGN NUMBER:N1 {: RESULT=new IsInit(N1); RESULT.setLine(N1left); :}
+                | (NoInit) {: RESULT=new NoInit(); :} /* nista */;
+
+// metode----------------------------------------------------------------------------------
+
+MethodDeclList ::= (MethodDeclarations) MethodDecl:M1 MethodDeclList:M2 {: RESULT=new MethodDeclarations(M1, M2); RESULT.setLine(M1left); :}
+                 | (NoMethodDeclarations) {: RESULT=new NoMethodDeclarations(); :} /* nista */;
+
+MethodDecl ::= (MethodDecl) ReturnType:R1 MethodName:M2 LPAREN FormPars:F3 RPAREN VarDeclFunc:V4 LBRACE Statements:S5 RBRACE {: RESULT=new MethodDecl(R1, M2, F3, V4, S5); RESULT.setLine(R1left); :};
+
+MethodName ::= (MethodName) IDENT:I1 {: RESULT=new MethodName(I1); RESULT.setLine(I1left); :};
+
+ReturnType ::= (RetType) Type:T1 {: RESULT=new RetType(T1); RESULT.setLine(T1left); :}
+             | (RetVoid) VOID {: RESULT=new RetVoid(); :};
+
+FormPars ::= (FormalParameters) FormParsList:F1 {: RESULT=new FormalParameters(F1); RESULT.setLine(F1left); :}
+           | (NoFormalParameters) {: RESULT=new NoFormalParameters(); :} /* nista */;
+
+// formalni parametri
+FormParsList ::= (FormalParamItem) Type:T1 IDENT:I2 IsList:I3 {: RESULT=new FormalParamItem(T1, I2, I3); RESULT.setLine(T1left); :} 
+               | (FormalParamList) FormParsList:F1 COMMA Type:T2 IDENT:I3 IsList:I4 {: RESULT=new FormalParamList(F1, T2, I3, I4); RESULT.setLine(F1left); :};
+
+// Lokalne promenljive unutar metode
+VarDeclFunc ::= (VarDeclF) VarDeclFunc:V1 VarDecl:V2 {: RESULT=new VarDeclF(V1, V2); RESULT.setLine(V1left); :} 
+              | (NoVarDeclF) {: RESULT=new NoVarDeclF(); :} /* nista */;
+              
+
+// Naredbe (tijela fja...)--------------------------------------------------------------------
+
+Statements ::= (StatementsList) Statements:S1 Statement:S2 {: RESULT=new StatementsList(S1, S2); RESULT.setLine(S1left); :}
+             | (NoStatements) {: RESULT=new NoStatements(); :} /* nista */;
+
+
+Statement ::= (StmtDesignator) DesignatorStatement:D1 SEMI:S2 {: RESULT=new StmtDesignator(D1, S2); RESULT.setLine(D1left); :}
+            | (StmtIf) IF LPAREN Condition:C1 IfConditionEnd:I2 Statement:S3 IfEnded:I4 ElsePart:E5 {: RESULT=new StmtIf(C1, I2, S3, I4, E5); RESULT.setLine(C1left); :}
+            | (StmtBreak) BREAK SEMI:S1 {: RESULT=new StmtBreak(S1); RESULT.setLine(S1left); :}
+            | (StmtContinue) CONTINUE SEMI:S1 {: RESULT=new StmtContinue(S1); RESULT.setLine(S1left); :}
+            | (StmtReturn) ReturnStart:R1 OptExpr:O2 SemiLine:S3 {: RESULT=new StmtReturn(R1, O2, S3); RESULT.setLine(R1left); :}
+            | (StmtRead) READ LPAREN Designator:D1 RPAREN SEMI:S2 {: RESULT=new StmtRead(D1, S2); RESULT.setLine(D1left); :}
+            | (StmtPrint) PRINT LPAREN Expr:E1 Width:W2 RPAREN SEMI:S3 {: RESULT=new StmtPrint(E1, W2, S3); RESULT.setLine(E1left); :}
+            | (StmtSwitch) SWITCH SwitchStart:S1 LPAREN Expr:E2 RPAREN LBRACE SwitchBody:S3 RBRACE {: RESULT=new StmtSwitch(S1, E2, S3); RESULT.setLine(S1left); :}
+            | (StmtFor) FOR ForStart:F1 LPAREN OptDesignatorStatement:O2 FirstSemiFor:F3 OptCondition:O4 SEMI:S5 OptDesignatorStatement:O6 ForBracketEnd:F7 Statement:S8 {: RESULT=new StmtFor(F1, O2, F3, O4, S5, O6, F7, S8); RESULT.setLine(F1left); :}
+            | (StmtBlock) LBRACE Statements:S1 RBRACE {: RESULT=new StmtBlock(S1); RESULT.setLine(S1left); :}
+            | (StmtWhile) WhileStart:W1 LPAREN Condition:C2 RPAREN Statement:S3 {: RESULT=new StmtWhile(W1, C2, S3); RESULT.setLine(W1left); :};
+            
+WhileStart ::= (WhileStart) WHILE {: RESULT=new WhileStart(); :};
+
+ReturnStart ::= (ReturnStart) RETURN {: RESULT=new ReturnStart(); :}; 
+
+FirstSemiFor ::= (FirstSemiFor) SEMI:S1 {: RESULT=new FirstSemiFor(S1); RESULT.setLine(S1left); :}; 
+
+ForBracketEnd ::= (ForBracketEnd) RPAREN {: RESULT=new ForBracketEnd(); :}; 
+
+IfEnded ::= (IfEnded) {: RESULT=new IfEnded(); :} /*eps*/;
+
+IfConditionEnd ::= (IfConditionEnd) RPAREN {: RESULT=new IfConditionEnd(); :};
+
+SwitchStart ::= (SwitchStart) {: RESULT=new SwitchStart(); :} /* epsilon */ ;
+ForStart ::= (ForStart) {: RESULT=new ForStart(); :} /* epsilon */ ;
+
+
+SwitchBody ::= (SwitchBodyList) SwitchBody:S1 CaseItem:C2 {: RESULT=new SwitchBodyList(S1, C2); RESULT.setLine(S1left); :}
+             | (NoSwitchBody) {: RESULT=new NoSwitchBody(); :} /* nista */;
+
+CaseItem ::= (CaseItem) CaseStart:C1 COLON Statements:S2 JumpOverJump:J3 {: RESULT=new CaseItem(C1, S2, J3); RESULT.setLine(C1left); :};
+
+JumpOverJump ::= (JumpOverJump) {: RESULT=new JumpOverJump(); :} /*epsilon*/;
+
+CaseStart ::= (CaseStart) CASE NUMBER:N1 {: RESULT=new CaseStart(N1); RESULT.setLine(N1left); :};
+
+Width ::= (WidthValue) COMMA NUMBER:N1 {: RESULT=new WidthValue(N1); RESULT.setLine(N1left); :} // Za print(x, 5) - sirina ispisa
+        | (NoWidth) {: RESULT=new NoWidth(); :} /* nista */;
+
+// buni se ovde jer moze u epsilon i onda ne zna za koji da ga veze ali izgleda da ga vezuje za ovaj najugdnjezdeniji
+ElsePart ::= (ElseExists) ELSE Statement:S1 {: RESULT=new ElseExists(S1); RESULT.setLine(S1left); :}
+           | (NoElse) {: RESULT=new NoElse(); :} /* nista */;
+
+// operacije nad promjenjivim, pozivi fja, pristup nizovima...---------------------------------
+
+DesignatorStatement ::= (DesignatorStatement) Designator:D1 DesignatorOperation:D2 {: RESULT=new DesignatorStatement(D1, D2); RESULT.setLine(D1left); :};
+
+// kod koji nije statement (mozda ne treba ovaj operation)
+DesignatorOperation ::= (AssignOperation) ASSIGN Expr:E1 {: RESULT=new AssignOperation(E1); RESULT.setLine(E1left); :}             // = nesto 
+                      | (IncOperation) INC {: RESULT=new IncOperation(); :} 			              //++
+                      | (DecOperation) DEC {: RESULT=new DecOperation(); :}                        //--
+                      | (CallOperation) LPAREN OptActPars:O1 RPAREN {: RESULT=new CallOperation(O1); RESULT.setLine(O1left); :}; // Poziv funkcije kao samostalna komanda
+
+OptActPars ::= (OptionalActPars) ActPars:A1 {: RESULT=new OptionalActPars(A1); RESULT.setLine(A1left); :}
+             | (NoActPars) {: RESULT=new NoActPars(); :} /* nista */;
+             
+ActPars ::= (ActParsList) ActPars:A1 COMMA Expr:E2 {: RESULT=new ActParsList(A1, E2); RESULT.setLine(A1left); :}
+          | (ActParItem) Expr:E1 {: RESULT=new ActParItem(E1); RESULT.setLine(E1left); :};
+
+
+// izarazi samo pocetni moze da ima minus, ali tako je ogranicenje za sada mozda je greska, ovde talozimo + - najmanji prioritet imaju
+// imamo i ovaj ternarni operator
+
+Expr ::= (ArExp) ArithExpr:A1 {: RESULT=new ArExp(A1); RESULT.setLine(A1left); :}
+    | (ConditionExpr) CondExpr:C1 {: RESULT=new ConditionExpr(C1); RESULT.setLine(C1left); :}
+;
+
+ArithExpr ::=
+      (AddExpr) ArithExpr:A1 Addop:A2 Term:T3 {: RESULT=new AddExpr(A1, A2, T3); RESULT.setLine(A1left); :}
+    | (TermExpr) Term:T1 {: RESULT=new TermExpr(T1); RESULT.setLine(T1left); :}
+;
+
+CondExpr ::= (TernaryExpr) Condition:C1 TernaryQuestion:T2 Expr:E3 SecondExpr:S4 COLON Expr:E5 {: RESULT=new TernaryExpr(C1, T2, E3, S4, E5); RESULT.setLine(C1left); :};
+
+TernaryQuestion ::= (TernaryQuestion) QUESTION {: RESULT=new TernaryQuestion(); :};
+SecondExpr ::= (SecondExpr) {: RESULT=new SecondExpr(); :} ; 
+
+OptExpr ::= (ReturnExpr) Expr:E1 {: RESULT=new ReturnExpr(E1); RESULT.setLine(E1left); :}
+          | (NoReturnExpr) {: RESULT=new NoReturnExpr(); :} /* nista (za return;) */;
+
+
+OptDesignatorStatement ::= (OptDesignatorStmt) DesignatorStatement:D1 {: RESULT=new OptDesignatorStmt(D1); RESULT.setLine(D1left); :}
+                         | (NoOptDesignatorStmt) {: RESULT=new NoOptDesignatorStmt(); :} /* nista (za for(;;)) */;
+
+OptCondition ::= (OptCond) Condition:C1 {: RESULT=new OptCond(C1); RESULT.setLine(C1left); :}
+               | (NoOptCond) {: RESULT=new NoOptCond(); :} /* nista */;
+
+//uslovi za if,ternarni ----------------------------------------------------------------------------------
+
+Condition ::= (CondItem) CondTerm:C1 {: RESULT=new CondItem(C1); RESULT.setLine(C1left); :}
+            | (ConditionList) Condition:C1 LeftOr:L2 OR CondTerm:C3 {: RESULT=new ConditionList(C1, L2, C3); RESULT.setLine(C1left); :};
+
+LeftOr ::= (LeftOr) {: RESULT=new LeftOr(); :} /* epsilon */;
+
+CondTerm ::= (CondTermItem) CondFact:C1 {: RESULT=new CondTermItem(C1); RESULT.setLine(C1left); :}
+           | (CondTermList) CondTerm:C1 LeftAnd:L2 AND CondFact:C3 {: RESULT=new CondTermList(C1, L2, C3); RESULT.setLine(C1left); :};
+
+LeftAnd ::= (LeftAnd) {: RESULT=new LeftAnd(); :} /* epsilon */;
+
+CondFact ::= (RelationalOp) ArithExpr:A1 Relop:R2 ArithExpr:A3 {: RESULT=new RelationalOp(A1, R2, A3); RESULT.setLine(A1left); :} // samo aritmeticki zbog rekuzvnog poziva conditiona ako imamo obican expr
+           | (BooleanArith) ArithExpr:A1 {: RESULT=new BooleanArith(A1); RESULT.setLine(A1left); :};
+
+
+// matematicki izrazi---------------------------------------------------------------------------
+
+// talozi puta
+Term ::= (TermItem) Factor:F1 {: RESULT=new TermItem(F1); RESULT.setLine(F1left); :}
+       | (TermList) Term:T1 Mulop:M2 Factor:F3 {: RESULT=new TermList(T1, M2, F3); RESULT.setLine(T1left); :};
+
+// factori najveci prioritet
+Factor ::= (FactMinus) MINUS Factor:F1 {: RESULT=new FactMinus(F1); RESULT.setLine(F1left); :}
+		 | (FactConst) Constant:C1 {: RESULT=new FactConst(C1); RESULT.setLine(C1left); :}
+         | (FactDesignator) Designator:D1 {: RESULT=new FactDesignator(D1); RESULT.setLine(D1left); :}
+         | (FactCall) Designator:D1 LPAREN OptActPars:O2 RPAREN {: RESULT=new FactCall(D1, O2); RESULT.setLine(D1left); :}     // Poziv funkcije u sred izraza, moze da ide IDENT umjesto Designatora?
+         | (FactNew) NEW Type:T1 LBRACKET Expr:E2 RBRACKET {: RESULT=new FactNew(T1, E2); RESULT.setLine(T1left); :}          // Pravljenje niza(nemam klase)
+         | (FactParen) LPAREN Expr:E1 RPAREN {: RESULT=new FactParen(E1); RESULT.setLine(E1left); :}; 					  // (expr)
+
+// PUTANJA, pristup poljiva uzimanje duzine niz pristup promjenjivima
+Designator ::= (DesignatorIdent) IDENT:I1 {: RESULT=new DesignatorIdent(I1); RESULT.setLine(I1left); :}
+             | (DesignatorDotIdent) IDENT:I1 DOT IDENT:I2 {: RESULT=new DesignatorDotIdent(I1, I2); RESULT.setLine(I1left); :}  // Za Enum (Boja.PLAVA)
+             | (DesignatorLength) IDENT:I1 DOT LENGTH {: RESULT=new DesignatorLength(I1); RESULT.setLine(I1left); :}   // Za niz.length
+             | (DesignatorArray) IDENT:I1 LBRACKET Expr:E2 RBRACKET {: RESULT=new DesignatorArray(I1, E2); RESULT.setLine(I1left); :}; // Za niz[i]
+				
+
+
+// operatori tipovi najednostavnije--------------------------------------------------------------
+
+Addop ::= (AddPlus) PLUS {: RESULT=new AddPlus(); :} | (AddMinus) MINUS {: RESULT=new AddMinus(); :};
+
+Mulop ::= (MulMultiply) MUL {: RESULT=new MulMultiply(); :} | (MulDivide) DIV {: RESULT=new MulDivide(); :} | (MulMod) MOD {: RESULT=new MulMod(); :};
+
+Relop ::= (RelEq) EQ {: RESULT=new RelEq(); :} | (RelNe) NE {: RESULT=new RelNe(); :} | (RelGt) GT {: RESULT=new RelGt(); :} | (RelGe) GE {: RESULT=new RelGe(); :} | (RelLt) LT {: RESULT=new RelLt(); :} | (RelLe) LE {: RESULT=new RelLe(); :};
+
+Type ::= (Type) IDENT:I1 {: RESULT=new Type(I1); RESULT.setLine(I1left); :};
+
+Constant ::= (NumConst) NUMBER:N1 {: RESULT=new NumConst(N1); RESULT.setLine(N1left); :} | (CharConst) CHARACTER:C1 {: RESULT=new CharConst(C1); RESULT.setLine(C1left); :} | (BoolConst) BOOL:B1 {: RESULT=new BoolConst(B1); RESULT.setLine(B1left); :};
+
+SemiLine ::= (SemiLine) SEMI:S1 {: RESULT=new SemiLine(S1); RESULT.setLine(S1left); :};

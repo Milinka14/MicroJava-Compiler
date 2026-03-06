@@ -1,0 +1,21 @@
+INFO  14:15:01,547 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:15:01,622 - #45 TestEnumi
+INFO  14:15:01,623 - #45 int
+INFO  14:15:01,623 - #45 x
+INFO  14:15:01,625 - #44 5
+INFO  14:15:01,625 - #48 ;
+INFO  14:15:01,625 - #45 int
+INFO  14:15:01,626 - #45 niz
+INFO  14:15:01,627 - #48 ;
+INFO  14:15:01,630 - #45 main
+INFO  14:15:01,632 - #45 char
+INFO  14:15:01,633 - #45 cc
+INFO  14:15:01,634 - #45 c
+INFO  14:15:01,634 - #48 ;
+INFO  14:15:01,636 - #45 niz
+ERROR 14:15:01,636 - 
+Sintaksna greska na liniji 8
+ERROR 14:15:01,636 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8
+ERROR 14:15:01,639 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.NoStatements cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.NoStatements cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

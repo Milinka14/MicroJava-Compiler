@@ -1,0 +1,42 @@
+INFO  17:11:28,554 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:11:28,676 - #45 TestPuca
+INFO  17:11:28,676 - #45 int
+INFO  17:11:28,678 - #45 niz
+INFO  17:11:28,681 - #48 ;
+INFO  17:11:28,683 - #45 char
+INFO  17:11:28,685 - #45 c
+INFO  17:11:28,685 - #48 ;
+INFO  17:11:28,687 - #45 int
+INFO  17:11:28,687 - #45 a
+INFO  17:11:28,687 - #48 ;
+INFO  17:11:28,688 - #45 main
+INFO  17:11:28,692 - #45 a
+INFO  17:11:28,695 - #44 5
+INFO  17:11:28,695 - #48 ;
+INFO  17:11:28,697 - #45 c
+INFO  17:11:28,698 - #46 x
+INFO  17:11:28,698 - #48 ;
+INFO  17:11:28,698 - #45 niz
+INFO  17:11:28,699 - #45 int
+INFO  17:11:28,699 - #44 2
+INFO  17:11:28,699 - #48 ;
+INFO  17:11:28,700 - #45 a
+INFO  17:11:28,700 - #45 c
+INFO  17:11:28,703 - #44 1
+INFO  17:11:28,704 - #48 ;
+INFO  17:11:28,706 - #45 niz
+INFO  17:11:28,706 - #45 null
+INFO  17:11:28,708 - #44 2
+INFO  17:11:28,708 - #48 ;
+INFO  17:11:28,708 - #45 a
+INFO  17:11:28,708 - #44 5
+INFO  17:11:28,711 - #44 3
+INFO  17:11:28,711 - #48 ;
+INFO  17:11:28,711 - #45 a
+INFO  17:11:28,711 - #45 c
+ERROR 17:11:28,711 - 
+Sintaksna greska na liniji 25
+ERROR 17:11:28,711 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 25
+ERROR 17:11:28,715 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

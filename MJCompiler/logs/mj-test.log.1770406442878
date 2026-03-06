@@ -1,0 +1,22 @@
+INFO  20:33:56,915 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  20:33:57,013 - #45 Test
+INFO  20:33:57,016 - #45 Boja
+INFO  20:33:57,018 - #45 CRVENA
+INFO  20:33:57,019 - #45 PLAVA
+INFO  20:33:57,019 - #44 5
+INFO  20:33:57,022 - #45 Dan
+INFO  20:33:57,022 - #45 PON
+INFO  20:33:57,022 - #44 3
+INFO  20:33:57,022 - #45 UTO
+INFO  20:33:57,022 - #45 Boja
+INFO  20:33:57,022 - #45 lista
+INFO  20:33:57,027 - #45 lll
+INFO  20:33:57,027 - #48 ;
+INFO  20:33:57,031 - #45 main
+INFO  20:33:57,035 - #45 lll
+ERROR 20:33:57,037 - 
+Sintaksna greska na liniji 9
+ERROR 20:33:57,037 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+ERROR 20:33:57,038 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.NoVarDeclF cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.NoVarDeclF cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

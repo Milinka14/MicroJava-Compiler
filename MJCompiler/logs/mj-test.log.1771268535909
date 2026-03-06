@@ -1,0 +1,10 @@
+INFO  19:37:52,573 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  19:37:52,714 - #45 virtual
+INFO  19:37:52,714 - #45 class
+INFO  19:37:52,719 - #45 A
+ERROR 19:37:52,722 - 
+Sintaksna greska na liniji 2
+ERROR 19:37:52,722 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+ERROR 19:37:52,728 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

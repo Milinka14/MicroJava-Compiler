@@ -1,0 +1,283 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+/* --- KOD PARSERA --- */
+parser code {:
+    boolean errorDetected = false;
+    Logger log = Logger.getLogger(getClass());
+   
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+        errorDetected = true;
+        StringBuilder msg = new StringBuilder(message); 
+        if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+:}
+
+scan with {:
+    Symbol s = this.getScanner().next_token();
+    if (s != null && s.value != null) 
+        log.info(s.toString() + " " + s.value.toString());
+    return s;
+:}
+
+/* --- TERMINALI (Tokeni koje JFlex salje) --- */
+
+terminal PROG, LBRACE, RBRACE, COMMA, DOT, LPAREN, RPAREN, LBRACKET, RBRACKET;
+terminal VOID, CONST, ENUM, NEW, LENGTH;
+terminal WHILE;
+
+terminal IF, ELSE, FOR, BREAK, CONTINUE, RETURN, SWITCH, CASE, COLON;
+
+terminal ASSIGN, INC, DEC, QUESTION, OR, AND;
+terminal PLUS, MINUS, MUL, DIV, MOD;
+terminal EQ, NE, GT, GE, LT, LE;
+terminal READ, PRINT;
+
+//tokeni koji imaju vr brojevi, identi, char i bool
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Character CHARACTER;
+terminal Integer BOOL;
+terminal Character SEMI;
+
+
+nonterminal Program, Declarations, Declaration, MethodDeclList, MethodDecl;
+nonterminal ConstDecl, VarDecl, EnumDecl, ConstList, VarList, EnumList;
+nonterminal IsList, IsInitialized, ReturnType, FormPars, FormParsList, VarDeclFunc;
+
+nonterminal Statements, Statement, DesignatorStatement, DesignatorOperation, ElsePart;
+nonterminal Condition, CondTerm, CondFact, Expr, Term, Designator;
+nonterminal Addop, Mulop, Relop, Type, Constant, OptActPars, ActPars;
+nonterminal Width, SwitchBody, CaseItem, OptExpr, OptDesignatorStatement, OptCondition, ArithExpr, CondExpr;
+nonterminal ProgName, MethodName, EnumName, SecondExpr;
+nonterminal SemiLine, CaseStart, FirstSemiFor, ForBracketEnd, TernaryQuestion, ReturnStart;
+nonterminal Factor, SwitchStart, ForStart, IfConditionEnd, IfEnded, JumpOverJump, LeftOr, LeftAnd;
+nonterminal WhileStart;
+
+precedence left ELSE; // vezuje za posl, mozda i ne treba? ispod idu ovi sa manjim prio
+
+// glavno deklaracije promj ---------------------------------------------------------------
+
+Program ::= (Program) PROG ProgName Declarations LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT;
+
+Declarations ::= (DeclarationsList) Declarations Declaration
+               | (NoDeclarations) /* nista */;
+
+Declaration ::= (DeclConst) ConstDecl
+              | (DeclVar) VarDecl
+              | (DeclEnum) EnumDecl;
+
+// sve vezano za dekalracije constova, varova,enuma ----------------------------------------
+
+ConstDecl ::= (ConstDecl) CONST Type ConstList SEMI;
+
+ConstList ::= (ConstItem) IDENT ASSIGN Constant
+            | (ConstListItems) ConstList COMMA IDENT ASSIGN Constant;
+
+VarDecl ::= (VarDecl) Type VarList SEMI;
+
+VarList ::= (VarItem) IDENT IsList
+          | (VarListItems) VarList COMMA IDENT IsList;
+
+IsList ::= (IsArray) LBRACKET RBRACKET // [] za nizove
+         | (NoArray) /* nista */;
+
+EnumDecl ::= (EnumDecl) ENUM EnumName LBRACE EnumList RBRACE;
+
+EnumName ::= (EnumName) IDENT;
+
+EnumList ::= (EnumItem) IDENT IsInitialized
+           | (EnumListItems) EnumList COMMA IDENT IsInitialized;
+
+IsInitialized ::= (IsInit) ASSIGN NUMBER
+                | (NoInit) /* nista */;
+
+// metode----------------------------------------------------------------------------------
+
+MethodDeclList ::= (MethodDeclarations) MethodDecl MethodDeclList
+                 | (NoMethodDeclarations) /* nista */;
+
+MethodDecl ::= (MethodDecl) ReturnType MethodName LPAREN FormPars RPAREN VarDeclFunc LBRACE Statements RBRACE;
+
+MethodName ::= (MethodName) IDENT;
+
+ReturnType ::= (RetType) Type
+             | (RetVoid) VOID;
+
+FormPars ::= (FormalParameters) FormParsList
+           | (NoFormalParameters) /* nista */;
+
+// formalni parametri
+FormParsList ::= (FormalParamItem) Type IDENT IsList 
+               | (FormalParamList) FormParsList COMMA Type IDENT IsList;
+
+// Lokalne promenljive unutar metode
+VarDeclFunc ::= (VarDeclF) VarDeclFunc VarDecl 
+              | (NoVarDeclF) /* nista */;
+              
+
+// Naredbe (tijela fja...)--------------------------------------------------------------------
+
+Statements ::= (StatementsList) Statements Statement
+             | (NoStatements) /* nista */;
+
+
+Statement ::= (StmtDesignator) DesignatorStatement SEMI
+            | (StmtIf) IF LPAREN Condition IfConditionEnd Statement IfEnded ElsePart
+            | (StmtBreak) BREAK SEMI
+            | (StmtContinue) CONTINUE SEMI
+            | (StmtReturn) ReturnStart OptExpr SemiLine
+            | (StmtRead) READ LPAREN Designator RPAREN SEMI
+            | (StmtPrint) PRINT LPAREN Expr Width RPAREN SEMI
+            | (StmtSwitch) SWITCH SwitchStart LPAREN Expr RPAREN LBRACE SwitchBody RBRACE
+            | (StmtFor) FOR ForStart LPAREN OptDesignatorStatement FirstSemiFor OptCondition SEMI OptDesignatorStatement ForBracketEnd Statement
+            | (StmtBlock) LBRACE Statements RBRACE
+            | (StmtWhile) WhileStart LPAREN Condition RPAREN Statement;
+            
+WhileStart ::= (WhileStart) WHILE;
+
+ReturnStart ::= (ReturnStart) RETURN; 
+
+FirstSemiFor ::= (FirstSemiFor) SEMI; 
+
+ForBracketEnd ::= (ForBracketEnd) RPAREN; 
+
+IfEnded ::= (IfEnded) /*eps*/;
+
+IfConditionEnd ::= (IfConditionEnd) RPAREN;
+
+SwitchStart ::= (SwitchStart) /* epsilon */ ;
+ForStart ::= (ForStart) /* epsilon */ ;
+
+
+SwitchBody ::= (SwitchBodyList) SwitchBody CaseItem
+             | (NoSwitchBody) /* nista */;
+
+CaseItem ::= (CaseItem) CaseStart COLON Statements JumpOverJump;
+
+JumpOverJump ::= (JumpOverJump) /*epsilon*/;
+
+CaseStart ::= (CaseStart) CASE NUMBER;
+
+Width ::= (WidthValue) COMMA NUMBER // Za print(x, 5) - sirina ispisa
+        | (NoWidth) /* nista */;
+
+// buni se ovde jer moze u epsilon i onda ne zna za koji da ga veze ali izgleda da ga vezuje za ovaj najugdnjezdeniji
+ElsePart ::= (ElseExists) ELSE Statement
+           | (NoElse) /* nista */;
+
+// operacije nad promjenjivim, pozivi fja, pristup nizovima...---------------------------------
+
+DesignatorStatement ::= (DesignatorStatement) Designator DesignatorOperation;
+
+// kod koji nije statement (mozda ne treba ovaj operation)
+DesignatorOperation ::= (AssignOperation) ASSIGN Expr             // = nesto 
+                      | (IncOperation) INC 			              //++
+                      | (DecOperation) DEC                        //--
+                      | (CallOperation) LPAREN OptActPars RPAREN; // Poziv funkcije kao samostalna komanda
+
+OptActPars ::= (OptionalActPars) ActPars
+             | (NoActPars) /* nista */;
+             
+ActPars ::= (ActParsList) ActPars COMMA Expr
+          | (ActParItem) Expr;
+
+
+// izarazi samo pocetni moze da ima minus, ali tako je ogranicenje za sada mozda je greska, ovde talozimo + - najmanji prioritet imaju
+// imamo i ovaj ternarni operator
+
+Expr ::= (ArExp) ArithExpr
+    | (ConditionExpr) CondExpr
+;
+
+ArithExpr ::=
+      (AddExpr) ArithExpr Addop Term
+    | (TermExpr) Term
+;
+
+CondExpr ::= (TernaryExpr) Condition TernaryQuestion Expr SecondExpr COLON Expr;
+
+TernaryQuestion ::= (TernaryQuestion) QUESTION;
+SecondExpr ::= (SecondExpr) ; 
+
+OptExpr ::= (ReturnExpr) Expr
+          | (NoReturnExpr) /* nista (za return;) */;
+
+
+OptDesignatorStatement ::= (OptDesignatorStmt) DesignatorStatement
+                         | (NoOptDesignatorStmt) /* nista (za for(;;)) */;
+
+OptCondition ::= (OptCond) Condition
+               | (NoOptCond) /* nista */;
+
+//uslovi za if,ternarni ----------------------------------------------------------------------------------
+
+Condition ::= (CondItem) CondTerm
+            | (ConditionList) Condition LeftOr OR CondTerm;
+
+LeftOr ::= (LeftOr) /* epsilon */;
+
+CondTerm ::= (CondTermItem) CondFact
+           | (CondTermList) CondTerm LeftAnd AND CondFact;
+
+LeftAnd ::= (LeftAnd) /* epsilon */;
+
+CondFact ::= (RelationalOp) ArithExpr Relop ArithExpr // samo aritmeticki zbog rekuzvnog poziva conditiona ako imamo obican expr
+           | (BooleanArith) ArithExpr;
+
+
+// matematicki izrazi---------------------------------------------------------------------------
+
+// talozi puta
+Term ::= (TermItem) Factor
+       | (TermList) Term Mulop Factor;
+
+// factori najveci prioritet
+Factor ::= (FactMinus) MINUS Factor
+		 | (FactConst) Constant
+         | (FactDesignator) Designator
+         | (FactCall) Designator LPAREN OptActPars RPAREN     // Poziv funkcije u sred izraza, moze da ide IDENT umjesto Designatora?
+         | (FactNew) NEW Type LBRACKET Expr RBRACKET          // Pravljenje niza(nemam klase)
+         | (FactParen) LPAREN Expr RPAREN; 					  // (expr)
+
+// PUTANJA, pristup poljiva uzimanje duzine niz pristup promjenjivima
+Designator ::= (DesignatorIdent) IDENT
+             | (DesignatorDotIdent) IDENT DOT IDENT  // Za Enum (Boja.PLAVA)
+             | (DesignatorLength) IDENT DOT LENGTH   // Za niz.length
+             | (DesignatorArray) IDENT LBRACKET Expr RBRACKET; // Za niz[i]
+				
+
+
+// operatori tipovi najednostavnije--------------------------------------------------------------
+
+Addop ::= (AddPlus) PLUS | (AddMinus) MINUS;
+
+Mulop ::= (MulMultiply) MUL | (MulDivide) DIV | (MulMod) MOD;
+
+Relop ::= (RelEq) EQ | (RelNe) NE | (RelGt) GT | (RelGe) GE | (RelLt) LT | (RelLe) LE;
+
+Type ::= (Type) IDENT;
+
+Constant ::= (NumConst) NUMBER | (CharConst) CHARACTER | (BoolConst) BOOL;
+
+SemiLine ::= (SemiLine) SEMI;

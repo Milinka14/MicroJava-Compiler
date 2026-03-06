@@ -1,0 +1,282 @@
+INFO  22:56:36,552 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  22:56:36,697 - #45 Test
+INFO  22:56:36,706 - #45 Boja
+INFO  22:56:36,713 - #45 CRVENA
+INFO  22:56:36,716 - #45 PLAVA
+INFO  22:56:36,716 - #44 5
+INFO  22:56:36,719 - #45 Dan
+INFO  22:56:36,719 - #45 PON
+INFO  22:56:36,719 - #44 3
+INFO  22:56:36,719 - #45 UTO
+INFO  22:56:36,719 - #45 Boja
+INFO  22:56:36,720 - #45 lista
+INFO  22:56:36,726 - #45 lll
+INFO  22:56:36,727 - #48 ;
+INFO  22:56:36,730 - #45 int
+INFO  22:56:36,733 - #45 a
+INFO  22:56:36,734 - #48 ;
+INFO  22:56:36,734 - #45 Boja
+INFO  22:56:36,734 - #45 bb
+INFO  22:56:36,741 - #45 lll
+INFO  22:56:36,741 - #48 ;
+INFO  22:56:36,747 - #45 main
+INFO  22:56:36,750 - #45 a
+INFO  22:56:36,751 - #45 Boja
+INFO  22:56:36,751 - #45 CRVENA
+INFO  22:56:36,751 - #48 ;
+INFO  22:56:36,753 - #45 a
+INFO  22:56:36,753 - #44 3
+INFO  22:56:36,753 - #44 4
+INFO  22:56:36,759 - #44 2
+INFO  22:56:36,839 - #45 Boja
+INFO  22:56:36,839 - #45 CRVENA
+INFO  22:56:36,840 - #48 ;
+INFO  22:56:36,856 - #45 lll
+INFO  22:56:36,860 - #45 lll
+INFO  22:56:36,860 - #48 ;
+INFO  22:56:36,866 - Program(
+  ProgName(
+   Test
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               Boja
+              ) [EnumName]
+              EnumListItems(
+                EnumItem(
+                 CRVENA
+                  NoInit(
+                  ) [NoInit]
+                ) [EnumItem]
+               PLAVA
+                IsInit(
+                 5
+                ) [IsInit]
+              ) [EnumListItems]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclEnum(
+          EnumDecl(
+            EnumName(
+             Dan
+            ) [EnumName]
+            EnumListItems(
+              EnumItem(
+               PON
+                IsInit(
+                 3
+                ) [IsInit]
+              ) [EnumItem]
+             UTO
+              NoInit(
+              ) [NoInit]
+            ) [EnumListItems]
+          ) [EnumDecl]
+        ) [DeclEnum]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           Boja
+          ) [Type]
+          VarListItems(
+            VarItem(
+             lista
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           lll
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         Boja
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       bb
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     lll
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              StatementsList(
+                NoStatements(
+                ) [NoStatements]
+                StmtDesignator(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                    AssignOperation(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactDesignator(
+                              DesignatorDotIdent(
+                               Boja
+                               CRVENA
+                              ) [DesignatorDotIdent]
+                            ) [FactDesignator]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                    ) [AssignOperation]
+                  ) [DesignatorStatement]
+                 ;
+                ) [StmtDesignator]
+              ) [StatementsList]
+              StmtDesignator(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                  AssignOperation(
+                    ArExp(
+                      AddExpr(
+                        TermExpr(
+                          TermItem(
+                            FactConst(
+                              NumConst(
+                               3
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermItem]
+                        ) [TermExpr]
+                        AddPlus(
+                        ) [AddPlus]
+                        TermList(
+                          TermList(
+                            TermItem(
+                              FactConst(
+                                NumConst(
+                                 4
+                                ) [NumConst]
+                              ) [FactConst]
+                            ) [TermItem]
+                            MulMultiply(
+                            ) [MulMultiply]
+                            FactConst(
+                              NumConst(
+                               2
+                              ) [NumConst]
+                            ) [FactConst]
+                          ) [TermList]
+                          MulMultiply(
+                          ) [MulMultiply]
+                          FactDesignator(
+                            DesignatorDotIdent(
+                             Boja
+                             CRVENA
+                            ) [DesignatorDotIdent]
+                          ) [FactDesignator]
+                        ) [TermList]
+                      ) [AddExpr]
+                    ) [ArExp]
+                  ) [AssignOperation]
+                ) [DesignatorStatement]
+               ;
+              ) [StmtDesignator]
+            ) [StatementsList]
+            StmtSwitch(
+              SwitchStart(
+              ) [SwitchStart]
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       lll
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoSwitchBody(
+              ) [NoSwitchBody]
+            ) [StmtSwitch]
+          ) [StatementsList]
+          StmtRead(
+            DesignatorIdent(
+             lll
+            ) [DesignatorIdent]
+           ;
+          ) [StmtRead]
+        ) [StatementsList]
+      ) [MethodDecl]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:56:36,867 - --------------------------------------------------
+INFO  22:56:36,879 - --------------------------------------------------
+ERROR 22:56:36,967 - Greska( Povratni tip return naredbe mora da bude kompatibilan sa tipom definisanim u potpisu fje [na liniji 9])
+ERROR 22:56:36,968 - Greska( Read podrzava samo int, char i bool! [na liniji 16])
+ERROR 22:56:36,969 - Parsiranje NIJE uspesno zavrseno!

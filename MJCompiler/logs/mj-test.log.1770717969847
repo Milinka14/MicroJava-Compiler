@@ -1,0 +1,329 @@
+INFO  11:05:53,668 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  11:05:53,738 - #45 Test1
+INFO  11:05:53,740 - #45 p
+INFO  11:05:53,741 - #45 j
+INFO  11:05:53,741 - #44 3
+INFO  11:05:53,741 - #45 int
+INFO  11:05:53,742 - #45 t
+INFO  11:05:53,743 - #48 ;
+INFO  11:05:53,745 - #45 p
+INFO  11:05:53,747 - #45 pp
+INFO  11:05:53,747 - #48 ;
+INFO  11:05:53,747 - #45 bool
+INFO  11:05:53,747 - #45 a
+INFO  11:05:53,747 - #48 ;
+INFO  11:05:53,747 - #45 int
+INFO  11:05:53,747 - #45 soma
+INFO  11:05:53,748 - #45 int
+INFO  11:05:53,749 - #45 a
+INFO  11:05:53,751 - #45 a
+INFO  11:05:53,752 - #48 ;
+INFO  11:05:53,752 - #45 a
+INFO  11:05:53,752 - #48 ;
+INFO  11:05:53,754 - #45 a
+INFO  11:05:53,755 - #48 ;
+INFO  11:05:53,757 - #45 main
+INFO  11:05:53,759 - #45 int
+INFO  11:05:53,759 - #45 a
+INFO  11:05:53,759 - #45 b
+INFO  11:05:53,759 - #45 c
+INFO  11:05:53,759 - #45 i
+INFO  11:05:53,760 - #48 ;
+INFO  11:05:53,760 - #45 int
+INFO  11:05:53,760 - #45 arr
+INFO  11:05:53,761 - #48 ;
+INFO  11:05:53,762 - #45 a
+INFO  11:05:53,763 - #47 1
+INFO  11:05:53,763 - #48 ;
+INFO  11:05:53,763 - #45 a
+INFO  11:05:53,764 - #46 d
+INFO  11:05:53,764 - #48 ;
+INFO  11:05:53,765 - #46 n
+INFO  11:05:53,765 - #48 ;
+INFO  11:05:53,768 - Program(
+  ProgName(
+   Test1
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclEnum(
+            EnumDecl(
+              EnumName(
+               p
+              ) [EnumName]
+              EnumItem(
+               j
+                IsInit(
+                 3
+                ) [IsInit]
+              ) [EnumItem]
+            ) [EnumDecl]
+          ) [DeclEnum]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             t
+              NoArray(
+              ) [NoArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           p
+          ) [Type]
+          VarItem(
+           pp
+            NoArray(
+            ) [NoArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclVar(
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+        VarItem(
+         a
+          NoArray(
+          ) [NoArray]
+        ) [VarItem]
+       ;
+      ) [VarDecl]
+    ) [DeclVar]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetType(
+        Type(
+         int
+        ) [Type]
+      ) [RetType]
+      MethodName(
+       soma
+      ) [MethodName]
+      FormalParameters(
+        FormalParamItem(
+          Type(
+           int
+          ) [Type]
+         a
+          NoArray(
+          ) [NoArray]
+        ) [FormalParamItem]
+      ) [FormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactDesignator(
+                      DesignatorIdent(
+                       a
+                      ) [DesignatorIdent]
+                    ) [FactDesignator]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+             ;
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtDesignator(
+            DesignatorStatement(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              IncOperation(
+              ) [IncOperation]
+            ) [DesignatorStatement]
+           ;
+          ) [StmtDesignator]
+        ) [StatementsList]
+        StmtReturn(
+          ReturnExpr(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+          ) [ReturnExpr]
+          SemiLine(
+           ;
+          ) [SemiLine]
+        ) [StmtReturn]
+      ) [StatementsList]
+    ) [MethodDecl]
+    MethodDeclarations(
+      MethodDecl(
+        RetVoid(
+        ) [RetVoid]
+        MethodName(
+         main
+        ) [MethodName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+        VarDeclF(
+          VarDeclF(
+            NoVarDeclF(
+            ) [NoVarDeclF]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarListItems(
+                VarListItems(
+                  VarListItems(
+                    VarItem(
+                     a
+                      NoArray(
+                      ) [NoArray]
+                    ) [VarItem]
+                   b
+                    NoArray(
+                    ) [NoArray]
+                  ) [VarListItems]
+                 c
+                  NoArray(
+                  ) [NoArray]
+                ) [VarListItems]
+               i
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             ;
+            ) [VarDecl]
+          ) [VarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             arr
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        StatementsList(
+          StatementsList(
+            NoStatements(
+            ) [NoStatements]
+            StmtDesignator(
+              DesignatorStatement(
+                DesignatorIdent(
+                 a
+                ) [DesignatorIdent]
+                AssignOperation(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactConst(
+                          BoolConst(
+                           1
+                          ) [BoolConst]
+                        ) [FactConst]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                ) [AssignOperation]
+              ) [DesignatorStatement]
+             ;
+            ) [StmtDesignator]
+          ) [StatementsList]
+          StmtIf(
+            CondItem(
+              CondTermItem(
+                BooleanArith(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorIdent(
+                         a
+                        ) [DesignatorIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [BooleanArith]
+              ) [CondTermItem]
+            ) [CondItem]
+            IfConditionEnd(
+            ) [IfConditionEnd]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      CharConst(
+                       d
+                      ) [CharConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+             ;
+            ) [StmtPrint]
+            IfEnded(
+            ) [IfEnded]
+            ElseExists(
+              StmtPrint(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactConst(
+                        CharConst(
+                         n
+                        ) [CharConst]
+                      ) [FactConst]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+                NoWidth(
+                ) [NoWidth]
+               ;
+              ) [StmtPrint]
+            ) [ElseExists]
+          ) [StmtIf]
+        ) [StatementsList]
+      ) [MethodDecl]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:05:53,769 - --------------------------------------------------
+INFO  11:05:53,778 - --------------------------------------------------
+INFO  11:05:53,781 - Info( brojjj0 [na liniji 1])
+ERROR 11:05:53,783 - Greska( Nekompatibilni tipovi! [na liniji 15])
+ERROR 11:05:53,783 - Greska( Uslov mora biti tipa bool! [na liniji 16])
+ERROR 11:05:53,784 - Parsiranje NIJE uspesno zavrseno!

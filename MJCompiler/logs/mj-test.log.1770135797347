@@ -1,0 +1,38 @@
+INFO  17:22:50,910 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  17:22:50,999 - #46 mojProgram
+INFO  17:22:51,003 - #46 int
+INFO  17:22:51,003 - #46 pi
+INFO  17:22:51,004 - #45 3
+INFO  17:22:51,004 - #46 mi
+INFO  17:22:51,004 - #45 4
+INFO  17:22:51,006 - #46 char
+INFO  17:22:51,006 - #46 asd
+INFO  17:22:51,006 - #47 a
+INFO  17:22:51,007 - #46 int
+INFO  17:22:51,007 - #46 a
+INFO  17:22:51,009 - #46 gfdg
+INFO  17:22:51,010 - #46 g3rg
+INFO  17:22:51,010 - #46 char
+INFO  17:22:51,013 - #46 b
+INFO  17:22:51,013 - #46 c
+INFO  17:22:51,013 - #46 d
+INFO  17:22:51,013 - #46 Broj
+INFO  17:22:51,015 - #46 NULA
+INFO  17:22:51,017 - #46 TRI
+INFO  17:22:51,017 - #45 3
+INFO  17:22:51,019 - #46 PET
+INFO  17:22:51,019 - #45 5
+INFO  17:22:51,021 - #46 Broj
+INFO  17:22:51,021 - #46 NULA
+INFO  17:22:51,021 - #46 TRI
+INFO  17:22:51,021 - #45 3
+INFO  17:22:51,021 - #46 PET
+INFO  17:22:51,021 - #45 5
+INFO  17:22:51,021 - #46 int
+INFO  17:22:51,021 - #46 NULA
+ERROR 17:22:51,022 - 
+Sintaksna greska na liniji 9
+ERROR 17:22:51,022 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+ERROR 17:22:51,024 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

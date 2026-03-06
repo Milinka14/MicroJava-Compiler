@@ -1,0 +1,33 @@
+INFO  14:52:08,354 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  14:52:08,478 - #46 mojProgram
+INFO  14:52:08,480 - #46 int
+INFO  14:52:08,480 - #46 pi
+INFO  14:52:08,481 - #45 3
+INFO  14:52:08,481 - #46 mi
+INFO  14:52:08,481 - #45 4
+INFO  14:52:08,483 - #46 char
+INFO  14:52:08,484 - #46 asd
+INFO  14:52:08,484 - #47 a
+INFO  14:52:08,484 - #46 int
+INFO  14:52:08,484 - #46 a
+INFO  14:52:08,487 - #46 gfdg
+INFO  14:52:08,488 - #46 g3rg
+INFO  14:52:08,488 - #46 char
+INFO  14:52:08,489 - #46 b
+INFO  14:52:08,489 - #46 c
+INFO  14:52:08,489 - #46 d
+INFO  14:52:08,489 - #46 main
+INFO  14:52:08,492 - #46 int
+INFO  14:52:08,493 - #46 a
+INFO  14:52:08,493 - #46 b
+INFO  14:52:08,494 - #46 char
+INFO  14:52:08,494 - #46 c
+INFO  14:52:08,497 - #46 m1
+INFO  14:52:08,497 - #46 int
+INFO  14:52:08,497 - #46 a
+ERROR 14:52:08,498 - 
+Sintaksna greska na liniji 13
+ERROR 14:52:08,498 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13
+ERROR 14:52:08,500 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.Type cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:51)

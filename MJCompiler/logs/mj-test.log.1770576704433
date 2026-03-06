@@ -1,0 +1,202 @@
+INFO  19:51:22,226 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  19:51:22,301 - #45 TestEnumi
+INFO  19:51:22,304 - #45 t
+INFO  19:51:22,307 - #45 j
+INFO  19:51:22,307 - #44 7
+INFO  19:51:22,307 - #45 d
+INFO  19:51:22,308 - #45 t
+INFO  19:51:22,310 - #45 f
+INFO  19:51:22,311 - #48 ;
+INFO  19:51:22,314 - #45 int
+INFO  19:51:22,315 - #45 br
+INFO  19:51:22,315 - #45 br2
+INFO  19:51:22,315 - #48 ;
+INFO  19:51:22,316 - #45 int
+INFO  19:51:22,316 - #45 niz
+INFO  19:51:22,316 - #48 ;
+INFO  19:51:22,318 - #45 t
+INFO  19:51:22,318 - #45 ttt
+INFO  19:51:22,318 - #48 ;
+INFO  19:51:22,318 - #45 char
+INFO  19:51:22,319 - #45 co
+INFO  19:51:22,319 - #46 f
+INFO  19:51:22,320 - #48 ;
+INFO  19:51:22,321 - #45 main
+INFO  19:51:22,324 - #45 char
+INFO  19:51:22,325 - #45 cc
+INFO  19:51:22,325 - #45 c
+INFO  19:51:22,326 - #48 ;
+INFO  19:51:22,326 - #45 ttt
+INFO  19:51:22,327 - #44 1
+INFO  19:51:22,328 - #48 ;
+INFO  19:51:22,333 - Program(
+  ProgName(
+   TestEnumi
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            DeclarationsList(
+              NoDeclarations(
+              ) [NoDeclarations]
+              DeclEnum(
+                EnumDecl(
+                  EnumName(
+                   t
+                  ) [EnumName]
+                  EnumListItems(
+                    EnumItem(
+                     j
+                      IsInit(
+                       7
+                      ) [IsInit]
+                    ) [EnumItem]
+                   d
+                    NoInit(
+                    ) [NoInit]
+                  ) [EnumListItems]
+                ) [EnumDecl]
+              ) [DeclEnum]
+            ) [DeclarationsList]
+            DeclVar(
+              VarDecl(
+                Type(
+                 t
+                ) [Type]
+                VarItem(
+                 f
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               ;
+              ) [VarDecl]
+            ) [DeclVar]
+          ) [DeclarationsList]
+          DeclVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarListItems(
+                VarItem(
+                 br
+                  NoArray(
+                  ) [NoArray]
+                ) [VarItem]
+               br2
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             ;
+            ) [VarDecl]
+          ) [DeclVar]
+        ) [DeclarationsList]
+        DeclVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarItem(
+             niz
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           ;
+          ) [VarDecl]
+        ) [DeclVar]
+      ) [DeclarationsList]
+      DeclVar(
+        VarDecl(
+          Type(
+           t
+          ) [Type]
+          VarItem(
+           ttt
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [DeclVar]
+    ) [DeclarationsList]
+    DeclConst(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstItem(
+         co
+          CharConst(
+           f
+          ) [CharConst]
+        ) [ConstItem]
+       ;
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        NoVarDeclF(
+        ) [NoVarDeclF]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarListItems(
+            VarItem(
+             cc
+              IsArray(
+              ) [IsArray]
+            ) [VarItem]
+           c
+            NoArray(
+            ) [NoArray]
+          ) [VarListItems]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        NoStatements(
+        ) [NoStatements]
+        StmtDesignator(
+          DesignatorStatement(
+            DesignatorArray(
+             ttt
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+            ) [DesignatorArray]
+            IncOperation(
+            ) [IncOperation]
+          ) [DesignatorStatement]
+         ;
+        ) [StmtDesignator]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:51:22,334 - --------------------------------------------------
+INFO  19:51:22,343 - --------------------------------------------------
+INFO  19:51:22,347 - Info( brojjj0 [na liniji 1])
+ERROR 19:51:22,348 - Greska( ++ se moze koristiti samo nad int tipom! [na liniji 0])
+ERROR 19:51:22,348 - Parsiranje NIJE uspesno zavrseno!

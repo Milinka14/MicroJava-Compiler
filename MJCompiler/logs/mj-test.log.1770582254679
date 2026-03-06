@@ -1,0 +1,59 @@
+INFO  21:23:37,871 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  21:23:37,960 - #45 test301
+INFO  21:23:37,962 - #45 Broj
+INFO  21:23:37,964 - #45 NULA
+INFO  21:23:37,965 - #45 JEDAN
+INFO  21:23:37,965 - #45 PET
+INFO  21:23:37,966 - #44 5
+INFO  21:23:37,966 - #45 DESET
+INFO  21:23:37,966 - #44 10
+INFO  21:23:37,967 - #45 int
+INFO  21:23:37,967 - #45 nula
+INFO  21:23:37,968 - #44 0
+INFO  21:23:37,968 - #48 ;
+INFO  21:23:37,970 - #45 int
+INFO  21:23:37,970 - #45 jedan
+INFO  21:23:37,970 - #44 1
+INFO  21:23:37,970 - #48 ;
+INFO  21:23:37,970 - #45 int
+INFO  21:23:37,970 - #45 pet
+INFO  21:23:37,970 - #44 5
+INFO  21:23:37,970 - #48 ;
+INFO  21:23:37,970 - #45 int
+INFO  21:23:37,971 - #45 niz
+INFO  21:23:37,971 - #48 ;
+INFO  21:23:37,974 - #45 char
+INFO  21:23:37,976 - #45 nizch
+INFO  21:23:37,976 - #48 ;
+INFO  21:23:37,976 - #45 int
+INFO  21:23:37,976 - #45 a
+INFO  21:23:37,976 - #48 ;
+INFO  21:23:37,977 - #45 main
+INFO  21:23:37,981 - #45 int
+INFO  21:23:37,982 - #45 bodovi
+INFO  21:23:37,982 - #48 ;
+INFO  21:23:37,982 - #45 int
+INFO  21:23:37,982 - #45 temp
+INFO  21:23:37,983 - #48 ;
+INFO  21:23:37,983 - #45 Broj
+INFO  21:23:37,983 - #45 nula
+INFO  21:23:37,983 - #45 jedan
+INFO  21:23:37,983 - #48 ;
+INFO  21:23:37,983 - #45 bool
+INFO  21:23:37,983 - #45 bt
+INFO  21:23:37,983 - #48 ;
+INFO  21:23:37,984 - #45 bodovi
+INFO  21:23:37,985 - #44 0
+INFO  21:23:37,987 - #45 bodovi
+INFO  21:23:37,987 - #44 0
+INFO  21:23:37,988 - #48 ;
+INFO  21:23:37,988 - #45 bodovi
+INFO  21:23:37,989 - #45 nula
+INFO  21:23:37,989 - #45 Broj
+INFO  21:23:37,990 - #45 NULA
+ERROR 21:23:37,990 - 
+Sintaksna greska na liniji 27
+ERROR 21:23:37,990 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 27
+ERROR 21:23:37,993 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.CondItem cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)

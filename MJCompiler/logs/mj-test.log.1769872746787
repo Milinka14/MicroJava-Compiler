@@ -1,0 +1,64 @@
+INFO  16:18:54,479 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  16:18:54,570 - #46 mojProgram
+INFO  16:18:54,573 - #46 int
+INFO  16:18:54,573 - #46 pi
+INFO  16:18:54,575 - #45 3
+INFO  16:18:54,577 - #46 int
+INFO  16:18:54,577 - #46 pp
+INFO  16:18:54,577 - #45 3
+INFO  16:18:54,577 - #46 main
+INFO  16:18:54,585 - Program(
+  ProgName(
+   mojProgram
+  ) [ProgName]
+  DeclarationsList(
+    DeclarationsList(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclConst(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstItem(
+           pi
+            NumConst(
+             3
+            ) [NumConst]
+          ) [ConstItem]
+        ) [ConstDecl]
+      ) [DeclConst]
+    ) [DeclarationsList]
+    DeclConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstItem(
+         pp
+          NumConst(
+           3
+          ) [NumConst]
+        ) [ConstItem]
+      ) [ConstDecl]
+    ) [DeclConst]
+  ) [DeclarationsList]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+     main
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      NoVarDeclF(
+      ) [NoVarDeclF]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:18:54,587 - --------------------------------------------------
+INFO  16:18:54,598 - --------------------------------------------------
+INFO  16:18:54,602 - Parsiranje uspesno zavrseno!

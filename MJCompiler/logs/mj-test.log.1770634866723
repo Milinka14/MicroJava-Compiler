@@ -1,0 +1,1227 @@
+INFO  12:00:43,096 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  12:00:43,176 - #45 Test1
+INFO  12:00:43,178 - #45 main
+INFO  12:00:43,180 - #45 int
+INFO  12:00:43,181 - #45 a
+INFO  12:00:43,183 - #45 b
+INFO  12:00:43,183 - #45 c
+INFO  12:00:43,183 - #45 i
+INFO  12:00:43,184 - #48 ;
+INFO  12:00:43,184 - #45 int
+INFO  12:00:43,185 - #45 arr
+INFO  12:00:43,185 - #48 ;
+INFO  12:00:43,187 - #45 a
+INFO  12:00:43,188 - #44 1
+INFO  12:00:43,188 - #48 ;
+INFO  12:00:43,190 - #45 b
+INFO  12:00:43,190 - #44 1
+INFO  12:00:43,190 - #48 ;
+INFO  12:00:43,190 - #45 c
+INFO  12:00:43,190 - #44 1
+INFO  12:00:43,190 - #48 ;
+INFO  12:00:43,190 - #45 i
+INFO  12:00:43,191 - #45 a
+INFO  12:00:43,192 - #45 b
+INFO  12:00:43,194 - #45 c
+INFO  12:00:43,194 - #48 ;
+INFO  12:00:43,194 - #45 i
+INFO  12:00:43,195 - #48 ;
+INFO  12:00:43,195 - #45 eol
+INFO  12:00:43,195 - #48 ;
+INFO  12:00:43,195 - #45 a
+INFO  12:00:43,195 - #44 1
+INFO  12:00:43,195 - #48 ;
+INFO  12:00:43,195 - #45 b
+INFO  12:00:43,195 - #44 1
+INFO  12:00:43,195 - #48 ;
+INFO  12:00:43,195 - #45 c
+INFO  12:00:43,195 - #44 1
+INFO  12:00:43,196 - #48 ;
+INFO  12:00:43,196 - #45 i
+INFO  12:00:43,196 - #44 1
+INFO  12:00:43,196 - #48 ;
+INFO  12:00:43,196 - #45 arr
+INFO  12:00:43,196 - #45 int
+INFO  12:00:43,197 - #44 5
+INFO  12:00:43,197 - #48 ;
+INFO  12:00:43,197 - #45 arr
+INFO  12:00:43,197 - #44 0
+INFO  12:00:43,197 - #44 2
+INFO  12:00:43,197 - #48 ;
+INFO  12:00:43,197 - #45 arr
+INFO  12:00:43,198 - #44 1
+INFO  12:00:43,198 - #44 1
+INFO  12:00:43,198 - #48 ;
+INFO  12:00:43,198 - #45 arr
+INFO  12:00:43,198 - #44 2
+INFO  12:00:43,198 - #44 1
+INFO  12:00:43,198 - #48 ;
+INFO  12:00:43,198 - #45 i
+INFO  12:00:43,198 - #45 arr
+INFO  12:00:43,198 - #44 1
+INFO  12:00:43,198 - #45 arr
+INFO  12:00:43,198 - #45 arr
+INFO  12:00:43,199 - #44 0
+INFO  12:00:43,200 - #44 1
+INFO  12:00:43,200 - #44 2
+INFO  12:00:43,203 - #44 2
+INFO  12:00:43,203 - #45 arr
+INFO  12:00:43,203 - #45 arr
+INFO  12:00:43,203 - #44 2
+INFO  12:00:43,204 - #44 1
+INFO  12:00:43,204 - #44 2
+INFO  12:00:43,204 - #44 3
+INFO  12:00:43,204 - #44 5
+INFO  12:00:43,204 - #45 arr
+INFO  12:00:43,204 - #44 2
+INFO  12:00:43,204 - #44 1
+INFO  12:00:43,204 - #44 1
+INFO  12:00:43,204 - #44 1
+INFO  12:00:43,205 - #45 arr
+INFO  12:00:43,205 - #45 arr
+INFO  12:00:43,205 - #45 a
+INFO  12:00:43,205 - #48 ;
+INFO  12:00:43,205 - #45 i
+INFO  12:00:43,205 - #48 ;
+INFO  12:00:43,205 - #45 eol
+INFO  12:00:43,205 - #48 ;
+INFO  12:00:43,205 - #45 i
+INFO  12:00:43,205 - #44 3
+INFO  12:00:43,205 - #44 2
+INFO  12:00:43,205 - #44 2
+INFO  12:00:43,205 - #44 2
+INFO  12:00:43,205 - #44 3
+INFO  12:00:43,207 - #48 ;
+INFO  12:00:43,207 - #45 i
+INFO  12:00:43,207 - #48 ;
+INFO  12:00:43,207 - #45 eol
+INFO  12:00:43,207 - #48 ;
+INFO  12:00:43,207 - #45 i
+INFO  12:00:43,207 - #44 1
+INFO  12:00:43,207 - #44 2
+INFO  12:00:43,207 - #44 1
+INFO  12:00:43,208 - #48 ;
+INFO  12:00:43,208 - #45 i
+INFO  12:00:43,208 - #48 ;
+INFO  12:00:43,208 - #45 eol
+INFO  12:00:43,208 - #48 ;
+INFO  12:00:43,208 - #46 e
+INFO  12:00:43,208 - #48 ;
+INFO  12:00:43,209 - #46 n
+INFO  12:00:43,209 - #48 ;
+INFO  12:00:43,209 - #46 d
+INFO  12:00:43,209 - #48 ;
+INFO  12:00:43,219 - Program(
+  ProgName(
+   Test1
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDecl(
+      RetVoid(
+      ) [RetVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParameters(
+      ) [NoFormalParameters]
+      VarDeclF(
+        VarDeclF(
+          NoVarDeclF(
+          ) [NoVarDeclF]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarListItems(
+              VarListItems(
+                VarListItems(
+                  VarItem(
+                   a
+                    NoArray(
+                    ) [NoArray]
+                  ) [VarItem]
+                 b
+                  NoArray(
+                  ) [NoArray]
+                ) [VarListItems]
+               c
+                NoArray(
+                ) [NoArray]
+              ) [VarListItems]
+             i
+              NoArray(
+              ) [NoArray]
+            ) [VarListItems]
+           ;
+          ) [VarDecl]
+        ) [VarDeclF]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarItem(
+           arr
+            IsArray(
+            ) [IsArray]
+          ) [VarItem]
+         ;
+        ) [VarDecl]
+      ) [VarDeclF]
+      StatementsList(
+        StatementsList(
+          StatementsList(
+            StatementsList(
+              StatementsList(
+                StatementsList(
+                  StatementsList(
+                    StatementsList(
+                      StatementsList(
+                        StatementsList(
+                          StatementsList(
+                            StatementsList(
+                              StatementsList(
+                                StatementsList(
+                                  StatementsList(
+                                    StatementsList(
+                                      StatementsList(
+                                        StatementsList(
+                                          StatementsList(
+                                            StatementsList(
+                                              StatementsList(
+                                                StatementsList(
+                                                  StatementsList(
+                                                    StatementsList(
+                                                      StatementsList(
+                                                        StatementsList(
+                                                          NoStatements(
+                                                          ) [NoStatements]
+                                                          StmtDesignator(
+                                                            DesignatorStatement(
+                                                              DesignatorIdent(
+                                                               a
+                                                              ) [DesignatorIdent]
+                                                              AssignOperation(
+                                                                ArExp(
+                                                                  TermExpr(
+                                                                    TermItem(
+                                                                      FactMinus(
+                                                                        FactConst(
+                                                                          NumConst(
+                                                                           1
+                                                                          ) [NumConst]
+                                                                        ) [FactConst]
+                                                                      ) [FactMinus]
+                                                                    ) [TermItem]
+                                                                  ) [TermExpr]
+                                                                ) [ArExp]
+                                                              ) [AssignOperation]
+                                                            ) [DesignatorStatement]
+                                                           ;
+                                                          ) [StmtDesignator]
+                                                        ) [StatementsList]
+                                                        StmtDesignator(
+                                                          DesignatorStatement(
+                                                            DesignatorIdent(
+                                                             b
+                                                            ) [DesignatorIdent]
+                                                            AssignOperation(
+                                                              ArExp(
+                                                                TermExpr(
+                                                                  TermItem(
+                                                                    FactMinus(
+                                                                      FactConst(
+                                                                        NumConst(
+                                                                         1
+                                                                        ) [NumConst]
+                                                                      ) [FactConst]
+                                                                    ) [FactMinus]
+                                                                  ) [TermItem]
+                                                                ) [TermExpr]
+                                                              ) [ArExp]
+                                                            ) [AssignOperation]
+                                                          ) [DesignatorStatement]
+                                                         ;
+                                                        ) [StmtDesignator]
+                                                      ) [StatementsList]
+                                                      StmtDesignator(
+                                                        DesignatorStatement(
+                                                          DesignatorIdent(
+                                                           c
+                                                          ) [DesignatorIdent]
+                                                          AssignOperation(
+                                                            ArExp(
+                                                              TermExpr(
+                                                                TermItem(
+                                                                  FactMinus(
+                                                                    FactConst(
+                                                                      NumConst(
+                                                                       1
+                                                                      ) [NumConst]
+                                                                    ) [FactConst]
+                                                                  ) [FactMinus]
+                                                                ) [TermItem]
+                                                              ) [TermExpr]
+                                                            ) [ArExp]
+                                                          ) [AssignOperation]
+                                                        ) [DesignatorStatement]
+                                                       ;
+                                                      ) [StmtDesignator]
+                                                    ) [StatementsList]
+                                                    StmtDesignator(
+                                                      DesignatorStatement(
+                                                        DesignatorIdent(
+                                                         i
+                                                        ) [DesignatorIdent]
+                                                        AssignOperation(
+                                                          ArExp(
+                                                            AddExpr(
+                                                              AddExpr(
+                                                                TermExpr(
+                                                                  TermItem(
+                                                                    FactDesignator(
+                                                                      DesignatorIdent(
+                                                                       a
+                                                                      ) [DesignatorIdent]
+                                                                    ) [FactDesignator]
+                                                                  ) [TermItem]
+                                                                ) [TermExpr]
+                                                                AddMinus(
+                                                                ) [AddMinus]
+                                                                TermItem(
+                                                                  FactDesignator(
+                                                                    DesignatorIdent(
+                                                                     b
+                                                                    ) [DesignatorIdent]
+                                                                  ) [FactDesignator]
+                                                                ) [TermItem]
+                                                              ) [AddExpr]
+                                                              AddMinus(
+                                                              ) [AddMinus]
+                                                              TermItem(
+                                                                FactDesignator(
+                                                                  DesignatorIdent(
+                                                                   c
+                                                                  ) [DesignatorIdent]
+                                                                ) [FactDesignator]
+                                                              ) [TermItem]
+                                                            ) [AddExpr]
+                                                          ) [ArExp]
+                                                        ) [AssignOperation]
+                                                      ) [DesignatorStatement]
+                                                     ;
+                                                    ) [StmtDesignator]
+                                                  ) [StatementsList]
+                                                  StmtPrint(
+                                                    ArExp(
+                                                      TermExpr(
+                                                        TermItem(
+                                                          FactDesignator(
+                                                            DesignatorIdent(
+                                                             i
+                                                            ) [DesignatorIdent]
+                                                          ) [FactDesignator]
+                                                        ) [TermItem]
+                                                      ) [TermExpr]
+                                                    ) [ArExp]
+                                                    NoWidth(
+                                                    ) [NoWidth]
+                                                   ;
+                                                  ) [StmtPrint]
+                                                ) [StatementsList]
+                                                StmtPrint(
+                                                  ArExp(
+                                                    TermExpr(
+                                                      TermItem(
+                                                        FactDesignator(
+                                                          DesignatorIdent(
+                                                           eol
+                                                          ) [DesignatorIdent]
+                                                        ) [FactDesignator]
+                                                      ) [TermItem]
+                                                    ) [TermExpr]
+                                                  ) [ArExp]
+                                                  NoWidth(
+                                                  ) [NoWidth]
+                                                 ;
+                                                ) [StmtPrint]
+                                              ) [StatementsList]
+                                              StmtDesignator(
+                                                DesignatorStatement(
+                                                  DesignatorIdent(
+                                                   a
+                                                  ) [DesignatorIdent]
+                                                  AssignOperation(
+                                                    ArExp(
+                                                      TermExpr(
+                                                        TermItem(
+                                                          FactMinus(
+                                                            FactConst(
+                                                              NumConst(
+                                                               1
+                                                              ) [NumConst]
+                                                            ) [FactConst]
+                                                          ) [FactMinus]
+                                                        ) [TermItem]
+                                                      ) [TermExpr]
+                                                    ) [ArExp]
+                                                  ) [AssignOperation]
+                                                ) [DesignatorStatement]
+                                               ;
+                                              ) [StmtDesignator]
+                                            ) [StatementsList]
+                                            StmtDesignator(
+                                              DesignatorStatement(
+                                                DesignatorIdent(
+                                                 b
+                                                ) [DesignatorIdent]
+                                                AssignOperation(
+                                                  ArExp(
+                                                    TermExpr(
+                                                      TermItem(
+                                                        FactMinus(
+                                                          FactConst(
+                                                            NumConst(
+                                                             1
+                                                            ) [NumConst]
+                                                          ) [FactConst]
+                                                        ) [FactMinus]
+                                                      ) [TermItem]
+                                                    ) [TermExpr]
+                                                  ) [ArExp]
+                                                ) [AssignOperation]
+                                              ) [DesignatorStatement]
+                                             ;
+                                            ) [StmtDesignator]
+                                          ) [StatementsList]
+                                          StmtDesignator(
+                                            DesignatorStatement(
+                                              DesignatorIdent(
+                                               c
+                                              ) [DesignatorIdent]
+                                              AssignOperation(
+                                                ArExp(
+                                                  TermExpr(
+                                                    TermItem(
+                                                      FactMinus(
+                                                        FactConst(
+                                                          NumConst(
+                                                           1
+                                                          ) [NumConst]
+                                                        ) [FactConst]
+                                                      ) [FactMinus]
+                                                    ) [TermItem]
+                                                  ) [TermExpr]
+                                                ) [ArExp]
+                                              ) [AssignOperation]
+                                            ) [DesignatorStatement]
+                                           ;
+                                          ) [StmtDesignator]
+                                        ) [StatementsList]
+                                        StmtDesignator(
+                                          DesignatorStatement(
+                                            DesignatorIdent(
+                                             i
+                                            ) [DesignatorIdent]
+                                            AssignOperation(
+                                              ArExp(
+                                                TermExpr(
+                                                  TermItem(
+                                                    FactConst(
+                                                      NumConst(
+                                                       1
+                                                      ) [NumConst]
+                                                    ) [FactConst]
+                                                  ) [TermItem]
+                                                ) [TermExpr]
+                                              ) [ArExp]
+                                            ) [AssignOperation]
+                                          ) [DesignatorStatement]
+                                         ;
+                                        ) [StmtDesignator]
+                                      ) [StatementsList]
+                                      StmtDesignator(
+                                        DesignatorStatement(
+                                          DesignatorIdent(
+                                           arr
+                                          ) [DesignatorIdent]
+                                          AssignOperation(
+                                            ArExp(
+                                              TermExpr(
+                                                TermItem(
+                                                  FactNew(
+                                                    Type(
+                                                     int
+                                                    ) [Type]
+                                                    ArExp(
+                                                      TermExpr(
+                                                        TermItem(
+                                                          FactConst(
+                                                            NumConst(
+                                                             5
+                                                            ) [NumConst]
+                                                          ) [FactConst]
+                                                        ) [TermItem]
+                                                      ) [TermExpr]
+                                                    ) [ArExp]
+                                                  ) [FactNew]
+                                                ) [TermItem]
+                                              ) [TermExpr]
+                                            ) [ArExp]
+                                          ) [AssignOperation]
+                                        ) [DesignatorStatement]
+                                       ;
+                                      ) [StmtDesignator]
+                                    ) [StatementsList]
+                                    StmtDesignator(
+                                      DesignatorStatement(
+                                        DesignatorArray(
+                                         arr
+                                          ArExp(
+                                            TermExpr(
+                                              TermItem(
+                                                FactConst(
+                                                  NumConst(
+                                                   0
+                                                  ) [NumConst]
+                                                ) [FactConst]
+                                              ) [TermItem]
+                                            ) [TermExpr]
+                                          ) [ArExp]
+                                        ) [DesignatorArray]
+                                        AssignOperation(
+                                          ArExp(
+                                            TermExpr(
+                                              TermItem(
+                                                FactMinus(
+                                                  FactConst(
+                                                    NumConst(
+                                                     2
+                                                    ) [NumConst]
+                                                  ) [FactConst]
+                                                ) [FactMinus]
+                                              ) [TermItem]
+                                            ) [TermExpr]
+                                          ) [ArExp]
+                                        ) [AssignOperation]
+                                      ) [DesignatorStatement]
+                                     ;
+                                    ) [StmtDesignator]
+                                  ) [StatementsList]
+                                  StmtDesignator(
+                                    DesignatorStatement(
+                                      DesignatorArray(
+                                       arr
+                                        ArExp(
+                                          TermExpr(
+                                            TermItem(
+                                              FactConst(
+                                                NumConst(
+                                                 1
+                                                ) [NumConst]
+                                              ) [FactConst]
+                                            ) [TermItem]
+                                          ) [TermExpr]
+                                        ) [ArExp]
+                                      ) [DesignatorArray]
+                                      AssignOperation(
+                                        ArExp(
+                                          TermExpr(
+                                            TermItem(
+                                              FactMinus(
+                                                FactConst(
+                                                  NumConst(
+                                                   1
+                                                  ) [NumConst]
+                                                ) [FactConst]
+                                              ) [FactMinus]
+                                            ) [TermItem]
+                                          ) [TermExpr]
+                                        ) [ArExp]
+                                      ) [AssignOperation]
+                                    ) [DesignatorStatement]
+                                   ;
+                                  ) [StmtDesignator]
+                                ) [StatementsList]
+                                StmtDesignator(
+                                  DesignatorStatement(
+                                    DesignatorArray(
+                                     arr
+                                      ArExp(
+                                        TermExpr(
+                                          TermItem(
+                                            FactConst(
+                                              NumConst(
+                                               2
+                                              ) [NumConst]
+                                            ) [FactConst]
+                                          ) [TermItem]
+                                        ) [TermExpr]
+                                      ) [ArExp]
+                                    ) [DesignatorArray]
+                                    AssignOperation(
+                                      ArExp(
+                                        TermExpr(
+                                          TermItem(
+                                            FactConst(
+                                              NumConst(
+                                               1
+                                              ) [NumConst]
+                                            ) [FactConst]
+                                          ) [TermItem]
+                                        ) [TermExpr]
+                                      ) [ArExp]
+                                    ) [AssignOperation]
+                                  ) [DesignatorStatement]
+                                 ;
+                                ) [StmtDesignator]
+                              ) [StatementsList]
+                              StmtDesignator(
+                                DesignatorStatement(
+                                  DesignatorIdent(
+                                   i
+                                  ) [DesignatorIdent]
+                                  AssignOperation(
+                                    ArExp(
+                                      AddExpr(
+                                        TermExpr(
+                                          TermItem(
+                                            FactMinus(
+                                              FactParen(
+                                                ArExp(
+                                                  AddExpr(
+                                                    AddExpr(
+                                                      TermExpr(
+                                                        TermItem(
+                                                          FactMinus(
+                                                            FactDesignator(
+                                                              DesignatorArray(
+                                                               arr
+                                                                ArExp(
+                                                                  TermExpr(
+                                                                    TermItem(
+                                                                      FactMinus(
+                                                                        FactParen(
+                                                                          ArExp(
+                                                                            TermExpr(
+                                                                              TermItem(
+                                                                                FactMinus(
+                                                                                  FactConst(
+                                                                                    NumConst(
+                                                                                     1
+                                                                                    ) [NumConst]
+                                                                                  ) [FactConst]
+                                                                                ) [FactMinus]
+                                                                              ) [TermItem]
+                                                                            ) [TermExpr]
+                                                                          ) [ArExp]
+                                                                        ) [FactParen]
+                                                                      ) [FactMinus]
+                                                                    ) [TermItem]
+                                                                  ) [TermExpr]
+                                                                ) [ArExp]
+                                                              ) [DesignatorArray]
+                                                            ) [FactDesignator]
+                                                          ) [FactMinus]
+                                                        ) [TermItem]
+                                                      ) [TermExpr]
+                                                      AddMinus(
+                                                      ) [AddMinus]
+                                                      TermList(
+                                                        TermItem(
+                                                          FactParen(
+                                                            ArExp(
+                                                              TermExpr(
+                                                                TermItem(
+                                                                  FactMinus(
+                                                                    FactDesignator(
+                                                                      DesignatorArray(
+                                                                       arr
+                                                                        ArExp(
+                                                                          AddExpr(
+                                                                            TermExpr(
+                                                                              TermItem(
+                                                                                FactMinus(
+                                                                                  FactDesignator(
+                                                                                    DesignatorArray(
+                                                                                     arr
+                                                                                      ArExp(
+                                                                                        TermExpr(
+                                                                                          TermItem(
+                                                                                            FactConst(
+                                                                                              NumConst(
+                                                                                               0
+                                                                                              ) [NumConst]
+                                                                                            ) [FactConst]
+                                                                                          ) [TermItem]
+                                                                                        ) [TermExpr]
+                                                                                      ) [ArExp]
+                                                                                    ) [DesignatorArray]
+                                                                                  ) [FactDesignator]
+                                                                                ) [FactMinus]
+                                                                              ) [TermItem]
+                                                                            ) [TermExpr]
+                                                                            AddPlus(
+                                                                            ) [AddPlus]
+                                                                            TermList(
+                                                                              TermItem(
+                                                                                FactParen(
+                                                                                  ArExp(
+                                                                                    TermExpr(
+                                                                                      TermItem(
+                                                                                        FactMinus(
+                                                                                          FactConst(
+                                                                                            NumConst(
+                                                                                             1
+                                                                                            ) [NumConst]
+                                                                                          ) [FactConst]
+                                                                                        ) [FactMinus]
+                                                                                      ) [TermItem]
+                                                                                    ) [TermExpr]
+                                                                                  ) [ArExp]
+                                                                                ) [FactParen]
+                                                                              ) [TermItem]
+                                                                              MulMultiply(
+                                                                              ) [MulMultiply]
+                                                                              FactConst(
+                                                                                NumConst(
+                                                                                 2
+                                                                                ) [NumConst]
+                                                                              ) [FactConst]
+                                                                            ) [TermList]
+                                                                          ) [AddExpr]
+                                                                        ) [ArExp]
+                                                                      ) [DesignatorArray]
+                                                                    ) [FactDesignator]
+                                                                  ) [FactMinus]
+                                                                ) [TermItem]
+                                                              ) [TermExpr]
+                                                            ) [ArExp]
+                                                          ) [FactParen]
+                                                        ) [TermItem]
+                                                        MulMultiply(
+                                                        ) [MulMultiply]
+                                                        FactConst(
+                                                          NumConst(
+                                                           2
+                                                          ) [NumConst]
+                                                        ) [FactConst]
+                                                      ) [TermList]
+                                                    ) [AddExpr]
+                                                    AddMinus(
+                                                    ) [AddMinus]
+                                                    TermItem(
+                                                      FactDesignator(
+                                                        DesignatorArray(
+                                                         arr
+                                                          ArExp(
+                                                            AddExpr(
+                                                              AddExpr(
+                                                                AddExpr(
+                                                                  TermExpr(
+                                                                    TermItem(
+                                                                      FactMinus(
+                                                                        FactDesignator(
+                                                                          DesignatorArray(
+                                                                           arr
+                                                                            ArExp(
+                                                                              TermExpr(
+                                                                                TermItem(
+                                                                                  FactConst(
+                                                                                    NumConst(
+                                                                                     2
+                                                                                    ) [NumConst]
+                                                                                  ) [FactConst]
+                                                                                ) [TermItem]
+                                                                              ) [TermExpr]
+                                                                            ) [ArExp]
+                                                                          ) [DesignatorArray]
+                                                                        ) [FactDesignator]
+                                                                      ) [FactMinus]
+                                                                    ) [TermItem]
+                                                                  ) [TermExpr]
+                                                                  AddPlus(
+                                                                  ) [AddPlus]
+                                                                  TermList(
+                                                                    TermItem(
+                                                                      FactConst(
+                                                                        NumConst(
+                                                                         1
+                                                                        ) [NumConst]
+                                                                      ) [FactConst]
+                                                                    ) [TermItem]
+                                                                    MulMultiply(
+                                                                    ) [MulMultiply]
+                                                                    FactConst(
+                                                                      NumConst(
+                                                                       2
+                                                                      ) [NumConst]
+                                                                    ) [FactConst]
+                                                                  ) [TermList]
+                                                                ) [AddExpr]
+                                                                AddMinus(
+                                                                ) [AddMinus]
+                                                                TermItem(
+                                                                  FactConst(
+                                                                    NumConst(
+                                                                     3
+                                                                    ) [NumConst]
+                                                                  ) [FactConst]
+                                                                ) [TermItem]
+                                                              ) [AddExpr]
+                                                              AddPlus(
+                                                              ) [AddPlus]
+                                                              TermItem(
+                                                                FactParen(
+                                                                  ArExp(
+                                                                    AddExpr(
+                                                                      AddExpr(
+                                                                        TermExpr(
+                                                                          TermList(
+                                                                            TermItem(
+                                                                              FactConst(
+                                                                                NumConst(
+                                                                                 5
+                                                                                ) [NumConst]
+                                                                              ) [FactConst]
+                                                                            ) [TermItem]
+                                                                            MulMultiply(
+                                                                            ) [MulMultiply]
+                                                                            FactDesignator(
+                                                                              DesignatorArray(
+                                                                               arr
+                                                                                ArExp(
+                                                                                  TermExpr(
+                                                                                    TermItem(
+                                                                                      FactConst(
+                                                                                        NumConst(
+                                                                                         2
+                                                                                        ) [NumConst]
+                                                                                      ) [FactConst]
+                                                                                    ) [TermItem]
+                                                                                  ) [TermExpr]
+                                                                                ) [ArExp]
+                                                                              ) [DesignatorArray]
+                                                                            ) [FactDesignator]
+                                                                          ) [TermList]
+                                                                        ) [TermExpr]
+                                                                        AddMinus(
+                                                                        ) [AddMinus]
+                                                                        TermItem(
+                                                                          FactConst(
+                                                                            NumConst(
+                                                                             1
+                                                                            ) [NumConst]
+                                                                          ) [FactConst]
+                                                                        ) [TermItem]
+                                                                      ) [AddExpr]
+                                                                      AddMinus(
+                                                                      ) [AddMinus]
+                                                                      TermList(
+                                                                        TermItem(
+                                                                          FactConst(
+                                                                            NumConst(
+                                                                             1
+                                                                            ) [NumConst]
+                                                                          ) [FactConst]
+                                                                        ) [TermItem]
+                                                                        MulMultiply(
+                                                                        ) [MulMultiply]
+                                                                        FactConst(
+                                                                          NumConst(
+                                                                           1
+                                                                          ) [NumConst]
+                                                                        ) [FactConst]
+                                                                      ) [TermList]
+                                                                    ) [AddExpr]
+                                                                  ) [ArExp]
+                                                                ) [FactParen]
+                                                              ) [TermItem]
+                                                            ) [AddExpr]
+                                                          ) [ArExp]
+                                                        ) [DesignatorArray]
+                                                      ) [FactDesignator]
+                                                    ) [TermItem]
+                                                  ) [AddExpr]
+                                                ) [ArExp]
+                                              ) [FactParen]
+                                            ) [FactMinus]
+                                          ) [TermItem]
+                                        ) [TermExpr]
+                                        AddPlus(
+                                        ) [AddPlus]
+                                        TermItem(
+                                          FactDesignator(
+                                            DesignatorArray(
+                                             arr
+                                              ArExp(
+                                                TermExpr(
+                                                  TermItem(
+                                                    FactMinus(
+                                                      FactDesignator(
+                                                        DesignatorArray(
+                                                         arr
+                                                          ArExp(
+                                                            TermExpr(
+                                                              TermItem(
+                                                                FactMinus(
+                                                                  FactDesignator(
+                                                                    DesignatorIdent(
+                                                                     a
+                                                                    ) [DesignatorIdent]
+                                                                  ) [FactDesignator]
+                                                                ) [FactMinus]
+                                                              ) [TermItem]
+                                                            ) [TermExpr]
+                                                          ) [ArExp]
+                                                        ) [DesignatorArray]
+                                                      ) [FactDesignator]
+                                                    ) [FactMinus]
+                                                  ) [TermItem]
+                                                ) [TermExpr]
+                                              ) [ArExp]
+                                            ) [DesignatorArray]
+                                          ) [FactDesignator]
+                                        ) [TermItem]
+                                      ) [AddExpr]
+                                    ) [ArExp]
+                                  ) [AssignOperation]
+                                ) [DesignatorStatement]
+                               ;
+                              ) [StmtDesignator]
+                            ) [StatementsList]
+                            StmtPrint(
+                              ArExp(
+                                TermExpr(
+                                  TermItem(
+                                    FactDesignator(
+                                      DesignatorIdent(
+                                       i
+                                      ) [DesignatorIdent]
+                                    ) [FactDesignator]
+                                  ) [TermItem]
+                                ) [TermExpr]
+                              ) [ArExp]
+                              NoWidth(
+                              ) [NoWidth]
+                             ;
+                            ) [StmtPrint]
+                          ) [StatementsList]
+                          StmtPrint(
+                            ArExp(
+                              TermExpr(
+                                TermItem(
+                                  FactDesignator(
+                                    DesignatorIdent(
+                                     eol
+                                    ) [DesignatorIdent]
+                                  ) [FactDesignator]
+                                ) [TermItem]
+                              ) [TermExpr]
+                            ) [ArExp]
+                            NoWidth(
+                            ) [NoWidth]
+                           ;
+                          ) [StmtPrint]
+                        ) [StatementsList]
+                        StmtDesignator(
+                          DesignatorStatement(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                            AssignOperation(
+                              ArExp(
+                                TermExpr(
+                                  TermItem(
+                                    FactMinus(
+                                      FactParen(
+                                        ArExp(
+                                          AddExpr(
+                                            AddExpr(
+                                              AddExpr(
+                                                TermExpr(
+                                                  TermItem(
+                                                    FactConst(
+                                                      NumConst(
+                                                       3
+                                                      ) [NumConst]
+                                                    ) [FactConst]
+                                                  ) [TermItem]
+                                                ) [TermExpr]
+                                                AddPlus(
+                                                ) [AddPlus]
+                                                TermItem(
+                                                  FactConst(
+                                                    NumConst(
+                                                     2
+                                                    ) [NumConst]
+                                                  ) [FactConst]
+                                                ) [TermItem]
+                                              ) [AddExpr]
+                                              AddMinus(
+                                              ) [AddMinus]
+                                              TermItem(
+                                                FactParen(
+                                                  ArExp(
+                                                    TermExpr(
+                                                      TermItem(
+                                                        FactMinus(
+                                                          FactConst(
+                                                            NumConst(
+                                                             2
+                                                            ) [NumConst]
+                                                          ) [FactConst]
+                                                        ) [FactMinus]
+                                                      ) [TermItem]
+                                                    ) [TermExpr]
+                                                  ) [ArExp]
+                                                ) [FactParen]
+                                              ) [TermItem]
+                                            ) [AddExpr]
+                                            AddPlus(
+                                            ) [AddPlus]
+                                            TermItem(
+                                              FactParen(
+                                                ArExp(
+                                                  AddExpr(
+                                                    TermExpr(
+                                                      TermItem(
+                                                        FactMinus(
+                                                          FactConst(
+                                                            NumConst(
+                                                             2
+                                                            ) [NumConst]
+                                                          ) [FactConst]
+                                                        ) [FactMinus]
+                                                      ) [TermItem]
+                                                    ) [TermExpr]
+                                                    AddPlus(
+                                                    ) [AddPlus]
+                                                    TermItem(
+                                                      FactConst(
+                                                        NumConst(
+                                                         3
+                                                        ) [NumConst]
+                                                      ) [FactConst]
+                                                    ) [TermItem]
+                                                  ) [AddExpr]
+                                                ) [ArExp]
+                                              ) [FactParen]
+                                            ) [TermItem]
+                                          ) [AddExpr]
+                                        ) [ArExp]
+                                      ) [FactParen]
+                                    ) [FactMinus]
+                                  ) [TermItem]
+                                ) [TermExpr]
+                              ) [ArExp]
+                            ) [AssignOperation]
+                          ) [DesignatorStatement]
+                         ;
+                        ) [StmtDesignator]
+                      ) [StatementsList]
+                      StmtPrint(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactDesignator(
+                                DesignatorIdent(
+                                 i
+                                ) [DesignatorIdent]
+                              ) [FactDesignator]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                        NoWidth(
+                        ) [NoWidth]
+                       ;
+                      ) [StmtPrint]
+                    ) [StatementsList]
+                    StmtPrint(
+                      ArExp(
+                        TermExpr(
+                          TermItem(
+                            FactDesignator(
+                              DesignatorIdent(
+                               eol
+                              ) [DesignatorIdent]
+                            ) [FactDesignator]
+                          ) [TermItem]
+                        ) [TermExpr]
+                      ) [ArExp]
+                      NoWidth(
+                      ) [NoWidth]
+                     ;
+                    ) [StmtPrint]
+                  ) [StatementsList]
+                  StmtDesignator(
+                    DesignatorStatement(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                      AssignOperation(
+                        ArExp(
+                          TermExpr(
+                            TermItem(
+                              FactMinus(
+                                FactParen(
+                                  ArExp(
+                                    AddExpr(
+                                      AddExpr(
+                                        TermExpr(
+                                          TermItem(
+                                            FactMinus(
+                                              FactParen(
+                                                ArExp(
+                                                  TermExpr(
+                                                    TermItem(
+                                                      FactMinus(
+                                                        FactConst(
+                                                          NumConst(
+                                                           1
+                                                          ) [NumConst]
+                                                        ) [FactConst]
+                                                      ) [FactMinus]
+                                                    ) [TermItem]
+                                                  ) [TermExpr]
+                                                ) [ArExp]
+                                              ) [FactParen]
+                                            ) [FactMinus]
+                                          ) [TermItem]
+                                        ) [TermExpr]
+                                        AddMinus(
+                                        ) [AddMinus]
+                                        TermItem(
+                                          FactParen(
+                                            ArExp(
+                                              TermExpr(
+                                                TermItem(
+                                                  FactMinus(
+                                                    FactConst(
+                                                      NumConst(
+                                                       2
+                                                      ) [NumConst]
+                                                    ) [FactConst]
+                                                  ) [FactMinus]
+                                                ) [TermItem]
+                                              ) [TermExpr]
+                                            ) [ArExp]
+                                          ) [FactParen]
+                                        ) [TermItem]
+                                      ) [AddExpr]
+                                      AddPlus(
+                                      ) [AddPlus]
+                                      TermItem(
+                                        FactConst(
+                                          NumConst(
+                                           1
+                                          ) [NumConst]
+                                        ) [FactConst]
+                                      ) [TermItem]
+                                    ) [AddExpr]
+                                  ) [ArExp]
+                                ) [FactParen]
+                              ) [FactMinus]
+                            ) [TermItem]
+                          ) [TermExpr]
+                        ) [ArExp]
+                      ) [AssignOperation]
+                    ) [DesignatorStatement]
+                   ;
+                  ) [StmtDesignator]
+                ) [StatementsList]
+                StmtPrint(
+                  ArExp(
+                    TermExpr(
+                      TermItem(
+                        FactDesignator(
+                          DesignatorIdent(
+                           i
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [TermItem]
+                    ) [TermExpr]
+                  ) [ArExp]
+                  NoWidth(
+                  ) [NoWidth]
+                 ;
+                ) [StmtPrint]
+              ) [StatementsList]
+              StmtPrint(
+                ArExp(
+                  TermExpr(
+                    TermItem(
+                      FactDesignator(
+                        DesignatorIdent(
+                         eol
+                        ) [DesignatorIdent]
+                      ) [FactDesignator]
+                    ) [TermItem]
+                  ) [TermExpr]
+                ) [ArExp]
+                NoWidth(
+                ) [NoWidth]
+               ;
+              ) [StmtPrint]
+            ) [StatementsList]
+            StmtPrint(
+              ArExp(
+                TermExpr(
+                  TermItem(
+                    FactConst(
+                      CharConst(
+                       e
+                      ) [CharConst]
+                    ) [FactConst]
+                  ) [TermItem]
+                ) [TermExpr]
+              ) [ArExp]
+              NoWidth(
+              ) [NoWidth]
+             ;
+            ) [StmtPrint]
+          ) [StatementsList]
+          StmtPrint(
+            ArExp(
+              TermExpr(
+                TermItem(
+                  FactConst(
+                    CharConst(
+                     n
+                    ) [CharConst]
+                  ) [FactConst]
+                ) [TermItem]
+              ) [TermExpr]
+            ) [ArExp]
+            NoWidth(
+            ) [NoWidth]
+           ;
+          ) [StmtPrint]
+        ) [StatementsList]
+        StmtPrint(
+          ArExp(
+            TermExpr(
+              TermItem(
+                FactConst(
+                  CharConst(
+                   d
+                  ) [CharConst]
+                ) [FactConst]
+              ) [TermItem]
+            ) [TermExpr]
+          ) [ArExp]
+          NoWidth(
+          ) [NoWidth]
+         ;
+        ) [StmtPrint]
+      ) [StatementsList]
+    ) [MethodDecl]
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:00:43,222 - --------------------------------------------------
+INFO  12:00:43,232 - --------------------------------------------------
+INFO  12:00:43,235 - Info( brojjj0 [na liniji 1])
+INFO  12:00:43,242 - KOD GENERISAN!

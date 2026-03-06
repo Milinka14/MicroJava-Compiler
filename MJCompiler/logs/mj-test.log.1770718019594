@@ -1,0 +1,39 @@
+INFO  11:06:48,952 - Kompajliranje izvornog fajla: C:\Users\ivan\Desktop\ppprojekat\workspace\MJCompiler\test\program.mj
+INFO  11:06:49,036 - #45 Test1
+INFO  11:06:49,037 - #45 p
+INFO  11:06:49,038 - #45 j
+INFO  11:06:49,039 - #44 3
+INFO  11:06:49,039 - #45 int
+INFO  11:06:49,040 - #45 t
+INFO  11:06:49,042 - #48 ;
+INFO  11:06:49,043 - #45 p
+INFO  11:06:49,045 - #45 pp
+INFO  11:06:49,045 - #48 ;
+INFO  11:06:49,045 - #45 bool
+INFO  11:06:49,045 - #45 a
+INFO  11:06:49,045 - #48 ;
+INFO  11:06:49,045 - #45 int
+INFO  11:06:49,046 - #45 soma
+INFO  11:06:49,047 - #45 int
+INFO  11:06:49,047 - #45 a
+INFO  11:06:49,049 - #45 a
+INFO  11:06:49,051 - #48 ;
+INFO  11:06:49,052 - #45 a
+INFO  11:06:49,052 - #48 ;
+INFO  11:06:49,054 - #45 a
+INFO  11:06:49,055 - #48 ;
+INFO  11:06:49,058 - #45 main
+INFO  11:06:49,060 - #45 a
+INFO  11:06:49,060 - #47 0
+INFO  11:06:49,060 - #48 ;
+INFO  11:06:49,061 - #45 a
+INFO  11:06:49,063 - #46 d
+INFO  11:06:49,063 - #48 ;
+INFO  11:06:49,064 - #46 n
+INFO  11:06:49,064 - #48 ;
+ERROR 11:06:49,064 - 
+Sintaksna greska na liniji 21
+ERROR 11:06:49,064 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 21
+ERROR 11:06:49,067 - Fatalna greska tokom kompajliranja: rs.ac.bg.etf.pp1.ast.StatementsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+java.lang.ClassCastException: rs.ac.bg.etf.pp1.ast.StatementsList cannot be cast to rs.ac.bg.etf.pp1.ast.Program
+	at rs.ac.bg.etf.pp1.Compiler.main(Compiler.java:53)
