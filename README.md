@@ -173,3 +173,6 @@ source.mj
 [Semantic Analyzer — SemAnalyzer.java]   (visitor over AST)
    │  annotated/validated AST
    ▼
+[Code Generation — CodeGenerator.java]   (visitor over AST)
+   │  JVM Bytecode
+   ▼
